@@ -1,9 +1,9 @@
-baseURL = "lpaglione.github.io/learn-hugo/"
+baseURL = "https://lpaglione.github.io/learn-hugo/"
 languageCode = "en-us"
 title = "Hugo Hero Theme"
 themesDir = "themes"
-publishDir="docs"
 theme = "hugo-hero-theme"
+
 
 [params]
   google_analytics_id=""
