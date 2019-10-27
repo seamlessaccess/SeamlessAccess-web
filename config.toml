@@ -2,6 +2,7 @@ baseURL = "lpaglione.github.io/learn-hugo"
 languageCode = "en-us"
 title = "Hugo Hero Theme"
 themesDir = "themes"
+publishDir="docs"
 theme = "hugo-hero-theme"
 
 [params]
