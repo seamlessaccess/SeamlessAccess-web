@@ -1,10 +1,11 @@
 ---
-title: 'About Content 1'
+title: 'SeamlessAccess.org Governance'
 date: 2018-12-06T09:29:16+10:00
 background: 'https://source.unsplash.com/zglUlG8k47I/1600x500'
-button: ''
+button: 'About Governance'
+buttonLink: 'about/governance'
 ---
 
-## No Limits
+## SeamlessAccess.org Governance
 
-Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+Governance of this service is through the Coalition for Seamless Access, a collaboration between five organizations–[GÉANT](https://geant.org/), [Internet2](https://internet2.edu/), the National Information Standards Organization ([NISO](https://niso.org/)), [ORCID](https://orcid.org/), and the International Association of STM Publishers ([STM](https://stm-assoc.org/)).

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700|Source+Sans+Pro:300,400|Source+Serif+Pro:400,700");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -13,8 +13,8 @@
   --white: #ffffff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #1c3ed3;
-  --secondary: #43454d;
+  --primary: #3A7F8D;
+  --secondary: #51514F;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -50,7 +50,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -132,12 +132,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #1c3ed3;
+  color: #3A7F8D;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #6a82eb;
+    color: #6bb3c2;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -1013,24 +1013,24 @@ mark,
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #bfc9f3; }
+  background-color: #c8dbdf; }
 
 .table-hover .table-primary:hover {
-  background-color: #aab7ef; }
+  background-color: #b8d0d6; }
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #aab7ef; }
+    background-color: #b8d0d6; }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #cacbcd; }
+  background-color: #cecece; }
 
 .table-hover .table-secondary:hover {
-  background-color: #bdbec1; }
+  background-color: #c1c1c1; }
   .table-hover .table-secondary:hover > td,
   .table-hover .table-secondary:hover > th {
-    background-color: #bdbec1; }
+    background-color: #c1c1c1; }
 
 .table-success,
 .table-success > th,
@@ -1201,20 +1201,20 @@ mark,
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #1c3ed3 !important; }
+  background-color: #3A7F8D !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #1631a6 !important; }
+  background-color: #2b5e69 !important; }
 
 .bg-secondary {
-  background-color: #43454d !important; }
+  background-color: #51514F !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #2b2d32 !important; }
+  background-color: #373736 !important; }
 
 .bg-success {
   background-color: #28a745 !important; }
@@ -1301,10 +1301,10 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #1c3ed3 !important; }
+  border-color: #3A7F8D !important; }
 
 .border-secondary {
-  border-color: #43454d !important; }
+  border-color: #51514F !important; }
 
 .border-success {
   border-color: #28a745 !important; }
@@ -5281,16 +5281,16 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #1c3ed3 !important; }
+  color: #3A7F8D !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #1631a6 !important; }
+  color: #2b5e69 !important; }
 
 .text-secondary {
-  color: #43454d !important; }
+  color: #51514F !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #2b2d32 !important; }
+  color: #373736 !important; }
 
 .text-success {
   color: #28a745 !important; }
@@ -5387,7 +5387,7 @@ a.text-dark:hover, a.text-dark:focus {
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 32px;
     height: 3px;
-    background-color: #1c3ed3;
+    background-color: #3A7F8D;
     border-radius: 3px;
     position: absolute;
     transition-property: transform;
@@ -5436,7 +5436,7 @@ ol {
     flex: 1; }
 
 .header {
-  color: #1c3ed3;
+  color: #3A7F8D;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -5456,7 +5456,7 @@ ol {
   position: static; }
 
 .footer {
-  background: #43454d;
+  background: #51514F;
   padding-top: 20px;
   padding-bottom: 20px; }
   .footer .footer-inner {
@@ -5472,7 +5472,7 @@ ol {
   .footer .footer-title {
     color: #ffffff;
     font-size: 1.3rem;
-    font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
     margin-bottom: 10px;
     flex: 0; }
     @media (min-width: 576px) {
@@ -5487,19 +5487,19 @@ ol {
     .footer ul li {
       display: block;
       margin-right: 10px;
-      color: #c4c5cb;
+      color: #d0d0cf;
       font-size: 0.9rem;
       line-height: 1.8; }
       .footer ul li:last-of-type {
         margin-right: 0; }
       .footer ul li a {
-        color: #c4c5cb;
+        color: #d0d0cf;
         text-decoration: none; }
         .footer ul li a:hover {
           text-decoration: underline; }
       .footer ul li.copyright {
         font-weight: bold;
-        color: #c4c5cb;
+        color: #d0d0cf;
         display: none; }
         @media (min-width: 768px) {
           .footer ul li.copyright {
@@ -5522,7 +5522,7 @@ ol {
             font-weight: 300; } }
 
 .sub-footer {
-  background: #2b2d32;
+  background: #373736;
   padding-top: 20px;
   padding-bottom: 20px; }
   @media (min-width: 768px) {
@@ -5543,14 +5543,14 @@ ol {
       .sub-footer .sub-footer-inner ul li {
         list-style: none;
         display: block;
-        color: #a8abb4;
+        color: #b7b7b5;
         font-size: 0.9rem;
         line-height: 1.8; }
         .sub-footer .sub-footer-inner ul li strong {
           font-weight: bold;
           color: #ffffff; }
         .sub-footer .sub-footer-inner ul li a {
-          color: #a8abb4;
+          color: #b7b7b5;
           text-decoration: none; }
           .sub-footer .sub-footer-inner ul li a:hover {
             text-decoration: underline; }
@@ -5616,24 +5616,24 @@ ol {
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #1c3ed3; }
+        color: #3A7F8D; }
         .main-menu > ul > li > a:hover {
-          background: #1c3ed3;
+          background: #3A7F8D;
           color: #ffffff;
           text-decoration: none; }
       .main-menu > ul > li.active > a {
-        background: #1c3ed3;
+        background: #3A7F8D;
         text-decoration: none;
         color: #ffffff; }
         .main-menu > ul > li.active > a:hover {
           text-decoration: none;
-          background: #1c3ed3;
+          background: #3A7F8D;
           transition: all 225ms ease-in 0s;
           color: #ffffff; }
 
 .main-menu-mobile {
   position: fixed;
-  background: #1c3ed3;
+  background: #3A7F8D;
   top: 0;
   left: 0;
   width: 100%;
@@ -5666,7 +5666,7 @@ ol {
         animation-delay: 0.6s; }
   .main-menu-mobile ul {
     font-size: 2rem;
-    font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
     text-align: center;
     list-style: none;
     padding: 0;
@@ -5747,7 +5747,7 @@ ul.social {
   .hamburger .hamburger-inner,
   .hamburger .hamburger-inner::before,
   .hamburger .hamburger-inner::after {
-    background: #1c3ed3; }
+    background: #3A7F8D; }
   .hamburger .hamburger-inner::after {
     width: 18px;
     right: 0; }
@@ -5759,7 +5759,7 @@ ul.social {
   white-space: nowrap;
   display: inline-block;
   padding: 7px 15px;
-  background: #1c3ed3;
+  background: #3A7F8D;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -5770,7 +5770,7 @@ ul.social {
   transition: all 0.15s ease; }
   .button:hover {
     color: #fff;
-    background-color: #3d5ce5;
+    background-color: #49a0b1;
     text-decoration: none; }
 
 .button-white {
@@ -5779,10 +5779,10 @@ ul.social {
   border: 2px solid #fff; }
 
 .title-1 {
-  color: #1c3ed3;
+  color: #3A7F8D;
   font-size: 2.4rem;
   line-height: 1.2;
-  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+  font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system; }
   @media (min-width: 768px) {
     .title-1 {
       font-size: 3rem; } }
@@ -5790,7 +5790,7 @@ ul.social {
     color: #222222; }
 
 .title-2 {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: light;
   color: #333333;
   font-size: 2.4rem; }
@@ -5801,7 +5801,7 @@ ul.social {
     display: block; }
 
 .title-3 {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 600;
   color: #2b2b39;
   font-size: 1.9rem;
@@ -5829,10 +5829,10 @@ ul.social {
 
 .content p {
   color: #4e4e4e;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system; }
 
 .content h1 {
-  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   line-height: 1.2;
   font-weight: 300;
   color: #333333; }
@@ -5842,7 +5842,7 @@ ul.social {
       font-weight: 300; } }
 
 .content h2 {
-  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   line-height: 1.4;
   font-weight: 400;
   color: #333333; }
@@ -5851,7 +5851,7 @@ ul.social {
       line-height: 1.4; } }
 
 .content h3 {
-  color: #1c3ed3;
+  color: #3A7F8D;
   line-height: 1.4;
   font-weight: 200;
   letter-spacing: 1px; }
@@ -5880,10 +5880,10 @@ ul.social {
       padding-top: 200px;
       padding-bottom: 100px; } }
   .intro h1 {
-    color: #1c3ed3;
+    color: #3A7F8D;
     font-size: 2.4rem;
     line-height: 1.2;
-    font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
     width: 70%; }
     @media (min-width: 576px) {
       .intro h1 {
@@ -5901,7 +5901,7 @@ ul.social {
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
-    color: #43454d; }
+    color: #51514F; }
     @media (min-width: 576px) {
       .intro p {
         width: 70%; } }
@@ -5936,16 +5936,16 @@ ul.social {
     transform: skewY(-5deg); }
 
 .strip-primary-gradient {
-  background-image: linear-gradient(to right, #1c3ed3, #43454d); }
+  background-image: linear-gradient(to right, #3A7F8D, #51514F); }
 
 .strip-primary-gradient-top-bottom {
-  background-image: linear-gradient(to bottom, #1c3ed3, #43454d); }
+  background-image: linear-gradient(to bottom, #3A7F8D, #51514F); }
 
 .strip-primary {
-  background-color: #1c3ed3; }
+  background-color: #3A7F8D; }
 
 .strip-secondary {
-  background-color: #43454d; }
+  background-color: #51514F; }
 
 .strip-diagonal-right {
   margin-top: -100px;
@@ -6002,19 +6002,19 @@ ul.social {
     .feature .feature-content p {
       margin: 0; }
       .feature .feature-content p strong {
-        color: #43454d;
+        color: #51514F;
         text-transform: uppercase;
         font-size: 0.8rem;
         font-weight: 700; }
       .feature .feature-content p em {
-        color: #1c3ed3;
+        color: #3A7F8D;
         font-style: normal; }
 
 .hero-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  background-color: #1c3ed3;
+  background-color: #3A7F8D;
   height: 400px;
   position: relative;
   padding-top: 60px; }
@@ -6085,10 +6085,10 @@ ul.social {
   background-blend-mode: overlay; }
 
 .bg-primary {
-  background-color: #1c3ed3; }
+  background-color: #3A7F8D; }
 
 .bg-secondary {
-  background-color: #43454d; }
+  background-color: #51514F; }
 
 .page-services-single .content > p:first-of-type {
   font-size: 1.2rem;
@@ -6114,7 +6114,7 @@ ul.social {
   .service-summary .service-content {
     flex: 1; }
     .service-summary .service-content .service-title {
-      font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+      font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
       font-size: 1.5rem; }
     .service-summary .service-content p {
       color: #666;
@@ -6134,9 +6134,9 @@ ul.social {
   .work-summary .work-content {
     flex: 1;
     padding: 20px;
-    border-bottom: 2px solid #1c3ed3; }
+    border-bottom: 2px solid #3A7F8D; }
     .work-summary .work-content .work-title {
-      font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+      font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
       font-size: 1.5rem; }
     .work-summary .work-content p {
       color: #666;
@@ -6144,8 +6144,8 @@ ul.social {
 
 .page-work-single h1.title {
   font-size: 3rem;
-  font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-  color: #1c3ed3; }
+  font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  color: #3A7F8D; }
 
 .page-work-single .work-image img {
   width: 100%;

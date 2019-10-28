@@ -1,41 +1,41 @@
 baseURL = "https://lpaglione.github.io/learn-hugo/"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "SeamlessAcccess"
 themesDir = "themes"
 theme = "hugo-hero-theme"
-
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_description = "SeamlessAccess.org is a service designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure."
     meta_og_title = "Hugo Hero Theme"
     meta_og_type = "website"
     meta_og_url = "https://hugo-hero.netlify.com"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_description = "SeamlessAccess.org is a service designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure."
     meta_twitter_card = "summary"
     meta_twitter_site = "@zerostaticio"
     meta_twitter_creator = "@zerostaticio"
 
+
 [[menu.main]]
-	name = "Services"
+	name = "What we do"
 	url = "/services/"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Who we are"
+    url = "/about/"
     weight = 2
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Getting started"
+    url = "/work/"
     weight = 3
 
 [[menu.main]]
-    name = "Contact"
+    name = "News & Events"
     url = "/contact/"
     weight = 4
 
