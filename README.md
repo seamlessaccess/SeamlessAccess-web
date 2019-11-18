@@ -1,6 +1,10 @@
 # learn-hugo
 a repository for learning hugo
 
+# How to make a change that you made display on the site
+
+1. ...
+
 # Updating the site
 
 ## General components
