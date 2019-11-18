@@ -3,7 +3,24 @@ a repository for learning hugo
 
 # How to make a change that you made display on the site
 
-1. ...
+## Make and check the changes that you are going to make
+
+1. Run the pages locally to make sure that they look okay 
+
+  * Type `hugo server -D` from the folder where your website files are stored. on the command line to run the website on your computer
+  * Navigate to `http://localhost:1313/learn-hugo/` in your browser to see the site locally. **What you see here is NOT what is currently on the website**
+  * You can make changes in the files and (for most changes) when you save them in your files, the changes will be reflected on your local branch
+
+2. When you are satisfied with your additions and changes, make sure that all of your changes have been committed to the master branch. (It's a great idea to do this from a separate branch, and make a pull commit to contribute these changes to the site.)
+
+## Deploy the site
+
+_NOTE: this piece should only be done by someone that is experienced with deploying changes to the production website. These commands will push the changes to the site._
+
+3. From within the repository folder for the site, run the deploy script: On the command line, type `./publish_to_ghpages.sh` (you will need to have contributor rights to the github repository.)
+4. If there are changes that haven't been committed, you will get messages to clear these changes before moving forward
+5. The script will rebuild the site and push the changes to the gh-pages branch.
+6. When the process is completed, confirm that the changes are present in the `gh-pages` branch on github. The site at `https://lpaglione.github.io/learn-hugo/` will be refreshed in a few min.
 
 # Updating the site
 
