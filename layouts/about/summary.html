@@ -1,0 +1,15 @@
+<div class="about about-summary">
+  {{ if .Params.icon }}
+  <div class="about-image">
+    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+  </div>
+  {{ end }}
+  <div class="about-content">
+    <h2 class="about-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    {{ .Params.description }}
+    <!-- Display the first 120 characters of the page content
+    {{ .Content | truncate 120 "..." }} -->
+  </div>
+</div>

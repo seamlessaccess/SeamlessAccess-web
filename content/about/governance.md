@@ -1,18 +1,34 @@
 ---
-title: 'SeamlessAccess.org Governance'
+title: 'Governance and Funding'
 date: 2018-11-28T15:14:54+10:00
-icon: 'services/service-icon-5.png'
+icon: 'features/noun_branding_1885335.svg'
 featured: true
 draft: false
-weight: 5
+type: about
+description: "Short description here. New image is needed."
+weight: 1
 heroHeading: 'SeamlessAccess.org Governance'
-heroSubHeading: 'Saving for retirement requires careful planning.'
+heroSubHeading: 'optional subheading here!'
 heroBackground: 'services/service1.jpg'
 ---
+
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
+
+### Governance Group
+
+* names (affiliations) - Chair
+* names (affiliations)
+* names (affiliations)
+
+### SeamlessAccess.org Implementation Team
+
+_These can go to separate pages if there is more to say - charters, working documents, meeting notes, etc._
+
+* Name - Role
+* Name - Role
 
 ## Ne verba patulosque numen vix libet
 

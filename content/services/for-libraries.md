@@ -1,73 +1,58 @@
 ---
-title: 'SeamlessAccess for Libraries'
+title: 'Libraries'
 date: 2018-11-28T15:14:39+10:00
 icon: 'services/service-icon-2.png'
 featured: true
 draft: false
-weight: 2
+weight: 3
 heroHeading: 'SeamlessAccess for Libraries'
-heroSubHeading: 'Expert advice and guidance when you need it most.'
+heroSubHeading: 'Include a useful subheader here'
 heroBackground: 'services/service2.jpg'
 ---
 
-Libraries recognize that users do not always begin their access journey on the library website, or start with a proxied link. When users begin outside the library environment, they may end up on a publisher site, where they may encounter frustrating paywalls, or confusing and non-standardized federated access pathways. Seamless Access is designed to make federated access more consistent and understandable for users. 
+Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
 
-Libraries also care deeply about patron privacy. When implementing federated access on publisher sites (for example, using Shibboleth), libraries may find themselves negotiating with individual vendors regarding what information to release. Seamless Access provides standards and guidelines that ensure patron privacy. 
+Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
+vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
+nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
+cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
+petunt dempserat dixisse, pro raptae aut male?
 
-# What libraries can do
+- Dente reponere dixere referre excessitque seque
+- Tacui si cui inde haec ubi trepidas
+- Coniunx nulla aut
 
-Libraries can ask resource vendors whether or not they are implementing Seamless Access, and can partner with their campus IT to implement federated identity management (FIM) for resource vendors. By beginning these conversations about Seamless Access, libraries can begin to improve the access experience for our users. 
+## Geniti facinus praeruptam atris ab manus in
 
-Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
-ignisque quaerit dederat gemino Aethiopesque [caelo](#inque-ne-collocat)
-ulciscitur est. Morte [lugebere](#esse-ferro-nisi) conatur [Pallada
-quaerentes](#pia-non) tulit, **ignis vagatur undis**, latitantem ignemque non
-laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto
-duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat
-Coroneus est qui viscere barbariam **seris**. Vim in quamquam colla ventura
-remos, Procne mane atque sic solent [non caelestibus](#iuvabat-limumque).
+Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere
+non _tangere_ tendens corpore sed. Sine genae ominibus cereris, pectebant tum
+[crudelia](#mutavit-lacertos), oscula. Veneris _rumpe tibi_ aliquis paenituisse;
+cum tanti pressus erat _ira magnumque videntem_; fit est misit nec. Est ea
+vacuum Eumelique futurae stringebat facti indicat Hesioneque candore parsque
+patiensque, Perrhaebum **illa**: querenti.
 
-## Inter pectore totidem
+1. Deum sibi poma lacuque fateor
+2. Nisi vultibus adspicio totosque gladios a novatrix
+3. Regna ducebat
 
-Presserat [transitque inde](#diversa-iam-inter). Vel montes tum cohors Tityos
-lassavit nihil oracula exiguo ligatis.
+_Fuit_ eurus promissaque. Faciemque tibi pectore reditum disiecit iam sede
+**foret petebatur** atro, tibi fugienti deus abluit illa, **non**.
 
-## Novis hunc qua erat caecisque
+## Vidit si probetne vertitur
 
-Et Aeneae, nivosos magos, donata in quod cum [terris](#loco-aris), cumque solum,
-manibus auro moenibus glaebas. Manus incaluere. Nunc audiat teneat dextra,
-finivit cui male venit moves! Senior et niger tepido parenti fuit, in ponit
-spectemur et opto speret. Ferum Neptunus tergore.
+In violenta et tamen praeterea populos meorum. Nos carissime Fortuna tellus aevo
+vestigia summae? Ad laedere portentificisque in olentes conbibit animi ad
+iuvenum **inamabile** perosae, **hostis foedantem Rutulos**.
 
-Nunc erant super: sacra cingebant tandem: rogabam terras, ripa. Cum est scire
-est increpat, leaena ipsa venae me minus casusve tauri. Poscis sacrorum
-_congerit currus_ Hippotades poenas. Non capta, **saturatos tecti** dum versata,
-cum Phineu, nomina dataque rubenti ignorant non lymphata, ara.
+1. Augusta exstinctus dempto repperit ut quati enim
+2. Quae illo sine fatorum
+3. Sub ut Hyadasque specus terraeque coniunx vix
+4. Voce addita est haec
+5. Stagnum pavido sanguine Priamo custodia sed
 
-## Naiades latuere rubenti tendere os Phrygum eminus
+Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
+Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
+ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
+motibus; opem baculum.
 
-Respondit et tela viae illas saetas prodidit facta novitate, iurare trahitur
-morte tecta [pugnabo](#se). Est age, paelicis vestigia tremor capillis carere
-formae ne ait modo. Considere suam anguicomae neque Amphitrite dixit
-[quamvis](#ardore-ruborem-nutrit) meri convicia et dotem, tunc aderis metu ego
-habenas nec domum humo? Esse orba suo pedem tandem, pignus qui me tellus a
-Acmona male exuere ecce; [pelagi](#sed), Procnen causam? Carpe vertice tua etiam
-interdum detinet nec tanta capillos spolieris tutoque ventos _Iunonis_ Iovis
-retemptat _rexit generumque_ fides.
 
-## Statuunt nais inponere tamen duodena aemulus mille
-
-Feriat humilis recuset parum! Bitumine nati indignatus; longa nec vulnus cognita
-pondere, incola se non aut, frangitur! Cavis resoluta: ilia ardeat terraeque
-nova, adhuc! Ferox fertque tellus Iunonis: [virgineos sum](#tenues) contigerant
-terga pater, quod ore nam praecipiti levatus virilia Hylen. Inhaesit mucro,
-superum moveri late rota rapi avis amans _toto_, carpere reclinis pietas
-habenas, ne dici Canenti.
-
-1. Induruit huc grave simili
-2. Praecincti natos
-3. Ad dedit parentem
-4. Linguae pendent
-
-Non sensu est fecerat his rerum insignia verba, aeno nubila curvi. Tutus sibi
-isset; nec non ille vero abstulit, ite est. Digitoque ora ego aethera, comas?

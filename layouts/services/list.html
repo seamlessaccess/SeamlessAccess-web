@@ -1,0 +1,45 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-services-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+{{ if .Content }}
+<div class="container pt-2 pt-md-4 pb-2 pb-md-2">
+  <div class="row">
+    <div class="col-12">
+      <div class="page-intro">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+<div class="container pb-2 pt-2 pb-md-4 pt-md-4">
+  <div class="row">
+    {{ range .Pages.ByWeight }}
+    <div class="col-12 col-md-6 mb-2 ">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
+
+<!-- Display the 'in action' section (stored in the works section) -->
+<div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+  <div class="container pt-4 pb-8">
+    <div class="row">
+      <div class="col-12"><hr></div>
+      <div class="col-12"><a href="../work/"><h1 class="text-capitalize">SeamlessAccess in Action</h1></a></div>
+      <div class="col-12 col-md-6">
+        <h3 class="text-capitalize">Demo</h3><p>See how simple it really is.</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class="text-capitalize">See real life implementations</h3><p>These providers support the SeamlessAccess.org service.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

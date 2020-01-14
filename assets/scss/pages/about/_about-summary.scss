@@ -1,0 +1,30 @@
+.about-summary {
+  display: flex;
+  border: 2px solid #eaeaea;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  .about-image {
+    flex: 0 0 40px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .about-content {
+    flex: 1;
+    .about-title {
+      font-family: $font-family-heading;
+      font-size: 1.5rem;
+    }
+    p {
+      color: #666;
+      font-size: 0.9rem;
+      width: 90%;
+    }
+  }
+}

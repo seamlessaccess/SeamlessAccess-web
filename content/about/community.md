@@ -1,18 +1,26 @@
 ---
-title: 'A Word About Privacy'
-date: 2018-11-28T15:14:54+10:00
-icon: 'services/service-icon-5.png'
+title: 'Community'
+date: 2018-12-06T09:29:16+10:00
+icon: 'features/noun_The Process_1885341.svg'
 featured: true
 draft: false
-weight: 5
-heroHeading: 'A Word About Privacy'
-heroSubHeading: 'Saving for retirement requires careful planning.'
-heroBackground: 'services/service1.jpg'
+type: about
+description: "Short description here. New image is needed."
+weight: 2
+heroHeading: 'SeamlessAccess.org Community'
+heroSubHeading: 'Who is SeamlessAccess?'
+heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+## Our Community
+
+The SeamlessAccess.org community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. Learn about their contributions and how to get involved.
+
+### Technical Steering
+
+* names (affiliations) - Chair
+* names (affiliations)
+* names (affiliations)
 
 ## Ne verba patulosque numen vix libet
 

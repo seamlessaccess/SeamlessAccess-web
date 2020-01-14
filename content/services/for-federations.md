@@ -1,13 +1,13 @@
 ---
-title: 'Service Providers'
-date: 2018-11-28T15:15:34+10:00
-icon: 'services/service-icon-4.png'
-featured: true
+title: 'R&E Federation Operators'
+date: 2018-11-18T12:33:46+10:00
+icon: 'services/service-icon-1.png'
 draft: false
-weight: 2
-heroHeading: 'SeamlessAccess for Service Providers'
+featured: false
+weight: 5
+heroHeading: 'SeamlessAccess for Researchers'
 heroSubHeading: 'Include a useful subheader here'
-heroBackground: 'services/service2.jpg'
+heroBackground: 'services/service1.jpg'
 ---
 
 Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
@@ -54,3 +54,4 @@ Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
 Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
 ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
 motibus; opem baculum.
+

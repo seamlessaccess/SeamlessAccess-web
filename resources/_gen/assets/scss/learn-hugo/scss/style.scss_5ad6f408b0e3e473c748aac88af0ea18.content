@@ -6047,6 +6047,14 @@ ul.social {
         .hero-image .hero-text p {
           font-size: 1.6rem;
           width: 60%; } }
+    .hero-image .hero-text strong {
+      color: blue;
+      font-size: 6rem;
+      font-weight: 600; }
+      @media (min-width: 768px) {
+        .hero-image .hero-text strong {
+          font-size: 1.6rem;
+          width: 60%; } }
   .hero-image .hero-down {
     flex: 0;
     text-align: center;
@@ -6166,5 +6174,42 @@ ul.social {
   /* Masonry bricks or child elements */
   background-color: #eee;
   margin: 0 0 1em; }
+
+.page-about-single .content > p:first-of-type {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-weight: 300; }
+  @media (min-width: 768px) {
+    .page-about-single .content > p:first-of-type {
+      font-size: 1.4rem;
+      line-height: 1.4;
+      margin-bottom: 40px;
+      font-weight: 300; } }
+
+.about-summary {
+  display: flex;
+  border: 2px solid #eaeaea;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; }
+  .about-summary .about-image {
+    flex: 0 0 40px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px; }
+    .about-summary .about-image img {
+      max-width: 100%;
+      height: auto; }
+  .about-summary .about-content {
+    flex: 1; }
+    .about-summary .about-content .about-title {
+      font-family: "Source Serif Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+      font-size: 1.5rem; }
+    .about-summary .about-content p {
+      color: #666;
+      font-size: 0.9rem;
+      width: 90%; }
 
 /*# sourceMappingURL=style.css.map */

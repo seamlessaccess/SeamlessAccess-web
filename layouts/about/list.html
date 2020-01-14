@@ -1,0 +1,35 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-about-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+<!-- REMOVE THE HEADER FOR THIS PAGE -->
+<!--{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}-->
+<div class="strip bg-cover bg-position-center bg-overlay pt-15 pb-6" style="background-image: url(' {{ .Params.background | relURL }} ');">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+          {{ .Content }}
+          {{ if .Params.button }}
+          <a class="button button-primary" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button}}</a>
+          {{ end }}
+      </div>
+    </div>
+  </div>
+</div> 
+
+{{ $about := where (where .Site.RegularPages "Type" "about") ".Params.featured" true }}
+{{if gt (len $about) 0}}
+<div class="container pt-6 pb-6 pb-md-8 pt-md-8">
+  <div class="row justify-content-start">
+    {{ range .Pages.ByWeight }}
+    <div class="col-12 col-md-4 mb-1">
+      {{ .Render "summary" }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{end}}
+
+{{ end }}

@@ -1,0 +1,23 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-pages-single{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+
+<div class="strip strip-white">
+  <div class="container pt-4 pt-md-4 pb-4 pb-md-10">
+    <div class="row justify-content-start">
+      <div class="col-12 col-lg-9">
+        <div class="post post-single">
+          {{ partial "blog/post-author" . }}
+          <div class="content">{{.Content}}</div>
+          {{ partial "blog/post-tags" . }}
+          {{ partial "blog/post-categories" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

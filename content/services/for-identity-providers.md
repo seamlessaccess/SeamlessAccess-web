@@ -1,14 +1,16 @@
 ---
-title: 'SeamlessAccess for Identity Providers'
+title: 'Identity Providers'
 date: 2018-11-28T15:15:26+10:00
 icon: 'services/service-icon-3.png'
 featured: true
 draft: false
-weight: 3
+weight: 4
 heroHeading: 'SeamlessAccess for Identity Providers'
-heroSubHeading: 'We can help value your business and prepare it for sale.'
+heroSubHeading: 'Include a useful subheader here.'
 heroBackground: 'services/service1.jpg'
 ---
+
+Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
 
 Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
 vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
@@ -52,3 +54,5 @@ Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
 Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
 ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
 motibus; opem baculum.
+
+

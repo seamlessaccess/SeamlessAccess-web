@@ -1,9 +1,9 @@
 ---
-title: 'Implementing Seamless.'
+title: 'What We Do'
 weight: 1
 background: 'images/kevin-bhagat-461952-unsplash.jpg'
 button: 'Getting Started'
 buttonLink: 'work'
 ---
 
-With three different flavors for implementing SeamlessAcess, it is straight-forward to get started today. If you have a service that is using Federated Access (usually sign in with university credentials), see our getting started guide to learn about our Beta program and how you can get started with implementation.
+Here we can have text, and can include a link to another section of the site if desired. If there should be a link - include it in the header (both the text of the button and the link where it goes.) The image that should show here is also included in this header.

@@ -1,4 +1,4 @@
-
+{{ if not (eq .Params.hero false) }}
 <div class="hero-image hero-image-fullscreen" style="background-image: url('{{ .background | relURL }}');">
     <div class="container ">
       <div class="hero-text">
@@ -17,4 +17,6 @@
       </div>
     </div>
   </div>
+
+{{ end }}
   {{ .Site.BaseURL }}
