@@ -16,43 +16,70 @@ heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
 
 The SeamlessAccess.org community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. We will be using this page to feature their contributions and inspire you to get involved
 
+### Governance Committee
+* Laure Haak (ORCID)
+* Todd Carpenter (NISO)
+* Jason Griffey (NISO)
+* Eefke Smit (STM)
+* Ann West (Internet2)
+* Klaas Wierenga (GÉANT)
+* Ralph Youngen (ACS)
+* Heather Flanagan, SeamlessAccess Program Director
+
+### Outreach Committee
+* Tim Lloyd, co-chair (LibLynx)
+* Jason Griffey, co-chair (NISO)
+* Michelle Brewer (WoltersKluwer)
+* Jane Charlton (OpenAthens)
+* John Felts (Coastal Carolina University)
+* Sari Frances (IEEE)
+* Robert Kelshian (American College)
+* Lee Lockton (University of Bath)
+* Judy Luther (Informed Strategies)
+* Laura Paglione (SeamlessAccess)
+* Emily Singley (Boston College)
+* Raoul Teeuwen (SURFnet)
+* Tracy Tolliver (University of Illinois)
+* Lauren Tulloch (CCC)
+* Keith Webster (CMU)
+* Ralph Youngen (ACS)
+
+
 ### Technical Steering Committee
 
 * Leif Johansson, GEANT/SUNET, Architect
-* Nick Roy, Internet2
-* Christos Kanellopoulos, GEANT
-* Albert Wu, Internet2 (secondary)
-* Ron Hatcher, Elsevier
-* Paul Dixon, LibLynx
-* Tom Cramer, Stanford
-* Ralph Youngen, ACS
 * Marina Adomeit, SUNET
+* Tom Cramer, Stanford University
+* Paul Dixon, LibLynx
+* Ron Hatcher, Elsevier
+* Christos Kanellopoulos, GEANT
+* Nick Roy, Internet2
+* Albert Wu, Internet2 (secondary)
+* Ralph Youngen, ACS
 * Heather Flanagan, SeamlessAccess Program Director
-* Laura Paglione, SeamlessAccess Outreach Manager
+
 
 
 ### Entity Categories and Attribute Bundles Working Group
 
-* Adam Lewenberg, Stanford IT
-* Jason Griffey, NISO
-* Alan Buxey, MyUniDays
-* Ken Klingenstein, Internet2
-* Andras Somagaal, SpringerNature
-* Laird Barrett, SpringerNature
-* Albert Wu, Internet2
-* Peter Gietz, DAASI International
+* Laird Barrett, Springer Nature
 * Judith Bush, OCLC
-* Roy Hatcher, J.B. Hunt Transportation Inc.
-* Chris Shillum, Elsevier
-* Ralph Youngen, ACS
+* Alan Buxey, MyUniDays
+* Amanda Ferrante (EBSCO)
 * Dave Flynn, EBSCO
-* Rich Wenger, retired
-* Emily Singley, Boston College
+* Peter Gietz, DAASI International
+* Jason Griffey, NISO
+* Roy Hatcher, J.B. Hunt Transportation Inc.
+* Ken Klingenstein, Internet2
+* Adam Lewenberg, Stanford IT
 * Tim McGeary, Duke University Libraries
+* Femke Morsch (SURFconext)
 * Peter Murray, consultant
 * Jiri Pavlik, National Library of Technology, Czech Republic as FIM4L representative
-* Femke Morsch (SURFconext)
-* Amanda Ferrante (EBSCO)
+* Emily Singley, Boston College
+* Andras Somagaal, SpringerNature
+* Rich Wenger, retired
+* Albert Wu, Internet2
+* Ralph Youngen, ACS
 * Heather Flanagan, SeamlessAccess Program Director
-* Laura Paglione, SeamlessAccess Outreach Manager
 
