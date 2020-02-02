@@ -3,7 +3,7 @@ title: 'Researchers'
 date: 2018-11-18T12:33:46+10:00
 icon: 'services/icn_researchers.svg'
 draft: false
-featured: false
+featured: true
 weight: 1
 heroHeading: 'SeamlessAccess for Researchers'
 heroSubHeading: 'Include a useful subheader here'
