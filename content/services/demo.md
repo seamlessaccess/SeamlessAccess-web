@@ -6,8 +6,8 @@ draft: false
 featured: false
 weight: 6
 heroHeading: 'Demo'
-heroSubHeading: 'Preparing and filing your tax return'
-heroBackground: 'services/service2.jpg'
+heroSubHeading: ''
+heroBackground: ''
 ---
 
 Lore
