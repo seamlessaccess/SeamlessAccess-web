@@ -1,7 +1,7 @@
 ---
 title: 'Community'
 date: 2018-12-06T09:29:16+10:00
-icon: 'features/noun_The Process_1885341.svg'
+icon: 'features/icn_community.svg'
 featured: true
 draft: false
 type: about
@@ -9,57 +9,75 @@ description: "Short description here. New image is needed."
 weight: 2
 heroHeading: 'SeamlessAccess.org Community'
 heroSubHeading: 'Who is SeamlessAccess?'
-heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
+heroBackground: 'images/hero_community.jpg'
 ---
 
 ## Our Community
 
-The SeamlessAccess.org community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. Learn about their contributions and how to get involved.
+The SeamlessAccess.org community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. We will be using this page to feature their contributions and inspire you to get involved.
 
-### Technical Steering
+### Governance Committee
 
-* names (affiliations) - Chair
-* names (affiliations)
-* names (affiliations)
+* Laure Haak (ORCID)
+* Todd Carpenter (NISO)
+* Jason Griffey (NISO)
+* Eefke Smit (STM)
+* Ann West (Internet2)
+* Klaas Wierenga (GÉANT)
+* Ralph Youngen (ACS)
+* Heather Flanagan, SeamlessAccess Program Director
 
-## Ne verba patulosque numen vix libet
+### Outreach Committee
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+* Tim Lloyd, co-chair (LibLynx)
+* Jason Griffey, co-chair (NISO)
+* Michelle Brewer (WoltersKluwer)
+* Jane Charlton (OpenAthens)
+* John Felts (Coastal Carolina University)
+* Sari Frances (IEEE)
+* Robert Kelshian (American College)
+* Lee Lockton (University of Bath)
+* Judy Luther (Informed Strategies)
+* Laura Paglione (SeamlessAccess)
+* Emily Singley (Boston College)
+* Raoul Teeuwen (SURFnet)
+* Tracy Tolliver (University of Illinois)
+* Lauren Tulloch (CCC)
+* Keith Webster (CMU)
+* Ralph Youngen (ACS)
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+### Technical Steering Committee
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+* Leif Johansson, GEANT/SUNET, Architect
+* Marina Adomeit, SUNET
+* Tom Cramer, Stanford University
+* Paul Dixon, LibLynx
+* Ron Hatcher, Elsevier
+* Christos Kanellopoulos, GEANT
+* Nick Roy, Internet2
+* Albert Wu, Internet2 (secondary)
+* Ralph Youngen, ACS
+* Heather Flanagan, SeamlessAccess Program Director
 
-## Postquam tamen
+### Entity Categories and Attribute Bundles Working Group
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+* Laird Barrett, Springer Nature
+* Judith Bush, OCLC
+* Alan Buxey, MyUniDays
+* Amanda Ferrante (EBSCO)
+* Dave Flynn, EBSCO
+* Peter Gietz, DAASI International
+* Jason Griffey, NISO
+* Roy Hatcher, J.B. Hunt Transportation Inc.
+* Ken Klingenstein, Internet2
+* Adam Lewenberg, Stanford IT
+* Tim McGeary, Duke University Libraries
+* Femke Morsch (SURFconext)
+* Peter Murray, consultant
+* Jiri Pavlik, National Library of Technology, Czech Republic as FIM4L representative
+* Emily Singley, Boston College
+* Andras Somagaal, SpringerNature
+* Rich Wenger, retired
+* Albert Wu, Internet2
+* Ralph Youngen, ACS
+* Heather Flanagan, SeamlessAccess Program Director
