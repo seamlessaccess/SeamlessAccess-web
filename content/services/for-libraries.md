@@ -1,58 +1,30 @@
 ---
 title: 'Libraries'
 date: 2018-11-28T15:14:39+10:00
-icon: 'services/service-icon-2.png'
+icon: 'services/icn_libraries.svg'
 featured: true
 draft: false
 weight: 3
 heroHeading: 'SeamlessAccess for Libraries'
 heroSubHeading: 'Include a useful subheader here'
-heroBackground: 'services/service2.jpg'
+heroBackground: 'services/hero_libraries.jpg'
 ---
 
-Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
+#Why is Seamless Access for libraries?
+Libraries recognize that users do not always begin their access journey on the library website, or start with a proxied link. When users begin outside the library environment, they may end up on a publisher’s site and may encounter frustrating paywalls, or confusing and non-standardized login pathways. Seamless Access is designed to make access more consistent and understandable for users. 
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
-petunt dempserat dixisse, pro raptae aut male?
+Libraries also care deeply about patron privacy. When implementing federated access on publisher sites (for example, using Shibboleth), libraries may find themselves negotiating with individual vendors regarding what information to release. Seamless Access provides standards and guidelines that ensure patron privacy. 
 
-- Dente reponere dixere referre excessitque seque
-- Tacui si cui inde haec ubi trepidas
-- Coniunx nulla aut
+Check our Frequently Asked Questions for more information on commonly asked questions from librarians.
 
-## Geniti facinus praeruptam atris ab manus in
+#What libraries can do
+Libraries can ask resource vendors whether or not they are implementing Seamless Access, and can partner with their campus IT to implement federated identity management (FIM) for resource vendors. Librarians can also stay up to date with news and new features in the FIM space by joining the Seamless Access mailing list. 
 
-Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere
-non _tangere_ tendens corpore sed. Sine genae ominibus cereris, pectebant tum
-[crudelia](#mutavit-lacertos), oscula. Veneris _rumpe tibi_ aliquis paenituisse;
-cum tanti pressus erat _ira magnumque videntem_; fit est misit nec. Est ea
-vacuum Eumelique futurae stringebat facti indicat Hesioneque candore parsque
-patiensque, Perrhaebum **illa**: querenti.
+By beginning these conversations about Seamless Access, libraries can begin to improve the access experience for our users.
 
-1. Deum sibi poma lacuque fateor
-2. Nisi vultibus adspicio totosque gladios a novatrix
-3. Regna ducebat
-
-_Fuit_ eurus promissaque. Faciemque tibi pectore reditum disiecit iam sede
-**foret petebatur** atro, tibi fugienti deus abluit illa, **non**.
-
-## Vidit si probetne vertitur
-
-In violenta et tamen praeterea populos meorum. Nos carissime Fortuna tellus aevo
-vestigia summae? Ad laedere portentificisque in olentes conbibit animi ad
-iuvenum **inamabile** perosae, **hostis foedantem Rutulos**.
-
-1. Augusta exstinctus dempto repperit ut quati enim
-2. Quae illo sine fatorum
-3. Sub ut Hyadasque specus terraeque coniunx vix
-4. Voce addita est haec
-5. Stagnum pavido sanguine Priamo custodia sed
-
-Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
-Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
-ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
-motibus; opem baculum.
-
+##How can my library get started with SeamlessAccess.org?
+Here are a few things libraries can do to get started with SeamlessAccess.org and federated authentication:
+1. Find out if your institution already participates in an identity federation such as InCommon, the Australian Access Federation, OpenAthens, or others. This may involve reaching out to your IT department, or whomever manages identity and access management (IAM) at your institution. If your institution doesn’t yet participate, begin to advocate for membership.
+2. If your institution already supports federated authentication, work with your identity and access management team (often your IT department) to determine what their standard attribute release policy is, and whether it is appropriate for library resources. 
+3. You can also check out our Getting Started guide, and ask your library’s e-resource vendors if they participate in SeamlessAccess. For those that don’t, encourage them to consider adoption in order to provide library users with a consistent experience across platforms.
 
