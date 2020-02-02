@@ -10,7 +10,6 @@ heroSubHeading: 'Include a useful subheader here'
 heroBackground: 'services/hero_libraries.jpg'
 ---
 
-## Why is Seamless Access for libraries?
 Libraries recognize that users do not always begin their access journey on the library website, or start with a proxied link. When users begin outside the library environment, they may end up on a publisher’s site and may encounter frustrating paywalls, or confusing and non-standardized login pathways. Seamless Access is designed to make access more consistent and understandable for users. 
 
 Libraries also care deeply about patron privacy. When implementing federated access on publisher sites (for example, using Shibboleth), libraries may find themselves negotiating with individual vendors regarding what information to release. Seamless Access provides standards and guidelines that ensure patron privacy. 
