@@ -6,7 +6,6 @@ featured: true
 draft: false
 weight: 3
 heroHeading: 'SeamlessAccess for Libraries'
-heroSubHeading: 'Include a useful subheader here'
 heroBackground: 'services/hero_libraries.jpg'
 ---
 

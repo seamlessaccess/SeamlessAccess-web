@@ -6,7 +6,6 @@ featured: true
 draft: false
 weight: 4
 heroHeading: 'SeamlessAccess for Identity Providers'
-heroSubHeading: 'Include a useful subheader here.'
 heroBackground: 'services/hero_identityprov.jpg'
 ---
 

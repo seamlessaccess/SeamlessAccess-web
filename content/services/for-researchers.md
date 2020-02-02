@@ -6,7 +6,6 @@ draft: false
 featured: true
 weight: 1
 heroHeading: 'SeamlessAccess for Researchers'
-heroSubHeading: 'Include a useful subheader here'
 heroBackground: 'services/hero_researchers.jpg'
 ---
 

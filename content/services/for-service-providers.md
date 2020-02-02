@@ -6,7 +6,6 @@ featured: true
 draft: false
 weight: 2
 heroHeading: 'SeamlessAccess for Service Providers'
-heroSubHeading: 'Include a useful subheader here'
 heroBackground: 'services/hero_serviceprov.jpg'
 ---
 
