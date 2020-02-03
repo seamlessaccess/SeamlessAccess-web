@@ -5,10 +5,10 @@ icon: 'features/icn_governance.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here. New image is needed."
+description: ""
 weight: 1
 heroHeading: 'SeamlessAccess.org Governance'
-heroSubHeading: 'optional subheading here!'
+heroSubHeading: ''
 heroBackground: 'images/hero_governance.jpg'
 ---
 

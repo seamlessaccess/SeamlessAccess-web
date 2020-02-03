@@ -5,11 +5,11 @@ icon: 'features/icn_privacy.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here. New image is needed."
+description: ""
 weight: 3
 heroHeading: 'Privacy and Trust'
-heroSubHeading: 'optional subheading here!'
-heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
+heroSubHeading: ''
+heroBackground: 'images/hero_privacy.jpg'
 ---
 
 # What is SeamlessAccess.org, and what information does it store?

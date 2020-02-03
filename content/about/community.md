@@ -5,10 +5,10 @@ icon: 'features/icn_community.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here. New image is needed."
+description: ""
 weight: 2
 heroHeading: 'SeamlessAccess.org Community'
-heroSubHeading: 'Who is SeamlessAccess?'
+heroSubHeading: ''
 heroBackground: 'images/hero_community.jpg'
 ---
 
