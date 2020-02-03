@@ -2,7 +2,7 @@
 title: 'SeamlessAccess in Action'
 date: 2018-02-10T11:52:18+07:00
 heroHeading: 'SeamlessAccess in Action'
-heroSubHeading: 'See SeamlessAction in action! View a demo or see real-life implementations.'
+heroSubHeading: ''
 heroBackground: ''
 ---
 
