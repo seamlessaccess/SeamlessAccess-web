@@ -1,22 +1,23 @@
 ---
 title: 'Community'
 date: 2018-12-06T09:29:16+10:00
-icon: 'features/noun_The Process_1885341.svg'
+icon: 'features/icn_community.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here. New image is needed."
+description: ""
 weight: 2
 heroHeading: 'SeamlessAccess.org Community'
-heroSubHeading: 'Who is SeamlessAccess?'
-heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
+heroSubHeading: ''
+heroBackground: 'images/hero_community.jpg'
 ---
 
 ## Our Community
 
-The SeamlessAccess.org community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. We will be using this page to feature their contributions and inspire you to get involved
+The SeamlessAccess.org community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. We will be using this page to feature their contributions and inspire you to get involved.
 
 ### Governance Committee
+
 * Laure Haak (ORCID)
 * Todd Carpenter (NISO)
 * Jason Griffey (NISO)
@@ -27,6 +28,7 @@ The SeamlessAccess.org community consists of individuals representing libraries,
 * Heather Flanagan, SeamlessAccess Program Director
 
 ### Outreach Committee
+
 * Tim Lloyd, co-chair (LibLynx)
 * Jason Griffey, co-chair (NISO)
 * Michelle Brewer (WoltersKluwer)
@@ -44,7 +46,6 @@ The SeamlessAccess.org community consists of individuals representing libraries,
 * Keith Webster (CMU)
 * Ralph Youngen (ACS)
 
-
 ### Technical Steering Committee
 
 * Leif Johansson, GEANT/SUNET, Architect
@@ -57,8 +58,6 @@ The SeamlessAccess.org community consists of individuals representing libraries,
 * Albert Wu, Internet2 (secondary)
 * Ralph Youngen, ACS
 * Heather Flanagan, SeamlessAccess Program Director
-
-
 
 ### Entity Categories and Attribute Bundles Working Group
 
@@ -82,4 +81,3 @@ The SeamlessAccess.org community consists of individuals representing libraries,
 * Albert Wu, Internet2
 * Ralph Youngen, ACS
 * Heather Flanagan, SeamlessAccess Program Director
-
