@@ -22,7 +22,9 @@ By beginning these conversations about Seamless Access, libraries can begin to i
 
 ## How can my library get started with SeamlessAccess.org?
 Here are a few things libraries can do to get started with SeamlessAccess.org and federated authentication:
-1. Find out if your institution already participates in an identity federation such as InCommon, the Australian Access Federation, OpenAthens, or others. This may involve reaching out to your IT department, or whomever manages identity and access management (IAM) at your institution. If your institution doesn’t yet participate, begin to advocate for membership.
-2. If your institution already supports federated authentication, work with your identity and access management team (often your IT department) to determine what their standard attribute release policy is, and whether it is appropriate for library resources. 
-3. You can also check out our Getting Started guide, and ask your library’s e-resource vendors if they participate in SeamlessAccess. For those that don’t, encourage them to consider adoption in order to provide library users with a consistent experience across platforms.
 
+1. Find out if your institution already participates in an identity federation such as [InCommon](https://incommon.org/), the [Australian Access Federation](https://incommon.org/), [OpenAthens](https://www.openathens.net/), or others. This may involve reaching out to your IT department, or whomever manages identity and access management (IAM) at your institution. If your institution doesn’t yet participate, begin to advocate for membership.
+
+2. If your institution already supports federated authentication, work with your identity and access management team (often your IT department) to determine what their standard attribute release policy is, and whether it is appropriate for library resources. 
+
+3. You can also check out our [Getting Started](https://seamlessaccess.org/get-started/) guide, and ask your library’s e-resource vendors if they participate in SeamlessAccess. For those that don’t, encourage them to consider adoption in order to provide library users with a consistent experience across platforms.
