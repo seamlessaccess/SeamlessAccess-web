@@ -1,7 +1,7 @@
 ---
 title: 'What We Do'
 weight: 1
-background: 'images/main_whatwedo.jpg'
+background: 'images/main_whatwedo.png'
 button: 'Getting Started'
 buttonLink: 'work'
 ---

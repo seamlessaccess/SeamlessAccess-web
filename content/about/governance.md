@@ -5,7 +5,7 @@ icon: 'features/icn_governance.svg'
 featured: true
 draft: false
 type: about
-description: ""
+description: "Descriptive text here"
 weight: 1
 heroHeading: 'SeamlessAccess.org Governance'
 heroSubHeading: ''

@@ -5,7 +5,7 @@ icon: 'features/icn_community.svg'
 featured: true
 draft: false
 type: about
-description: ""
+description: "Descriptive text here"
 weight: 2
 heroHeading: 'SeamlessAccess.org Community'
 heroSubHeading: ''
