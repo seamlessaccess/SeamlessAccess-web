@@ -1,7 +1,7 @@
-<div class="service service-summary">
+<div class="feature feature-summary">
   {{ if .Params.icon }}
-  <div class="service-image">
-    <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+  <div class="feature-image">
+    <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/></a>
   </div>
   {{ end }}
   <div class="service-content">

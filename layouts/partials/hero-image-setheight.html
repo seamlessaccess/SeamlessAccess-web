@@ -4,6 +4,11 @@
       <span class="hero-section">{{ .section }}</span>
       <h1>{{ .heading }}</h1>
       <p><em>{{ .subheadinglead }}</em>{{ .subheading }}</p>
+      {{ if .Params.icon }}
+      <div>
+        <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+      </div>
+      {{ end }}
     </div>
   </div>
 </div>
