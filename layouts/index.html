@@ -25,11 +25,11 @@
 {{ $reusablePages := sort $reusablePages ".Params.weight" }}
 
 <!-- HOME PAGE subsection - the item with a weight of '1' is included in this section -->
+<!-- remove this section
 {{ range first 1 $reusablePages }}
 <div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
   <div class="container pt-17 pb-17">
     <div class="row">
-      <!-- offset-md-6 makes the text appear justified at the center -->
       <div class="col-12 col-md-6 offset-md-6">
         <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
         <p>{{ .Content }}</p>
@@ -39,6 +39,22 @@
   </div>
 </div>
 {{ end }}
+-->
+
+<div id="home" class="container pt-8 pb-8 pt-md-10 pb-md-10">
+  <div class="row justify-content-center">
+    {{ range .Site.Data.features }}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {{ if .image }}<div class="feature-image"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div> {{ end }}
+        <h2 class="feature-title">{{ .title }}</h2>
+        <div class="feature-content">{{ .description }}</div>
+      </div>
+    </div>
+    {{end}}
+  </div>
+</div>
+
 
 <!-- SERVICES SECION ON HOME PAGE: Will list each item included in the "services content section" -->
 <!-- Adjust what the summary of each service will look like in layouts > services > summary.html -->

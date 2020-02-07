@@ -1,18 +1,17 @@
 [
   {
-    "title": "Governance & Funding",
-    "description": "Short description here. New image is needed.",
-    "image": "features/noun_branding_1885335.svg",
-    "buttonLink": "about/governance"
+    "title": "Find a resource or service provided by your institution.",
+    "description": "",
+    "image": "features/noun_branding_1885335.svg"
   },
   {
-    "title": "Privacy Aware",
-    "description": "Short description here. New image is needed.",
+    "title": "Click the button. Sign in with your institutional ID.",
+    "description": "",
     "image": "features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Something else?",
-    "description": "Short description here. New image is needed.",
+    "title": "You're in! Use the button to access more resources, privacy intact.",
+    "description": "",
     "image": "features/noun_3d modeling_1885342.svg"
   }
 ]
