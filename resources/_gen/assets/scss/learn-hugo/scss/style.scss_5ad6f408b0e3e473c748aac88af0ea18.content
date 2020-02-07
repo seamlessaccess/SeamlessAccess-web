@@ -5976,7 +5976,7 @@ ul.social {
 
 .feature {
   height: 100%;
-  border: 2px solid #eaeaea;
+  /* border: 2px solid #eaeaea; */
   padding: 20px;
   background-color: #ffffff;
   display: flex;
