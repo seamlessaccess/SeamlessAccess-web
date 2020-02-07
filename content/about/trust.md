@@ -5,7 +5,7 @@ icon: 'features/icn_privacy.svg'
 featured: true
 draft: false
 type: about
-description: ""
+description: "Descriptive text here"
 weight: 3
 heroHeading: 'Privacy and Trust'
 heroSubHeading: ''
