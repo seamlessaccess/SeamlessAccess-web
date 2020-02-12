@@ -1,15 +1,15 @@
 ---
 title: 'Community'
 date: 2018-12-06T09:29:16+10:00
-icon: 'features/noun_The Process_1885341.svg'
+icon: 'features/icn_community.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here. New image is needed."
+description: "Short description here."
 weight: 2
 heroHeading: 'SeamlessAccess.org Community'
-heroSubHeading: 'Who is SeamlessAccess?'
-heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
+heroSubHeading: ''
+heroBackground: 'images/hero_community.jpg'
 ---
 
 ## Our Community
