@@ -6,6 +6,10 @@ heroSubHeading: ''
 heroBackground: ''
 ---
 
+## Source code and Documentation
+
+Links to the open source code and documentation for the service are available on [thiss.io](https://thiss.io).
+
 ## Demo
 
 Check out this video to see SeamlessAccess in action. Or, review our [live demo](https://taylor-francis-ra21.mnt.se/).
