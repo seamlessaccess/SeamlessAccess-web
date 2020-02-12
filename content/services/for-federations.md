@@ -5,8 +5,7 @@ icon: 'services/service-icon-1.png'
 draft: false
 featured: false
 weight: 5
-heroHeading: 'SeamlessAccess for Researchers'
-heroSubHeading: 'Include a useful subheader here'
+heroHeading: 'SeamlessAccess for Federation Operators'
 heroBackground: 'services/service1.jpg'
 ---
 

@@ -28,4 +28,4 @@ Here are a few things libraries can do to get started with SeamlessAccess.org an
 
 2. If your institution already supports federated authentication, work with your identity and access management team (often your IT department) to determine what their standard attribute release policy is, and whether it is appropriate for library resources. 
 
-3. You can also check out our [Getting Started](https://seamlessaccess.org/get-started/) guide, and ask your library’s e-resource vendors if they participate in SeamlessAccess. For those that don’t, encourage them to consider adoption in order to provide library users with a consistent experience across platforms.
+3. You can read more about the technical implementation of SeamlessAccess.org on our [documentation site](https://thiss.io/gettingstarted/). Ask your library’s e-resource vendors if they participate in SeamlessAccess. For those that don’t, encourage them to consider adoption in order to provide library users with a consistent experience across platforms.
