@@ -1,13 +1,13 @@
 ---
 title: 'Service Providers'
 date: 2018-11-28T15:15:34+10:00
-icon: 'services/service-icon-4.png'
+icon: 'services/icn_serviceproviders.svg'
 featured: true
 draft: false
 weight: 2
 heroHeading: 'SeamlessAccess for Service Providers'
-heroSubHeading: 'Include a useful subheader here'
-heroBackground: 'services/service2.jpg'
+heroSubHeading: ''
+heroBackground: 'services/hero_serviceprov.jpg'
 ---
 
 Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
