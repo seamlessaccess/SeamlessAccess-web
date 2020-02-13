@@ -6,51 +6,17 @@ featured: true
 draft: false
 weight: 2
 heroHeading: 'SeamlessAccess for Service Providers'
-heroSubHeading: ''
 heroBackground: 'services/hero_serviceprov.jpg'
 ---
 
-Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
+As federated identity management (FIM) becomes more and more common among services that cater to multiple organizations, each service provider faces the challenge of how to turn this experience into something easy and familiar to their users. Using SeamlessAccess allows service providers to participate in a global FIM experience that reduces the friction for users to authenticate to the service. 
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
-petunt dempserat dixisse, pro raptae aut male?
+Service providers have choices around how they integrate with SeamlessAccess:
 
-- Dente reponere dixere referre excessitque seque
-- Tacui si cui inde haec ubi trepidas
-- Coniunx nulla aut
+* Limited - lets you use the SeamlessAccess discovery service for users to find and sign into their preferred Identity Provider, but doesn’t integrate this service into your site.
+* Standard - lets you use the SeamlessAccess service to display the button on your site, and use the SeamlessAccess discovery and persistence services as integrated components on your site.
+* Advanced - provides you with the SeamlessAccess persistence service while giving you greater control over the appearance of the service on your site, and what Identity Providers (IdPs) you include in your discovery service.
 
-## Geniti facinus praeruptam atris ab manus in
+Please recognize that we are in a beta phase and therefore the integration methods are subject to change. In particular, the method for controlling access to the Advanced Integration API is currently accomplished by domain whitelisting. This is not a scalable solution, and we plan to implement some form of API security key mechanism during the beta phase.  Other changes are possible as well. Service providers will be given a minimum of 60 days’ notice for any breaking changes.
 
-Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere
-non _tangere_ tendens corpore sed. Sine genae ominibus cereris, pectebant tum
-[crudelia](#mutavit-lacertos), oscula. Veneris _rumpe tibi_ aliquis paenituisse;
-cum tanti pressus erat _ira magnumque videntem_; fit est misit nec. Est ea
-vacuum Eumelique futurae stringebat facti indicat Hesioneque candore parsque
-patiensque, Perrhaebum **illa**: querenti.
-
-1. Deum sibi poma lacuque fateor
-2. Nisi vultibus adspicio totosque gladios a novatrix
-3. Regna ducebat
-
-_Fuit_ eurus promissaque. Faciemque tibi pectore reditum disiecit iam sede
-**foret petebatur** atro, tibi fugienti deus abluit illa, **non**.
-
-## Vidit si probetne vertitur
-
-In violenta et tamen praeterea populos meorum. Nos carissime Fortuna tellus aevo
-vestigia summae? Ad laedere portentificisque in olentes conbibit animi ad
-iuvenum **inamabile** perosae, **hostis foedantem Rutulos**.
-
-1. Augusta exstinctus dempto repperit ut quati enim
-2. Quae illo sine fatorum
-3. Sub ut Hyadasque specus terraeque coniunx vix
-4. Voce addita est haec
-5. Stagnum pavido sanguine Priamo custodia sed
-
-Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
-Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
-ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
-motibus; opem baculum.
+More information on how to integrate with SeamlessAccess, as well as our source code, is available at [thiss.io](https://thiss.io/).

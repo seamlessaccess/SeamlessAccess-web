@@ -5,53 +5,13 @@ icon: 'services/icn_researchcollab.svg'
 draft: false
 featured: false
 weight: 5
-heroHeading: 'SeamlessAccess for Federations'
 heroSubHeading: ''
 heroBackground: 'services/hero_refederation.jpg'
+heroHeading: 'SeamlessAccess for Federation Operators'
 ---
 
-Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
+Federation Operators will find SeamlessAccess.org a powerful tool - it supports that key step in federated single sign-on is for a user to “find home”, i.e., to indicate which institution’s credential she wishes to sign in with. Federation Operators can offer a branded default identity provider discovery service to their members that will allow users to see the value the federation brings to the experience.
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
-petunt dempserat dixisse, pro raptae aut male?
-
-- Dente reponere dixere referre excessitque seque
-- Tacui si cui inde haec ubi trepidas
-- Coniunx nulla aut
-
-## Geniti facinus praeruptam atris ab manus in
-
-Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere
-non _tangere_ tendens corpore sed. Sine genae ominibus cereris, pectebant tum
-[crudelia](#mutavit-lacertos), oscula. Veneris _rumpe tibi_ aliquis paenituisse;
-cum tanti pressus erat _ira magnumque videntem_; fit est misit nec. Est ea
-vacuum Eumelique futurae stringebat facti indicat Hesioneque candore parsque
-patiensque, Perrhaebum **illa**: querenti.
-
-1. Deum sibi poma lacuque fateor
-2. Nisi vultibus adspicio totosque gladios a novatrix
-3. Regna ducebat
-
-_Fuit_ eurus promissaque. Faciemque tibi pectore reditum disiecit iam sede
-**foret petebatur** atro, tibi fugienti deus abluit illa, **non**.
-
-## Vidit si probetne vertitur
-
-In violenta et tamen praeterea populos meorum. Nos carissime Fortuna tellus aevo
-vestigia summae? Ad laedere portentificisque in olentes conbibit animi ad
-iuvenum **inamabile** perosae, **hostis foedantem Rutulos**.
-
-1. Augusta exstinctus dempto repperit ut quati enim
-2. Quae illo sine fatorum
-3. Sub ut Hyadasque specus terraeque coniunx vix
-4. Voce addita est haec
-5. Stagnum pavido sanguine Priamo custodia sed
-
-Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
-Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
-ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
-motibus; opem baculum.
-
+Today, services implement their own home-finding, or discovery, mechanisms with different vocabulary and user interface. This results in highly inconsistent experience, making it difficult for casual users to navigate the sign-in experience. SeamlessAccess provides a consistent, intuitive and easy-to-use home institution discovery mechanism. It dramatically simplifies the sign in experience.
+ 
+Further, with appropriately branding, this discovery mechanism visually conveys to the user that they are signing into the service with the same trusted credential issued by their home institution, underpinned by a globally trusted research and education community. It lends a powerful platform to help the end user intuit the value of R&E identity federations.

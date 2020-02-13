@@ -12,62 +12,31 @@ heroSubHeading: ''
 heroBackground: 'images/hero_governance.jpg'
 ---
 
+SeamlessAccess.org is a service designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service promotes digital authentication leveraging an existing single-sign-on infrastructure through one’s home institution, while maintaining an environment that protects personal data and privacy.
+SeamlessAccess.org aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+SeamlessAccess.org is a service designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service promotes digital authentication leveraging an existing single-sign-on infrastructure through one’s home institution, while maintaining an environment that protects personal data and privacy.
 
-### Governance Group
+SeamlessAccess.org aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.
 
-* names (affiliations) - Chair
-* names (affiliations)
-* names (affiliations)
+Governance of this service is through the Coalition for Seamless Access, a collaboration between five organizations–GÉANT, Internet2, the National Information Standards Organization (NISO), ORCID, and the International Association of STM Publishers (STM). Each organization participating on the governance committee offers either financial or in-kind support for the operation of the service.
 
-### SeamlessAccess.org Implementation Team
+### About GÉANT
 
-_These can go to separate pages if there is more to say - charters, working documents, meeting notes, etc._
+[GÉANT](https://geant.org) is Europe’s leading collaboration on network and related infrastructure and services for the benefit of research and education, contributing to Europe’s economic growth and competitiveness. The organization develops, delivers and promotes advanced network and associated e-infrastructure services, and supports innovation and knowledge-sharing amongst its members, partners and the wider research and education networking community.
 
-* Name - Role
-* Name - Role
+### About Internet2
 
-## Ne verba patulosque numen vix libet
+[Internet2®](https://internet2.edu) is a non-profit, member-driven advanced technology community founded by the nation’s leading higher education institutions in 1996. Internet2 delivers a diverse portfolio of technology solutions that leverages, integrates, and amplifies the strengths of its members and helps support their educational, research and community service missions. Internet2’s core infrastructure components include the nation’s largest and fastest research and education network that was built to deliver advanced, customized services that are accessed and secured by the community-developed trust and identity framework.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+### About NISO
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+[NISO](https://niso.org), based in Baltimore, MD, fosters the development and maintenance of standards that facilitate the creation, persistent management, and effective interchange of information so that it can be trusted for use in research and learning. To fulfill this mission, NISO engages libraries, publishers, information aggregators, and other organizations that support learning, research, and scholarship through the creation, organization, management, and curation of knowledge. NISO works with intersecting communities of interest and across the entire lifecycle of information standards. NISO is a not-for-profit association accredited by the American National Standards Institute (ANSI).
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+### About ORCID
 
-## Postquam tamen
+[ORCID’s](https://orcid.org) vision is a world where all who participate in research and innovation, from imagining to building and managing, are uniquely identified and connected to their contributions across disciplines, and borders, and time. ORCID provides an identifier for individuals to use with their name as they engage in research and innovation activities. We provide open tools that enable transparent and trustworthy connections between researchers, their contributions, and affiliations. We provide this service to help people find information and to simplify reporting and analysis.
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+### About STM
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+At [STM](https://stm-assoc.org) we support our members in their mission to advance research worldwide. Our 150 members based in over 20 countries around the world collectively publish 66% of all journal articles and tens of thousands of monographs and reference works. As academic and professional publishers, learned societies, university presses, start-ups and established players we work together to serve society by developing standards and technology to ensure research is of high quality, trustworthy and easy to access. We promote the contribution that publishers make to innovation, openness and the sharing of knowledge and embrace change to support the growth and sustainability of the research ecosystem. As a common good, we provide data and analysis for all involved in the global activity of research.

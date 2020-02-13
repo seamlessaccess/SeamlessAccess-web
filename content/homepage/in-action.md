@@ -1,15 +1,15 @@
 ---
 title: 'SeamlessAccess in Action'
 weight: 2
-background: ''
+background: 'images/main_whatwedo.jpg'
 button: 'In Action'
 buttonLink: 'work'
 ---
 
-#### Demo
+### Demo
 
 See how simple it really is.
 
-#### See real life implementations
+### See real life implementations
 
 These providers support the SeamlessAccess.org service.
