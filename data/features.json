@@ -1,22 +1,22 @@
 [
   {
-    "title": "How it works",
-    "description": "In a nutshell...",
+    "title": "How it works in a nutshell...",
+    "description": "",
     "image": ""
   },
   {
-    "title": "Find a resource or service provided by your institution.",
-    "description": "",
+    "title": "",
+    "description": "Find a resource or service provided by your institution.",
     "image": "features/icn_step-1.svg"
   },
   {
-    "title": "Click the button. Sign in with your institutional ID.",
-    "description": "",
+    "title": "",
+    "description": "Click the button. Sign in with your institutional ID.",
     "image": "features/icn_step-2.svg"
   },
   {
-    "title": "You're in! Use the button to access more resources, privacy intact.",
-    "description": "",
+    "title": "",
+    "description": "You're in! Use the button to access more resources, privacy intact.",
     "image": "features/icn_step-3.svg"
   }
 ]

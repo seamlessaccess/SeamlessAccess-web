@@ -43,7 +43,7 @@
 
 
 <div class="bg-secondary ">
-  <div id="home" class="container pt-2 pb-2 pt-md-2 pb-md-2">
+  <div id="home" class="container pt-2 pb-1 pt-md-2 pb-md-1">
     <div class="row justify-content-center">
       {{ range .Site.Data.features }}
       <div class="col-12 col-md-6 col-lg-3 mb-2">
@@ -63,13 +63,13 @@
 <!-- Adjust what the summary of each service will look like in layouts > services > summary.html -->
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
-<div class="container pt-8 pb-8 pb-md-8 pt-md-8">
+<div class="container pt-8 pb-4 pb-md-4 pt-md-8">
   <div class="row justify-content-start">
     <div class="col-12">
       <h2 class="text-center mb-3">SeamlessAccess for...</h2>
     </div>
     {{ range first 6 (sort $services ".Params.weight") }}
-    <div class="col-12 col-md-4 mb-1">
+    <div class="col-12 col-md-6 col-lg-3 mb-2">
       {{ .Render "summary" }}
     </div>
     {{ end }}
@@ -85,13 +85,13 @@
 <!-- SeamlessAction in Action AND Recent News -->
 {{ range first 1 (after 1 $reusablePages) }}
 <div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
-  <div class="container pt-8 pb-8">
+  <div class="container pt-4 pb-4">
     <div class="row">
-      <div class="col-12 col-md-6">
+      <!--<div class="col-12 col-md-6">
         <h3 class="text-capitalize">{{ .Title }}</h3>
         <p>{{ .Content }}</p>
         <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-      </div>
+      </div>-->
       <!-- RECENT BLOG POSTS -->
       <div class="col-12 col-md-6">
         <div class="sidebar">
@@ -106,7 +106,7 @@
 
 {{ range first 1 (after 2 $reusablePages) }}
 <div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
-  <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+  <div class="container pt-4 pb-8 pb-md-8 pt-md-4">
     <!-- justify-content-center makes the text appear centered -->
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
