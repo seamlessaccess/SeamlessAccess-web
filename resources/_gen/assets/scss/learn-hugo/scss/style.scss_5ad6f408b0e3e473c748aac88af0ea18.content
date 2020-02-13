@@ -5978,22 +5978,21 @@ ul.social {
   height: 100%;
   /* border: 2px solid #eaeaea; */
   padding: 20px;
-  background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center; }
   .feature .feature-image {
     flex: 0 0 auto;
-    width: 80px;
-    height: 80px;
+    width: 180px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     text-align: center; }
   .feature img {
     width: 100%;
     height: auto; }
   .feature .feature-title {
+    color: #ffffff;
     font-size: 1.5rem;
     line-height: 1.2; }
   .feature .feature-content {
@@ -6015,7 +6014,7 @@ ul.social {
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   background-color: #3A7F8D;
-  height: 400px;
+  height: 700px;
   position: relative;
   padding-top: 60px; }
   .hero-image .container {
