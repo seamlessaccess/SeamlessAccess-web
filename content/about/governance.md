@@ -1,15 +1,15 @@
 ---
 title: 'Governance and Funding'
 date: 2018-11-28T15:14:54+10:00
-icon: 'features/noun_branding_1885335.svg'
+icon: 'features/icn_governance.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here. New image is needed."
+description: "Short description here."
 weight: 1
 heroHeading: 'SeamlessAccess.org Governance'
-heroSubHeading: 'optional subheading here!'
-heroBackground: 'services/service1.jpg'
+heroSubHeading: ''
+heroBackground: 'images/hero_governance.jpg'
 ---
 
 

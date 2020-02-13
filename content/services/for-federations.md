@@ -1,13 +1,13 @@
 ---
 title: 'R&E Federation Operators'
 date: 2018-11-18T12:33:46+10:00
-icon: 'services/service-icon-1.png'
+icon: 'services/icn_researchcollab.svg'
 draft: false
 featured: false
 weight: 5
-heroHeading: 'SeamlessAccess for Researchers'
-heroSubHeading: 'Include a useful subheader here'
-heroBackground: 'services/service1.jpg'
+heroHeading: 'SeamlessAccess for Federations'
+heroSubHeading: ''
+heroBackground: 'services/hero_refederation.jpg'
 ---
 
 Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:

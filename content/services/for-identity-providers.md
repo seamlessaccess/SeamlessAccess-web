@@ -1,13 +1,13 @@
 ---
 title: 'Identity Providers'
 date: 2018-11-28T15:15:26+10:00
-icon: 'services/service-icon-3.png'
+icon: 'services/icn_identityprov.svg'
 featured: true
 draft: false
 weight: 4
 heroHeading: 'SeamlessAccess for Identity Providers'
-heroSubHeading: 'Include a useful subheader here.'
-heroBackground: 'services/service1.jpg'
+heroSubHeading: ''
+heroBackground: 'services/hero_identityprov.jpg'
 ---
 
 Here the first 120 characters that show on the resulting page will be shown on the home page too. Full Markdown features can be used here, and can embed HTML if absolutely necessary, though should be avoided if possible. Relative links can be used to link to other parts of the site. Some sample text:
