@@ -17,4 +17,6 @@ Service providers have choices around how they integrate with SeamlessAccess:
 * Standard - lets you use the SeamlessAccess service to display the button on your site, and use the SeamlessAccess discovery and persistence services as integrated components on your site.
 * Advanced - provides you with the SeamlessAccess persistence service while giving you greater control over the appearance of the service on your site, and what Identity Providers (IdPs) you include in your discovery service.
 
+Please recognize that we are in a beta phase and therefore the integration methods are subject to change. In particular, the method for controlling access to the Advanced Integration API is currently accomplished by domain whitelisting. This is not a scalable solution, and we plan to implement some form of API security key mechanism during the beta phase.  Other changes are possible as well. Service providers will be given a minimum of 60 days’ notice for any breaking changes.
+
 More information on how to integrate with SeamlessAccess, as well as our source code, is available at [thiss.io](https://thiss.io/).
