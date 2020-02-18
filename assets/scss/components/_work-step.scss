@@ -6,17 +6,18 @@
   flex-direction: column;
   text-align: center;
   .step-title {
-      color: $secondary;
+      color: $ltgrey;
       font-weight: $font-weight-bold;
       font-size: 3rem;
-      line-height: 1.2;
+      line-height: 1.1;
   }
   .step-content {
     /*margin-bottom: auto;
     margin-top: 0;*/
     color: $secondary;
-    font-weight: 700;
+    font-weight: font-weight-bold;
     font-size: 1.2rem;
+    line-height: 1.1;
     /*position: relative;*/
     p {
       margin: 0;
@@ -24,7 +25,7 @@
         /*color: $secondary;*/
         text-transform: uppercase;
         font-size: 0.8rem;
-        font-weight: 700;
+        font-weight: font-weight-bold;
       }
       em {
         /*color: $primary;*/
