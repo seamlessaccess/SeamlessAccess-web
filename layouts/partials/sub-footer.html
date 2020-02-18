@@ -1,0 +1,19 @@
+<div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            {{ if .Site.Data.contact.phone }}<li><strong>Phone: </strong>{{ .Site.Data.contact.phone }}</li> {{ end }}
+            {{ if .Site.Data.contact.email }}<li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
+                {{ .Site.Data.contact.email }}</a></li>{{ end }}
+            {{ if .Site.Data.contact.address }}<li><strong>Address: </strong>{{ .Site.Data.contact.businessName }}, {{ .Site.Data.contact.address }}</li> {{ end }}
+          </ul>
+          <ul>
+            {{ if .Site.Data.contact.url }}<li class="zerostatic"><a href="https://{{ .Site.Data.contact.url }}">{{ .Site.Data.contact.url }}</a></li> {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

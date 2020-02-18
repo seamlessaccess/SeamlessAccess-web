@@ -1,0 +1,69 @@
+.content {
+  ul,
+  ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: $font-family-base;
+    font-weight: $font-weight-light;
+    font-size: 1.1rem;    
+    li {
+      margin-left: 30px;
+      list-style-position: outside;
+      padding-left: 0.7em;
+    }
+  }
+  ul li {
+    list-style: square;
+    margin-bottom: 2px;
+  }
+  ol li {
+    list-style-type: decimal;
+    margin-bottom: 12px;
+  }
+  a {
+    text-decoration: underline;
+  }
+  p {
+    /*color: red;*/
+    font-family: $font-family-base;
+    font-weight: $font-weight-light;
+    font-size: 1.1rem;
+  }
+  h1 {
+    font-family: $font-family-heading;
+    line-height: 1.2;
+    font-size: 1.8rem;
+    font-weight: $font-weight-bold;
+    color: $primary;
+    @include media-breakpoint-up(md) {
+      line-height: 1.2;
+      font-weight: $font-weight-bold;
+    }
+  }
+  h2 {
+    font-family: $font-family-heading;
+    line-height: 1.4;
+    font-weight: $font-weight-normal;
+    font-size: 1.6rem;
+    color: $secondary;
+    @include media-breakpoint-up(md) {
+      line-height: 1.4;
+    }
+  }
+  // Subheading
+  h3 {
+    color: $primary;
+    line-height: 1.4;
+    font-weight: $font-weight-thin;
+    letter-spacing: 1px;
+    @include media-breakpoint-up(md) {
+      line-height: 1.4;
+      letter-spacing: 1.8px;
+      font-weight: $font-weight-thin;
+    }
+  }
+  .page-intro {
+    max-width: 70%;
+    margin: auto;
+  }
+}

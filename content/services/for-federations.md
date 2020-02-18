@@ -7,8 +7,11 @@ featured: false
 weight: 5
 heroSubHeading: ''
 heroBackground: 'services/hero_refederation.jpg'
-heroHeading: 'SeamlessAccess for Federation Operators'
+heroHeading: 'R&E Federation Operators'
+description: "Short description here."
 ---
+
+# SeamlessAccess for R&E Federation Operators
 
 Federation Operators will find SeamlessAccess.org a powerful tool - it supports that key step in federated single sign-on is for a user to “find home”, i.e., to indicate which institution’s credential she wishes to sign in with. Federation Operators can offer a branded default identity provider discovery service to their members that will allow users to see the value the federation brings to the experience.
 

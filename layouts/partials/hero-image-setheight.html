@@ -1,14 +1,13 @@
 <div id="hero" class="hero-image hero-image-setheight" style="background-image: url('{{ .background | relURL }}')">
   <div class="container ">
     <div class="hero-text">
-      <span class="hero-section">{{ .section }}</span>
-      <h1>{{ .heading }}</h1>
-      <p><em>{{ .subheadinglead }}</em>{{ .subheading }}</p>
-      {{ if .Params.icon }}
-      <div>
-        <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+      <h1>{{ if .section }}<a href="../" style="color: inherit;"><span class="hero-section">{{ .section }}</span></a> > {{ end }}{{ .heading }}</h1>
+      <p><strong>{{ .subheadinglead }}</strong>{{ .subheading }}</p>
+      <!-- For displaying the image in the hero 
+      <div class="hero-image icon-image">
+        <img src="{{ .Site.BaseURL }}{{ .icon }}"/>
       </div>
-      {{ end }}
+    -->
     </div>
   </div>
 </div>

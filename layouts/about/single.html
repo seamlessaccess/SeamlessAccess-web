@@ -3,11 +3,11 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
-{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "section" .Section "content" .)}}
-<div class="container pt-4 pt-md-10 pb-4 pb-md-10">
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "section" .Section "icon" .Params.icon "content" .)}}
+<div class="container pt-4 pt-md-4 pb-4 pb-md-10">
   <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="service service-single">
+    <div class="col-12 col-md-12">
+      <div class="about page-about-single">
         <div class="content">{{.Content}}</div>
       </div>
     </div>

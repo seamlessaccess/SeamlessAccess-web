@@ -22,6 +22,16 @@ _NOTE: this piece should only be done by someone that is experienced with deploy
 5. The script will rebuild the site and push the changes to the gh-pages branch.
 6. When the process is completed, confirm that the changes are present in the `gh-pages` branch on github. The site at `https://lpaglione.github.io/learn-hugo/` will be refreshed in a few min.
 
+# Updating metadata
+
+## Site subfooter
+
+The information displayed in the site sub-footer is contained in the `data > contact.yaml` file. If any item is left blank (empty inside of the quotes), it will not display in the footer.
+
+To add things to this subfooter, the `Layouts > Partials > sub-footer.html` file must be edited to include these items.
+
+_NOTE: the Business Name is displayed in the copyright in the main footer and in the address if one exists._
+
 # Updating the site
 
 ## General components
