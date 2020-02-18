@@ -17,16 +17,18 @@
     height: auto;
   }*/
   .feature-title {
-    color: #ffffff;
+    color: $primary;
+    font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.2;
   }
   .feature-content {
     /*margin-bottom: auto;
     margin-top: 0;*/
-    color: #ffffff;
+    color: $secondary;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.1;
     /*position: relative;*/
     p {
       margin: 0;

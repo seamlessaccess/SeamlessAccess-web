@@ -13,7 +13,7 @@
   --white: #ffffff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #3A7F8D;
+  --primary: #216E93;
   --secondary: #51514F;
   --success: #28a745;
   --info: #17a2b8;
@@ -132,12 +132,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #3A7F8D;
+  color: #216E93;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #6bb3c2;
+    color: #45a6d5;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -1013,13 +1013,13 @@ mark,
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #c8dbdf; }
+  background-color: #c1d6e1; }
 
 .table-hover .table-primary:hover {
-  background-color: #b8d0d6; }
+  background-color: #b0cbd9; }
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #b8d0d6; }
+    background-color: #b0cbd9; }
 
 .table-secondary,
 .table-secondary > th,
@@ -1201,12 +1201,12 @@ mark,
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #3A7F8D !important; }
+  background-color: #216E93 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #2b5e69 !important; }
+  background-color: #184f69 !important; }
 
 .bg-secondary {
   background-color: #51514F !important; }
@@ -1301,7 +1301,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #3A7F8D !important; }
+  border-color: #216E93 !important; }
 
 .border-secondary {
   border-color: #51514F !important; }
@@ -5281,10 +5281,10 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #3A7F8D !important; }
+  color: #216E93 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #2b5e69 !important; }
+  color: #184f69 !important; }
 
 .text-secondary {
   color: #51514F !important; }
@@ -5387,7 +5387,7 @@ a.text-dark:hover, a.text-dark:focus {
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 32px;
     height: 3px;
-    background-color: #3A7F8D;
+    background-color: #216E93;
     border-radius: 3px;
     position: absolute;
     transition-property: transform;
@@ -5436,7 +5436,7 @@ ol {
     flex: 1; }
 
 .header {
-  color: #3A7F8D;
+  color: #216E93;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -5616,24 +5616,24 @@ ol {
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #3A7F8D; }
+        color: #216E93; }
         .main-menu > ul > li > a:hover {
-          background: #3A7F8D;
+          background: #216E93;
           color: #ffffff;
           text-decoration: none; }
       .main-menu > ul > li.active > a {
-        background: #3A7F8D;
+        background: #216E93;
         text-decoration: none;
         color: #ffffff; }
         .main-menu > ul > li.active > a:hover {
           text-decoration: none;
-          background: #3A7F8D;
+          background: #216E93;
           transition: all 225ms ease-in 0s;
           color: #ffffff; }
 
 .main-menu-mobile {
   position: fixed;
-  background: #3A7F8D;
+  background: #216E93;
   top: 0;
   left: 0;
   width: 100%;
@@ -5747,7 +5747,7 @@ ul.social {
   .hamburger .hamburger-inner,
   .hamburger .hamburger-inner::before,
   .hamburger .hamburger-inner::after {
-    background: #3A7F8D; }
+    background: #216E93; }
   .hamburger .hamburger-inner::after {
     width: 18px;
     right: 0; }
@@ -5759,7 +5759,7 @@ ul.social {
   white-space: nowrap;
   display: inline-block;
   padding: 7px 15px;
-  background: #3A7F8D;
+  background: #216E93;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -5770,7 +5770,7 @@ ul.social {
   transition: all 0.15s ease; }
   .button:hover {
     color: #fff;
-    background-color: #49a0b1;
+    background-color: #2a8dbd;
     text-decoration: none; }
 
 .button-white {
@@ -5779,7 +5779,7 @@ ul.social {
   border: 2px solid #fff; }
 
 .title-1 {
-  color: #3A7F8D;
+  color: #216E93;
   font-size: 2.4rem;
   line-height: 1.2;
   font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system; }
@@ -5850,7 +5850,7 @@ ul.social {
   line-height: 1.2;
   font-size: 1.8rem;
   font-weight: 700;
-  color: #3A7F8D; }
+  color: #216E93; }
   @media (min-width: 768px) {
     .content h1 {
       line-height: 1.2;
@@ -5867,7 +5867,7 @@ ul.social {
       line-height: 1.4; } }
 
 .content h3 {
-  color: #3A7F8D;
+  color: #216E93;
   line-height: 1.4;
   font-weight: 200;
   letter-spacing: 1px; }
@@ -5900,7 +5900,7 @@ ul.social {
       padding-top: 200px;
       padding-bottom: 100px; } }
   .intro h1 {
-    color: #3A7F8D;
+    color: #216E93;
     font-size: 2.4rem;
     line-height: 1.2;
     font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
@@ -5956,13 +5956,13 @@ ul.social {
     transform: skewY(-5deg); }
 
 .strip-primary-gradient {
-  background-image: linear-gradient(to right, #3A7F8D, #51514F); }
+  background-image: linear-gradient(to right, #216E93, #51514F); }
 
 .strip-primary-gradient-top-bottom {
-  background-image: linear-gradient(to bottom, #3A7F8D, #51514F); }
+  background-image: linear-gradient(to bottom, #216E93, #51514F); }
 
 .strip-primary {
-  background-color: #3A7F8D; }
+  background-color: #216E93; }
 
 .strip-secondary {
   background-color: #51514F; }
@@ -6012,15 +6012,17 @@ ul.social {
     margin-bottom: 8px;
     /*text-align: center;*/ }
   .feature .feature-title {
-    color: #ffffff;
+    color: #216E93;
+    font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.2; }
   .feature .feature-content {
     /*margin-bottom: auto;
     margin-top: 0;*/
-    color: #ffffff;
+    color: #51514F;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.1;
     /*position: relative;*/ }
     .feature .feature-content p {
       margin: 0; }
@@ -6056,7 +6058,7 @@ ul.social {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  background-color: #3A7F8D;
+  background-color: #216E93;
   height: 700px;
   position: relative;
   padding-top: 60px; }
@@ -6120,7 +6122,7 @@ ul.social {
   height: 100vh; }
 
 .hero-image-setheight {
-  height: 300px; }
+  height: 400px; }
 
 .hero-image-blend-overlay {
   background-blend-mode: overlay; }
@@ -6144,10 +6146,13 @@ ul.social {
   background-blend-mode: overlay; }
 
 .bg-primary {
-  background-color: #3A7F8D; }
+  background-color: #216E93; }
 
 .bg-secondary {
   background-color: #51514F; }
+
+.bg-ltgrey {
+  background-color: #e5e5e5; }
 
 .work-step {
   height: 100%;
@@ -6157,16 +6162,17 @@ ul.social {
   flex-direction: column;
   text-align: center; }
   .work-step .step-title {
-    color: #51514F;
+    color: #e5e5e5;
     font-weight: 700;
     font-size: 3rem;
-    line-height: 1.2; }
+    line-height: 1.1; }
   .work-step .step-content {
     /*margin-bottom: auto;
     margin-top: 0;*/
     color: #51514F;
-    font-weight: 700;
+    font-weight: font-weight-bold;
     font-size: 1.2rem;
+    line-height: 1.1;
     /*position: relative;*/ }
     .work-step .step-content p {
       margin: 0; }
@@ -6174,7 +6180,7 @@ ul.social {
         /*color: $secondary;*/
         text-transform: uppercase;
         font-size: 0.8rem;
-        font-weight: 700; }
+        font-weight: font-weight-bold; }
       .work-step .step-content p em {
         /*color: $primary;*/
         font-style: normal; }
@@ -6250,7 +6256,7 @@ ul.social {
   .work-summary .work-content {
     flex: 1;
     padding: 20px;
-    border-bottom: 2px solid #3A7F8D; }
+    border-bottom: 2px solid #216E93; }
     .work-summary .work-content .work-title {
       font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
       font-size: 1.5rem; }
@@ -6261,7 +6267,7 @@ ul.social {
 .page-work-single h1.title {
   font-size: 3rem;
   font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-  color: #3A7F8D; }
+  color: #216E93; }
 
 .page-work-single .work-image img {
   width: 100%;
