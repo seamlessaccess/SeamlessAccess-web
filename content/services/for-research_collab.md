@@ -5,9 +5,12 @@ icon: 'services/icn_researchcollab.svg'
 draft: false
 featured: false
 weight: 6
-heroHeading: 'SeamlessAccess for Researchers'
+heroHeading: 'Researcher Collaborations'
 heroBackground: 'services/hero_researchcollab.jpg'
+description: "Short description here."
 ---
+
+# SeamlessAccess for Research Collaborations
 
 Federated Identity Management (FIM) is a priority for many research collaborations. SeamlessAccess allows these collaborations to use a common, configurable, and community-supported identity discovery service that will help make single sign-on easier for their researchers.SeamlessAccess.org enables fast and easy access to FIM-enabled services, including wikis, web sites, and other collaboration tools. 
 

@@ -5,9 +5,12 @@ icon: 'services/icn_serviceproviders.svg'
 featured: true
 draft: false
 weight: 2
-heroHeading: 'SeamlessAccess for Service Providers'
+heroHeading: 'Service Providers'
 heroBackground: 'services/hero_serviceprov.jpg'
+description: "Short description here."
 ---
+
+# SeamlessAccess for Service Providers
 
 As federated identity management (FIM) becomes more and more common among services that cater to multiple organizations, each service provider faces the challenge of how to turn this experience into something easy and familiar to their users. Using SeamlessAccess allows service providers to participate in a global FIM experience that reduces the friction for users to authenticate to the service. 
 

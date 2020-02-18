@@ -5,10 +5,13 @@ icon: 'services/icn_libraries.svg'
 featured: true
 draft: false
 weight: 3
-heroHeading: 'SeamlessAccess for Libraries'
+heroHeading: 'Libraries'
 heroSubHeading: ''
 heroBackground: 'services/hero_libraries.jpg'
+description: "Short description here."
 ---
+
+# SeamlessAccess for Libraries
 
 Libraries recognize that users do not always begin their access journey on the library website, or start with a proxied link. When users begin outside the library environment, they may end up on a publisher’s site and may encounter frustrating paywalls, or confusing and non-standardized login pathways. Seamless Access is designed to make access more consistent and understandable for users. 
 
