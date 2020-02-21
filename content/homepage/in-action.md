@@ -12,4 +12,4 @@ See how simple it really is.
 
 ### See real life implementations
 
-These providers support the SeamlessAccess.org service.
+These providers support the SeamlessAccess service.
