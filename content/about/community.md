@@ -5,14 +5,13 @@ icon: 'features/icn_community.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here."
 weight: 2
 heroHeading: 'Community'
 heroSubHeading: ''
 heroBackground: 'images/hero_community.jpg'
 ---
 
-The SeamlessAccess.org community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. We will be using this page to feature their contributions and inspire you to get involved.
+The SeamlessAccess community consists of individuals representing libraries, university IT, researchers, publishers, research collaborations, identity & access federations, and others that support and contribute to  scholarly creation. These individuals contribute to working groups that guide our work. We will be using this page to feature their contributions and inspire you to get involved.
 
 # Governance Committee
 
@@ -55,6 +54,24 @@ The SeamlessAccess.org community consists of individuals representing libraries,
 * Christos Kanellopoulos _(GEANT)_
 * Nick Roy _(Internet2)_
 * Albert Wu _(Internet2 secondary representative)_
+* Ralph Youngen _(ACS)_
+
+# Advisory Committee
+* Laird Barrett _(Springer)_
+* Prakash Bellur _(IEEE)_
+* Peter Brantley _(UC Davis)_
+* Todd Carpenter _(NISO)_
+* David Flynn _(EBSCO)_
+* Lisa Hinchliffe _(U of Illinois)_
+* Leif Johansson _(GEANT/SUNET)_ 
+* Phil Leahy _(OpenAthens)_
+* Tim Lloyd _(LibLynx)_
+* Allan Lu _(Proquest)_
+* Helen Malone _(Glaxo)_
+* Jay Neill _(Wiley)_
+* Henning Schoenenberger _(Springer)_
+* Eefke Smit _(STM)_
+* Ann West _(Internet2)_
 * Ralph Youngen _(ACS)_
 
 # Entity Categories and Attribute Bundles Working Group
