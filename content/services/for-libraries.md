@@ -17,18 +17,16 @@ Libraries recognize that users do not always begin their access journey on the l
 
 Libraries also care deeply about patron privacy. When implementing federated access on publisher sites (for example, using Shibboleth), libraries may find themselves negotiating with individual vendors regarding what information to release. Seamless Access provides standards and guidelines that ensure patron privacy. 
 
-Check our Frequently Asked Questions for more information on commonly asked questions from librarians.
-
 ## What libraries can do
 Libraries can ask resource vendors whether or not they are implementing Seamless Access, and can partner with their campus IT to implement federated identity management (FIM) for resource vendors. Librarians can also stay up to date with news and new features in the FIM space by joining the Seamless Access mailing list. 
 
 By beginning these conversations about Seamless Access, libraries can begin to improve the access experience for our users.
 
-## How can my library get started with SeamlessAccess.org?
-Here are a few things libraries can do to get started with SeamlessAccess.org and federated authentication:
+## How can my library get started with SeamlessAccess?
+Here are a few things libraries can do to get started with SeamlessAccess and federated authentication:
 
-1. Find out if your institution already participates in an identity federation such as [InCommon](https://incommon.org/), the [Australian Access Federation](https://incommon.org/), [OpenAthens](https://www.openathens.net/), or others. This may involve reaching out to your IT department, or whomever manages identity and access management (IAM) at your institution. If your institution doesn’t yet participate, begin to advocate for membership.
+1. Find out if your institution already participates in an identity federation such as [InCommon](https://incommon.org/), the [Australian Access Federation](https://incommon.org/), [OpenAthens](https://www.openathens.net/), or [others](https://technical.edugain.org/entities ). This may involve reaching out to your IT department or whoever manages identity and access management (IAM) at your institution. If your institution doesn’t yet participate, begin to advocate for membership.
 
-2. If your institution already supports federated authentication, work with your identity and access management team (often your IT department) to determine what their standard attribute release policy is, and whether it is appropriate for library resources. 
+2. If your institution already supports federated authentication, work with your identity and access management team (often your IT department) to determine what their standard attribute release policy is and whether it is appropriate for library resources. 
 
-3. You can read more about the technical implementation of SeamlessAccess.org on our [documentation site](https://thiss.io/gettingstarted/). Ask your library’s e-resource vendors if they participate in SeamlessAccess. For those that don’t, encourage them to consider adoption in order to provide library users with a consistent experience across platforms.
+3. You can read more about the technical implementation of SeamlessAccess on our [documentation site](https://thiss.io/gettingstarted/). Ask your library’s e-resource vendors if they participate in SeamlessAccess. For those that don’t, encourage them to consider adoption in order to provide library users with a consistent experience across platforms.
