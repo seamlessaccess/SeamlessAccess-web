@@ -1,22 +1,27 @@
 [
   {
-    "title": "1",
-    "description": "Gather information and plan"
+    "title": "",
+    "description": "Gather information and plan",
+    "image": "features/getting-started/icn_gettingstarted-1.svg"
   },
   {
-    "title": "2",
-    "description": "Select your flavor"
+    "title": "",
+    "description": "Select your flavor",
+    "image": "features/getting-started/icn_gettingstarted-2.svg"
   },
   {
-    "title": "3",
-    "description": "Implement the service"
+    "title": "",
+    "description": "Implement the service",
+    "image": "features/getting-started/icn_gettingstarted-3.svg"
   },
   {
-    "title": "4",
-    "description": "Tell your users"
+    "title": "",
+    "description": "Tell your users",
+    "image": "features/getting-started/icn_gettingstarted-4.svg"
   },
   {
-    "title": "5",
-    "description": "Tell us about it"
+    "title": "",
+    "description": "Tell us about it",
+    "image": "features/getting-started/icn_gettingstarted-5.svg"
   }
 ]
