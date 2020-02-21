@@ -7,8 +7,8 @@ heroSubHeading: ""
 heroHeight: 400
 ---
 
-# SeamelessAccess.org is a service
+# SeamelessAccess is a service
 
-designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service promotes digital authentication leveraging an existing single-sign-on infrastructure through one's home institution, while maintaining an environment that protects personal data and privacy."
+designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service promotes digital authentication leveraging an existing single sign-on infrastructure through one's home institution, while maintaining an environment that protects personal data and privacy.
 
-SeamlessAccess.org aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.
+SeamlessAccess aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.

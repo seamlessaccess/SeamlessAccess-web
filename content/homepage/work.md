@@ -6,6 +6,6 @@ button: 'Getting Started'
 buttonLink: 'work'
 ---
 
-* Provide a simple mechanism for a consistent, easy-to-use identity provider discovery service.
-* Enable protected storage and recall of a user’s choice of identity provider.
+* Provide a simple mechanism for a consistent, easy-to-use Identity Provider (IdP) discovery service.
+* Enable protected storage and recall of a user’s choice of IdP.
 * Support advanced configuration options for identity provider discovery for services with unique use cases.

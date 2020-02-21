@@ -5,7 +5,6 @@ icon: 'features/icn_governance.svg'
 featured: true
 draft: false
 type: about
-description: "Short description here."
 weight: 1
 heroHeading: 'Governance and Funding'
 heroSubHeading: ''
