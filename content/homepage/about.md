@@ -1,5 +1,5 @@
 ---
-title: 'SeamlessAccess.org is...'
+title: 'SeamlessAccess is...'
 weight: 3
 background: ''
 button: 'About Us'
