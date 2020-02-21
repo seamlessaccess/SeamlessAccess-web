@@ -18,7 +18,7 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Todd Carpenter _(NISO)_
 * Heather Flanagan _(SeamlessAccess Program Director)_
 * Jason Griffey _(NISO)_
-* Laure Haak _(ORCID)_
+* Laurel Haak _(ORCID)_
 * Eefke Smit _(STM)_
 * Ann West _(Internet2)_
 * Klaas Wierenga _(GÉANT)_
