@@ -4,11 +4,10 @@
 
 {{ define "main" }}
 
-<!-- REMOVE THE HEADER FOR THIS PAGE -->
-<!--{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}-->
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
 {{ if .Content }}
-<div class="strip pt-6 pb-2">
-  <div class="container pt-4">
+<div class="strip pt-3 pb-2">
+  <div class="container pt-2">
     <div class="row">
       <div class="col-12 col-md-12 content">
           {{ .Content }}
@@ -26,16 +25,17 @@
 <!-- List the steps - section 0 -->
 <div class="strip pt-2 pb-2">
   <div class="container">
-    <div class="row justify-content-left">
+    <div class="row">
       <div class="content">
         <h1>The Steps</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-2"></div>
-      {{ range .Site.Data.startedsteps }}
-    <div class="col-12 col-md-4 col-lg-2 mb-2">
+    <div class="col-2"></div>
+    {{ range .Site.Data.startedsteps }}
+    <div class="col-12 col-md-4 col-lg-2">
       <div class="work-step">
+        <div class="step-image"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div>
         <div class="step-title">{{ .title }}</div>
         <div class="step-content">{{ .description }}</div>
       </div>
@@ -50,8 +50,37 @@
 <!-- List the steps - section 1 -->
 {{ partial "work-step-1.html" (dict "detaillink" .Params.linkStep1) .}}
 
-<!-- List the steps - section 2 -->
-{{ partial "work-step-2.html" (dict "detaillink" .Params.linkStep2) .}}
+<div class="strip pt-2 pb-2">
+  <div class="container">
+    <div class="row content">
+      <h1>2. Three Flavors</h1>
+    </div>
+    <div class="row content">
+      <div class="col-2"></div>
+      <p>SeamlessAccess.org provides services and software, enabling three different “flavors” of implementation:</p>
+    </div>
+    <div class="row content">
+      <div class="col-2"></div>
+      <div></div>
+      {{ range .Site.Data.implementflavors }}
+      <div class="col-12 col-md-3">
+        <div class="flavor">
+          <div class="flavor-image"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div>
+          <div class="flavor-title">{{ .title }}</div>
+          <div class="flavor-description">{{ .description }}</div>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-1"></div>
+    </div>
+    <div class="row content">
+      <div class="col-2"></div>
+      <p><a href="">more ></a></p>
+    </div>
+  </div>
+</div>
+
+<hr />
 
 <!-- List the steps - section 3 -->
 {{ partial "work-step-3.html" (dict "detaillink" .Params.linkStep3) .}}

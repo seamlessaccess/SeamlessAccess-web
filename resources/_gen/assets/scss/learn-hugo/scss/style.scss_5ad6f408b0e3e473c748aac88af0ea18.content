@@ -6155,13 +6155,14 @@ ul.social {
   background-color: #e5e5e5; }
 
 .work-step {
-  height: 100%;
-  padding: 20px;
+  /*height: 100%;*/
+  padding: 5px;
   display: flex;
-  align-items: right;
   flex-direction: column;
-  text-align: center; }
+  /*align-items: center;*/
+  /*text-align: center;*/ }
   .work-step .step-title {
+    text-align: center;
     color: #e5e5e5;
     font-weight: 700;
     font-size: 3rem;
@@ -6169,8 +6170,9 @@ ul.social {
   .work-step .step-content {
     /*margin-bottom: auto;
     margin-top: 0;*/
+    text-align: center;
     color: #51514F;
-    font-weight: font-weight-bold;
+    font-weight: 700;
     font-size: 1.2rem;
     line-height: 1.1;
     /*position: relative;*/ }
@@ -6184,6 +6186,17 @@ ul.social {
       .work-step .step-content p em {
         /*color: $primary;*/
         font-style: normal; }
+  .work-step .step-image {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px; }
+    @media (min-width: 768px) {
+      .work-step .step-image {
+        max-width: 100%; } }
+    .work-step .step-image img {
+      width: 100%;
+      height: auto; }
 
 .page-services-single .content > p:first-of-type {
   font-size: 1.2rem;

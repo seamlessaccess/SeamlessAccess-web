@@ -1,15 +1,9 @@
 ---
 title: 'SeamlessAccess in Action'
 date: 2018-02-10T11:52:18+07:00
-heroHeading: 'SeamlessAccess in Action'
+heroHeading: 'Getting Started'
 heroSubHeading: ''
-heroBackground: ''
-linkStep0: 'the-steps'
-linkStep1: 'gather-info'
-linkStep2: 'three-flavors'
-linkStep3: 'register'
-linkStep4: 'tell-users'
-linkStep5: 'tell-seamlessaccess'
+heroBackground: 'images/hero_gettingstarted.jpg'
 ---
 
 # Getting Started
