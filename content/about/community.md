@@ -15,6 +15,7 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 
 # Governance Committee
 
+* Laird Barrett _(SpringerNature)_
 * Todd Carpenter _(NISO)_
 * Heather Flanagan _(SeamlessAccess Program Director)_
 * Jason Griffey _(NISO)_
