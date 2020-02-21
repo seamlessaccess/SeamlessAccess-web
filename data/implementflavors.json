@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Limited",
+    "description": "Lets you use the SeamlessAccess discovery service for users to find and sign into their preferred Identity Provider, but doesn’t integrate this service into your site",
+    "image": "work/icn_flavors_limited.svg"
+  },
+  {
+    "title": "Standard",
+    "description": "Lets you use the SeamlessAccess service to display the button on your site, and use the SeamlessAccess discovery and persistence services as integrated components on your site",
+    "image": "work/icn_flavors_standard.svg"
+  },
+  {
+    "title": "Advanced",
+    "description": "Provides you with the SeamlessAccess persistence service while giving you greater control over the appearance of the service on your site, and what Identity Providers (IdPs) you include in your discovery service",
+    "image": "work/icn_flavors_advanced.svg"
+  }
+]
