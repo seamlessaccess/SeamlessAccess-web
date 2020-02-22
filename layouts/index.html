@@ -93,9 +93,9 @@
         <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
       </div>-->
       <!-- RECENT BLOG POSTS -->
-      <div class="col-12 col-md-6">
-        <div class="sidebar">
-          {{ partial "blog/post-recent" . }}
+      <div class="col-12 col-md-8">
+        <div class="post-summary">
+          {{ partial "blog/post-recent-summary" . }}
           <a class="button" href="posts/">View All News</a>
         </div>
     </div>

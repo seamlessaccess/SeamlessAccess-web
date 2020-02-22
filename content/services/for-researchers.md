@@ -7,7 +7,7 @@ featured: true
 weight: 1
 heroHeading: 'Researchers'
 heroBackground: 'services/hero_researchers.jpg'
-description: "Short description here."
+description: ""
 ---
 
 # SeamlessAccesss for Researchers
