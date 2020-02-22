@@ -1,0 +1,15 @@
+{{ $posts := first 5 (where .Site.RegularPages "Section" "posts") }}
+{{ if gt (len $posts) 0 }}
+  <div class="content">
+  <h1>Recent News</h1>
+  <ul style="list-style-type: none;">
+    {{ range $posts }}
+    <li>
+        <h4><a href="{{.RelPermalink}}" style="text-decoration: none;">{{ .Title }}</a></h4>
+        <p>{{ .Content | truncate 120 "..." | plainify }}</p>
+    </li>
+    <hr>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

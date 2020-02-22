@@ -9,7 +9,6 @@ heroSubHeading: ''
 heroBackground: "https://picsum.photos/2560/600?image=872"
 ---
 
-
 Taking the findings of the [RA21 initiative](https://ra21.org) to the next level, SeamlessAccess.org intends to support a streamlined federated authentication experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service will promote digital authentication leveraging an existing single-sign-on infrastructure through one’s home institution, while maintaining an environment that protects personal data and privacy. The service aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.
 
 As part of our efforts to encourage organizations that support federated authentication, including publishers and platform providers, we are hosting a hackathon for developers. A hackathon is a hands-on developers meeting that offers individuals an opportunity to sit at a table with the architect or lead developer of a code base and get hands-on support in implementing the open-source software behind SeamlessAccess.org. A hackathon is not a tutorial, nor is it a presentation or conference session, and it is not suitable for non-developers.

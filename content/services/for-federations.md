@@ -8,6 +8,7 @@ weight: 5
 heroSubHeading: ''
 heroBackground: 'services/hero_refederation.jpg'
 heroHeading: 'R&E Federation Operators'
+description: ""
 ---
 
 # SeamlessAccess for R&E Federation Operators

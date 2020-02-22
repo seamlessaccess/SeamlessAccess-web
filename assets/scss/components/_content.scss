@@ -24,7 +24,6 @@
     text-decoration: underline;
   }
   p {
-    /*color: red;*/
     font-family: $font-family-base;
     font-weight: $font-weight-light;
     font-size: 1.1rem;
@@ -43,7 +42,7 @@
   h2 {
     font-family: $font-family-heading;
     line-height: 1.4;
-    font-weight: $font-weight-normal;
+    font-weight: $font-weight-bold;
     font-size: 1.6rem;
     color: $secondary;
     @include media-breakpoint-up(md) {
@@ -52,14 +51,15 @@
   }
   // Subheading
   h3 {
-    color: $primary;
-    line-height: 1.4;
-    font-weight: $font-weight-thin;
+    color: $secondary;
+    line-height: 1.2;
+    font-weight: $font-weight-normal;
     letter-spacing: 1px;
+    font-size: 1.3rem;
     @include media-breakpoint-up(md) {
-      line-height: 1.4;
-      letter-spacing: 1.8px;
-      font-weight: $font-weight-thin;
+      line-height: 1.2;
+      letter-spacing: 1.4px;
+      font-weight: $font-weight-normal;
     }
   }
   .page-intro {

@@ -7,7 +7,7 @@ featured: false
 weight: 6
 heroHeading: 'Researcher Collaborations'
 heroBackground: 'services/hero_researchcollab.jpg'
-description: "Short description here."
+description: ""
 ---
 
 # SeamlessAccess for Research Collaborations

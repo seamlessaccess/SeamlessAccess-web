@@ -9,7 +9,6 @@ heroSubHeading: ''
 heroBackground: "https://picsum.photos/2560/600?image=872"
 ---
 
-
 Following feedback before and during the Internet2 Technology Exchange, the Seamless Access program is reviewing the permissible use of the stored Identity Provider (IdP) preference information when using some of the SeamlessAccess.org integration models (see our “Getting Started” page for more information about the different integration models).
 
 What we realized is that in its current form, authorized Service Providers (SPs) using the advanced integration model may be able to access stored IdP choices before a user logs into that SP’s service. When a website authorized to use SeamlessAccess connects their Federated Identity Management (FIM) service, the website can see the user’s previous choice of IdP before any user authentication occurs. This design choice was originally made to enable full flexibility of the user interface for advanced integrators, for example, to display the preferred IdP in the interface. Further, integrators using the limited and standard integration models are unable to access stored IdP choices.
