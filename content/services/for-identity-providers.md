@@ -7,7 +7,7 @@ draft: false
 weight: 4
 heroHeading: 'Identity Providers'
 heroBackground: 'services/hero_identityprov.jpg'
-description: "Short description here."
+description: ""
 ---
 
 # SeamlessAccess for Identity Providers

@@ -7,7 +7,7 @@ draft: false
 weight: 2
 heroHeading: 'Service Providers'
 heroBackground: 'services/hero_serviceprov.jpg'
-description: "Short description here."
+description: ""
 ---
 
 # SeamlessAccess for Service Providers

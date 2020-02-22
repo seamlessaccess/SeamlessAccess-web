@@ -155,3 +155,13 @@ description | this text is displayed on the about landing page | description: "S
 weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | weight: 2
 hero | as with the other pages, you can include a hero image and text here. the usual fields are included | heroHeading: 'SeamlessAccess.org Community'; heroSubHeading: 'Who is SeamlessAccess?'; heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
 ---
+
+# Getting Started Page
+
+This page is a little different from the others - it is organized more like the Home Page is. This is where you find each of the pieces of content for the page:
+
+## Top section: Getting Started
+
+**CONTENT LOCATION**: `content > work > _index.md`
+
+This content, and the hero image are specified in the index file in the work section.

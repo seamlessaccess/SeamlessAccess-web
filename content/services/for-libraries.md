@@ -8,7 +8,7 @@ weight: 3
 heroHeading: 'Libraries'
 heroSubHeading: ''
 heroBackground: 'services/hero_libraries.jpg'
-description: "Short description here."
+description: ""
 ---
 
 # SeamlessAccess for Libraries
