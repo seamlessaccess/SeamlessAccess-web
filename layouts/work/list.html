@@ -56,14 +56,14 @@
       <h1>2. Three Flavors</h1>
     </div>
     <div class="row content">
-      <div class="col-2"></div>
+      <div class="col-2 col-sm-2 col-lg-2"></div>
       <p>SeamlessAccess.org provides services and software, enabling three different “flavors” of implementation:</p>
     </div>
     <div class="row content">
-      <div class="col-2"></div>
+      <div class="col-0 col-sm-3 col-md-0 col-lg-2"></div>
       <div></div>
       {{ range .Site.Data.implementflavors }}
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 sb-2">
         <div class="flavor">
           <div class="flavor-image"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div>
           <div class="flavor-title">{{ .title }}</div>
@@ -71,10 +71,10 @@
         </div>
       </div>
       {{ end }}
-      <div class="col-1"></div>
+      <div class="col-0 col-md-"></div>
     </div>
     <div class="row content">
-      <div class="col-2"></div>
+      <div class="col-0 col-sm-0 col-lg-2"></div>
       <p><a href="step2">more ></a></p>
     </div>
   </div>
