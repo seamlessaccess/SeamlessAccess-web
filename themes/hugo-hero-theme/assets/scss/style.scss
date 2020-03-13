@@ -65,6 +65,12 @@
 @import 'components/work-step';
 @import 'components/syntax';
 
+// Font Awesome
+$fa-font-path: "../../fonts/fontawesome5";
+@import "libraries/fontawesome5/fontawesome.scss";
+@import "libraries/fontawesome5/solid.scss";
+@import "libraries/fontawesome5/brands.scss";
+
 // Pages
 @import 'pages/services/page-services-list';
 @import 'pages/services/page-services-single';
