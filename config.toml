@@ -15,8 +15,8 @@ theme = "hugo-hero-theme"
     meta_og_image = "https://lpaglione.github.io/learn-hugo/images/logo.svg"
     meta_og_description = "SeamlessAccess.org is a service designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure. Your users will be able to sign in using their preferred sign in credentials, and will not be bothered for them again for all SeamlessAccess-enabled sites."
     # meta_twitter_card = "summary"
-    # meta_twitter_site = "@zerostaticio"
-    # meta_twitter_creator = "@zerostaticio"
+    # meta_twitter_site = "@seamlessaccess"
+    # meta_twitter_creator = "@seamlessaccess"
 
 
 [[menu.main]]

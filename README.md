@@ -1,5 +1,15 @@
-# learn-hugo
-a repository for learning hugo
+# Seamless Access Website
+
+> **IMPORTANT!!** ALL CHANGES to the website should be made in branches that are merged via a pull request into the `Master` Branch.
+>
+> The site is deployed from the `Live` branch.
+>
+> Changes should NEVER be committed directly to the `Live` branch - this will not work. They must be put onto the master branch and then submitted by pull request to the `Live` branch. The reason that this process is required is twofold:
+>
+> 1. there are critical site checks that are performed to ensure that the site builds correctly, and 
+> 2. this process also provides an opportunity to preview the changes before they go live - an important best practics. 
+> 
+> **If this process is not followed, the site will not build.**
 
 # How to make a change that you made display on the site
 
@@ -12,15 +22,6 @@ a repository for learning hugo
   * You can make changes in the files and (for most changes) when you save them in your files, the changes will be reflected on your local branch
 
 2. When you are satisfied with your additions and changes, make sure that all of your changes have been committed to the master branch. (It's a great idea to do this from a separate branch, and make a pull commit to contribute these changes to the site.)
-
-## Deploy the site
-
-_NOTE: this piece should only be done by someone that is experienced with deploying changes to the production website. These commands will push the changes to the site._
-
-3. From within the repository folder for the site, run the deploy script: On the command line, type `./publish_to_ghpages.sh` (you will need to have contributor rights to the github repository.)
-4. If there are changes that haven't been committed, you will get messages to clear these changes before moving forward
-5. The script will rebuild the site and push the changes to the gh-pages branch.
-6. When the process is completed, confirm that the changes are present in the `gh-pages` branch on github. The site at `https://lpaglione.github.io/learn-hugo/` will be refreshed in a few min.
 
 # Updating metadata
 

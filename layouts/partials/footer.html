@@ -4,6 +4,7 @@
       <div class="col-12">
         <div class="footer-inner">
           <ul class="footer-menu">
+            {{ partial "social.html" .}}
             <li><a href="{{ .Site.BaseURL }}">Home</a></li>
             <li><a href="mailto:{{ .Site.Data.contact.email }}">Contact</a></li>
             <li class="copyright">© {{ now.Format "2006" }} {{.Site.Data.contact.businessName}}</li>
