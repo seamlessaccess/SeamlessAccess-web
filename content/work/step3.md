@@ -30,12 +30,14 @@ SeamlessAccess uses software called "thiss.io", a name derived from THe Identity
 
 For the "Limited" flavor, you will implement:
 
+* **[Understand the End-User Data Flow](#flow)** - Understand where the data is coming and going to inform your implementation design.
 * **[Discovery Service Integration](#discovery)** - Integrate the SeamlessAccess service to use it as your Discovery Service.
 
 ## Implementing the "Standard" Flavor
 
 For the "Standard" flavor, you will implement:
 
+* **[Understand the End-User Data Flow](#flow)** - Understand where the data is coming and going to inform your implementation design.
 * **[Discovery Service Integration](#discovery)** - Integrate the Seamless Access service to use it as your Discovery Service.
 * **[Display of Seamless Access Login Button](#display)** - Use the Seamless Access service to display the login button component on your SP login page.
 * **[Integration of Login Button with your SAML SP](#connect)** - Integrate the Seamless Access service to use it as your Discovery Service.
@@ -44,6 +46,7 @@ For the "Standard" flavor, you will implement:
 
 For the "Advanced" flavor, you will implement:
 
+* **[Understand the End-User Data Flow](#flow)** - Understand where the data is coming and going to inform your implementation design.
 * **[Download and edit the Seamless Access Discovery service software](#software)** - you will use this set of clients to configure both persistence and discovery services for your custom service
 * **[Use the Seamless Access API](#api)** - Use these clients to interact with the persistence service when using your own discovery service.
 
@@ -59,8 +62,8 @@ You can see an example of the “Standard” implementation at our [Demo Service
 
 ---
 
-## Understand the End-User Data Flow
-Each level of integration will have the user data flow through the environment along slightly different paths. Make sure you understand exactly where the data is coming and going via each integration as you design your environment. See [this explanation](work/SA_User-DataFlow..pdf) of the user data flow for every integration. 
+## Understand the End-User Data Flow <a name="flow"></a>
+Each level of integration will have the user data flow through the environment along slightly different paths. Make sure you understand exactly where the data is coming and going via each integration as you design your environment. See [this explanation](/work/SA_User-DataFlow.pdf) of the user data flow for every integration. 
 
 ## Discovery Service Integration <a name="discovery"></a>
 
