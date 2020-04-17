@@ -22,9 +22,13 @@ How does your system support federated authentication? In all cases, your servic
 
 --- 
 
-SeamlessAccess.org provides services and software, enabling three different “flavors” of implementation, each with their own benefits and challenges:
+SeamlessAccess.org provides services and software, enabling three different “flavors” of implementation, each with their own benefits and challenges. Each integration will do something slightly different in terms of the data flow for user information - learn more [here](/work/SA_User-DataFlow.pdf). 
+
+
 
 ## Limited
+
+![Limited Icon](/work/icn_flavors_limited.svg)
 
 _lets you use the Seamless Access discovery service for users to find and sign into their preferred Identity Provider, but doesn’t integrate this service into your site._
 
@@ -46,6 +50,8 @@ You will display the SeamlessAccess button image on your site. When the end user
 
 ## Standard
 
+![Standard Icon](/work/icn_flavors_standard.svg)
+
 _lets you use the SeamlessAccess service to display the button on your site, and use the SeamlessAccess discovery and persistence services as integrated components on your site._
 
 ### How it works
@@ -66,6 +72,8 @@ All of the benefits of the **Limited** implementation PLUS
 ---
 
 ## Advanced
+
+![Advanced Icon](/work/icn_flavors_advanced.svg)
 
 _provides you with the Seamless Access persistence service while giving you greater control over the appearance of the service on your site, and what Identity Providers (IdPs) you include in your discovery service._
 
