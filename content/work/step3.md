@@ -59,6 +59,9 @@ You can see an example of the “Standard” implementation at our [Demo Service
 
 ---
 
+## Understand the End-User Data Flow
+Each level of integration will have the user data flow through the environment along slightly different paths. Make sure you understand exactly where the data is coming and going via each integration as you design your environment. See [this explanation](work/SA_User-DataFlow..pdf) of the user data flow for every integration. 
+
 ## Discovery Service Integration <a name="discovery"></a>
 
 For the **Limited** and **Standard** integration flavors, you will be using the SeamlessAccess discovery service. This service is based on the [eduGAIN](https://edugain.org/) metadata list. You can see a list of participating organizations at the [eduGAIN technical website](https://technical.edugain.org/).
