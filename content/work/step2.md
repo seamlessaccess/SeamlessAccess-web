@@ -22,7 +22,7 @@ How does your system support federated authentication? In all cases, your servic
 
 --- 
 
-SeamlessAccess.org provides services and software, enabling three different “flavors” of implementation, each with their own benefits and challenges:
+SeamlessAccess.org provides services and software, enabling three different “flavors” of implementation, each with their own benefits and challenges. Each integration will do something slightly different in terms of the data flow for user information - learn more [here](work/SA_User-DataFlow.pdf). 
 
 ## Limited
 
