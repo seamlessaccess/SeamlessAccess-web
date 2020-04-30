@@ -42,7 +42,7 @@ theme = "hugo-hero-theme"
 [[menu.main]]
     name = "Blog"
     url = "/posts/"
-    weight = 5
+    weight = 4
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
