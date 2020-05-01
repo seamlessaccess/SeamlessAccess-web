@@ -1,4 +1,17 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e10e0e33-c380-49bf-98e4-a778dd8303cb/deploy-status)](https://app.netlify.com/sites/seamlessaccess-web/deploys)
+
 # Seamless Access Website
+
+**Table of Contents**
+
+* [Before you start](#before-you-start)
+* [The process for making updates](#the-process-for-making-updates)
+* [Updating metadata](#updating-metadata)
+* [Updating the site](#updating-the-site)
+* [Home page](#home-page)
+* [Getting Started Page](#getting-started-page)
+
+# Before you start
 
 > **IMPORTANT!!** ALL CHANGES to the website should be made in branches that are merged via a pull request into the `Master` Branch.
 >
@@ -11,17 +24,28 @@
 > 
 > **If this process is not followed, the site will not build.**
 
-# How to make a change that you made display on the site
+# The process for making updates
 
-## Make and check the changes that you are going to make
+1. Make and check the changes that you are going to make. ** Before making and saving changes, it is a good idea to create and use a branch for your changes
 
-1. Run the pages locally to make sure that they look okay 
+2. Run the pages locally to make sure that they look okay 
 
-  * Type `hugo server -D` from the folder where your website files are stored. on the command line to run the website on your computer
-  * Navigate to `http://localhost:1313/learn-hugo/` in your browser to see the site locally. **What you see here is NOT what is currently on the website**
-  * You can make changes in the files and (for most changes) when you save them in your files, the changes will be reflected on your local branch
+    * Type `hugo server -D` on the command line to run the website on your computer. You will need to type this command from the folder where your website files are stored. 
+    * Navigate to `http://localhost:1313/` in your browser to see the site locally. **What you see here is NOT what is currently on the website**
+    * You can make changes in the files and (for most changes) when you save them in your files, the changes will be reflected on your local branch and in your browser (if hugo is still running.)
+    * to stop your local website from running, type control-C from your keyboard.
 
-2. When you are satisfied with your additions and changes, make sure that all of your changes have been committed to the master branch. (It's a great idea to do this from a separate branch, and make a pull commit to contribute these changes to the site.)
+3. When you are satisfied with your additions and changes, make sure that all of your changes have been committed to the master branch on Github. (It's a great idea to do this from a separate branch, and make a pull commit to contribute these changes to the site.)
+
+4. Create a pull request from the `Master` branch to the `Live` branch. This action will build the static site in Hugo, and run some diagnostics to ensure that the build worked well. You will need to wait until all of the checks have completed before doing the next step:
+
+![readme-images/checks-complete.png]
+
+5. Once the checks are complete, preview the site by clicking the "details" link on deploy-preview. Review all of the pages that you changed, and check all of the links. If anything needs to be corrected, make the corrections in the master branch. You should be able to see the changes in the deploy preview once the build is complete.
+
+![readme-images/deploy-preview.png]
+
+6. Once you're happy with the changes, merge the pull request to push the changes to production.
 
 # Updating metadata
 
@@ -155,6 +179,82 @@ type | indicates the layout type for the page - this should remain as "about" | 
 description | this text is displayed on the about landing page | description: "Short description here. New image is needed."
 weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | weight: 2
 hero | as with the other pages, you can include a hero image and text here. the usual fields are included | heroHeading: 'SeamlessAccess.org Community'; heroSubHeading: 'Who is SeamlessAccess?'; heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
+---
+
+# Home Page
+
+## Contact section
+
+![readme-images](home-contact.png)
+
+### HOME PAGE CONTENT
+
+The information displayed in the box comes from the following file:
+
+`content > homepage > contact.md`
+
+* **Title** = blue “Get Involved” text. Note that it displays in title case regardless of how you type it in at the metadata
+* **Background** = the background image in this section. NOTE: the background is an overlay of the light grey color on the site. If no image is included, the background will be light grey by default
+* **Button** = the text displayed in the button. Note that it will be in all caps regardless of how it is expressed in the metadata
+buttonLink = the page that the reader will go when clicking the button - this is currently configured to go to the “contact” section of the site, or the content at `content > contact > _index.md`
+* **Body** = whatever you put into the body of this file will display in this box on the home page. You can use normal markdown formatting.
+* **Weight** = Please leave this number as-is. It is currently used as a shortcut for the rendering engine to know which content from the homepage content folder goes in this box.
+
+### HOME PAGE FORMATTING
+
+To format this section, you need to edit the following file:
+
+`layouts > index.html`
+
+At the time of this writing, the rendering of this box can be found in lines 103-115 of this file.
+
+``` html
+      <!-- Contact -->
+      {{ range first 1 $reusablePages }}
+      <div class="col-12 col-md-4">
+        <div class="row bg-ltgrey bg-cover bg-position-top bg-overlay pt-4 pb-4" style='background-image: url("{{ .Params.background | relURL }}");'>
+          <div class="col-2"></div>
+          <div class="col-8">
+          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+          <p>{{ .Content }}</p>
+          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      {{ end }}
+```
+
+https://github.com/seamlessaccess/SeamlessAccess-web/blob/15a8484e811567149f4669a5c52f6e990cdabaaf/layouts/index.html#L103-L120
+
+Lines 104 & 116 functionality select the contact.md file from the homepage content folder.
+The div in line 105 places the block in 4 columns (of the 12 column block to place it next to the recent news section (which is 8 columns). This arrangement is if the responsive size is medium or larger. If smaller, this block takes up the full width of the screen (12 columns)
+Lines 107, 108 and 113 makes a 2:8:2 size ratio across the width - blankspace to content block to blankspace.
+Line 109 uses the “title” parameter in the home page content (above) and renders it capitalized in H2 size in the primary color (blue) 
+Line 120 renders the content (body) in the home page content (above). It uses the style sheet used over the rest of the home page.
+Line 111 renders the button which links to the page listed in the buttonLink parameter and displays the text in the button parameter as displayed in the home page content (above)
+
+### CONTACT PAGE
+
+When the user clicks the button on the home page, they will be brought to the “contact” page. The content for this page can be found here:
+
+`content > contact > _index.md`
+
+The layout for this page uses can be found here:
+
+`layouts > contact > contact.html`
+
+Site wide data that are used in the contact page can be found in the following file:
+
+`data > contact.yaml`
+
+* email 
+* phone
+* businessName
+* address - note that the address is only displayed if there is one configured
+* url
+
+
 ---
 
 # Getting Started Page
