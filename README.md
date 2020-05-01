@@ -44,11 +44,11 @@
 
 4. Create a pull request from the `Master` branch to the `Live` branch. This action will build the static site in Hugo, and run some diagnostics to ensure that the build worked well. You will need to wait until all of the checks have completed before doing the next step:
 
-![screen shot - checks complete](readme-images/checks-complete.png)
+  ![screen shot - checks complete](readme-images/checks-complete.png)
 
 5. Once the checks are complete, preview the site by clicking the "details" link on deploy-preview. Review all of the pages that you changed, and check all of the links. If anything needs to be corrected, make the corrections in the master branch. You should be able to see the changes in the deploy preview once the build is complete.
 
-![screen shot - click details for the deploy preview](readme-images/deploy-preview.png)
+  ![screen shot - click details for the deploy preview](readme-images/deploy-preview.png)
 
 6. Once you're happy with the changes, merge the pull request to push the changes to production.
 
@@ -146,16 +146,15 @@ The content for this section is stored in the `content > work` folder. The `_ind
 
 Name | Description | Example
 ---- | ----------- | -------
-title | the title for the page. Displayed on the browser title bar | title: 'SpringerNature'
-date | the publication date for the page. This field is optional, but useful to get search engines to re-index the page if it changes | date: 2018-11-18T12:33:46+10:00
-draft | indication if this page is a draft or not. It is possible that this feature is not implemented on this site - not tested | draft: false
-weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | weight: 1
-heroHeading | on the page there is text that can be displayed over the hero image. This optional text will be displayed as a header | heroHeading: ''
-heroSubHeading | Additional text that can be displayed over the hero image. This optional text will be displayed as a sub header | heroSubHeading: ''
-heroBackground | the image that is displayed as a hero image. Note that this image is automatically overlayed with an overlay background to make all images look more similar to each other. While this image can be referenced by URL, it is a little safer to store the image in the `static > work` folder and reference it here `'work/fileName.jpg'` | heroBackground: 'https://source.unsplash.com/tjX_sniNzgQ/1600x400'
-thumbnail | this is the image that displays on the summary and list version. You can make it the same as the header image, or something different (including the same image with different dimensions | thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'
-images | a list of images for the gallery. Note the format shown in the example | images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+title | the title for the page. Displayed on the browser title bar | `title: 'SpringerNature'`
+date | the publication date for the page. This field is optional, but useful to get search engines to re-index the page if it changes | `date: 2018-11-18T12:33:46+10:00`
+draft | indication if this page is a draft or not. It is possible that this feature is not implemented on this site - not tested | `draft: false`
+weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | `weight: 1`
+heroHeading | on the page there is text that can be displayed over the hero image. This optional text will be displayed as a header | `heroHeading: ''`
+heroSubHeading | Additional text that can be displayed over the hero image. This optional text will be displayed as a sub header | `heroSubHeading: ''`
+heroBackground | the image that is displayed as a hero image. Note that this image is automatically overlayed with an overlay background to make all images look more similar to each other. While this image can be referenced by URL, it is a little safer to store the image in the `static > work` folder and reference it here `'work/fileName.jpg'` | `heroBackground: 'https://source.unsplash.com/tjX_sniNzgQ/1600x400'`
+thumbnail | this is the image that displays on the summary and list version. You can make it the same as the header image, or something different (including the same image with different dimensions | `thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'`
+images | a list of images for the gallery. Note the format shown in the example | `images: ['https://source.unsplash.com/random/400x600/?nature', 'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']`
 
 ---
 
@@ -234,8 +233,6 @@ At the time of this writing, the rendering of this box can be found in lines 103
 115      </div>
 116      {{ end }}
 ```
-
-https://github.com/seamlessaccess/SeamlessAccess-web/blob/15a8484e811567149f4669a5c52f6e990cdabaaf/layouts/index.html#L103-L120
 
 * **Lines 104 & 116** functionality select the contact.md file from the homepage content folder.
 * The div in **line 105** places the block in 4 columns (of the 12 column block to place it next to the recent news section (which is 8 columns). This arrangement is if the responsive size is medium or larger. If smaller, this block takes up the full width of the screen (12 columns)
