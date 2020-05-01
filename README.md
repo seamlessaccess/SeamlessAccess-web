@@ -8,8 +8,13 @@
 * [The process for making updates](#the-process-for-making-updates)
 * [Updating metadata](#updating-metadata)
 * [Updating the site](#updating-the-site)
-* [Home page](#home-page)
-* [Getting Started Page](#getting-started-page)
+  * [General components](#general-components)
+  * [Home page](#home-page)
+    * [Service section](#the-service)
+    * [In Action section](#in-action-section)
+    * [About section](#about-section)
+    * [Contact section](#contact-section)
+  * [Getting Started Page](#getting-started-page)
 
 # Before you start
 
@@ -39,11 +44,11 @@
 
 4. Create a pull request from the `Master` branch to the `Live` branch. This action will build the static site in Hugo, and run some diagnostics to ensure that the build worked well. You will need to wait until all of the checks have completed before doing the next step:
 
-![readme-images/checks-complete.png]
+![screen shot - checks complete](readme-images/checks-complete.png)
 
 5. Once the checks are complete, preview the site by clicking the "details" link on deploy-preview. Review all of the pages that you changed, and check all of the links. If anything needs to be corrected, make the corrections in the master branch. You should be able to see the changes in the deploy preview once the build is complete.
 
-![readme-images/deploy-preview.png]
+![screen shot - click details for the deploy preview](readme-images/deploy-preview.png)
 
 6. Once you're happy with the changes, merge the pull request to push the changes to production.
 
@@ -100,6 +105,8 @@ In the header:
 
 In the body of the markdown file, you should include the text that you want to display under the header.
 
+---
+
 ## The Service
 
 _This content is stored in the `content > services` folder_
@@ -125,6 +132,8 @@ heroSubHeadingLead | Additional text that can be displayed over the hero image. 
 heroSubHeading | Additional text that can be displayed over the hero image. This optional text will be displayed as a sub header | heroSubHeading: 'Include a useful subheader here'
 heroBackground | the image that is displayed as a hero image. Note that this image is automatically overlayed with an overlay background to make all images look more similar to each other | heroBackground: 'services/service1.jpg'
 
+---
+
 ## In Action section
 
 _This content is stored in the `content > work` folder. There is no menu pick for this content - it is displayed on the home page and at the bottom of the services page._
@@ -147,6 +156,8 @@ heroBackground | the image that is displayed as a hero image. Note that this ima
 thumbnail | this is the image that displays on the summary and list version. You can make it the same as the header image, or something different (including the same image with different dimensions | thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'
 images | a list of images for the gallery. Note the format shown in the example | images: ['https://source.unsplash.com/random/400x600/?nature', 
 'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+
+---
 
 ## About section
 
@@ -179,13 +190,12 @@ type | indicates the layout type for the page - this should remain as "about" | 
 description | this text is displayed on the about landing page | description: "Short description here. New image is needed."
 weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | weight: 2
 hero | as with the other pages, you can include a hero image and text here. the usual fields are included | heroHeading: 'SeamlessAccess.org Community'; heroSubHeading: 'Who is SeamlessAccess?'; heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
----
 
-# Home Page
+---
 
 ## Contact section
 
-![readme-images](home-contact.png)
+![Contact section of home page](readme-images/home-contact.png)
 
 ### HOME PAGE CONTENT
 
@@ -209,30 +219,30 @@ To format this section, you need to edit the following file:
 At the time of this writing, the rendering of this box can be found in lines 103-115 of this file.
 
 ``` html
-      <!-- Contact -->
-      {{ range first 1 $reusablePages }}
-      <div class="col-12 col-md-4">
-        <div class="row bg-ltgrey bg-cover bg-position-top bg-overlay pt-4 pb-4" style='background-image: url("{{ .Params.background | relURL }}");'>
-          <div class="col-2"></div>
-          <div class="col-8">
-          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
-          <p>{{ .Content }}</p>
-          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </div>
-      {{ end }}
+103      <!-- Contact -->
+104      {{ range first 1 $reusablePages }}
+105      <div class="col-12 col-md-4">
+106        <div class="row bg-ltgrey bg-cover bg-position-top bg-overlay pt-4 pb-4" style='background-image: url("{{ .Params.background | relURL }}");'>
+107          <div class="col-2"></div>
+108          <div class="col-8">
+109          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+110          <p>{{ .Content }}</p>
+111          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+112          </div>
+113          <div class="col-2"></div>
+114        </div>
+115      </div>
+116      {{ end }}
 ```
 
 https://github.com/seamlessaccess/SeamlessAccess-web/blob/15a8484e811567149f4669a5c52f6e990cdabaaf/layouts/index.html#L103-L120
 
-Lines 104 & 116 functionality select the contact.md file from the homepage content folder.
-The div in line 105 places the block in 4 columns (of the 12 column block to place it next to the recent news section (which is 8 columns). This arrangement is if the responsive size is medium or larger. If smaller, this block takes up the full width of the screen (12 columns)
-Lines 107, 108 and 113 makes a 2:8:2 size ratio across the width - blankspace to content block to blankspace.
-Line 109 uses the “title” parameter in the home page content (above) and renders it capitalized in H2 size in the primary color (blue) 
-Line 120 renders the content (body) in the home page content (above). It uses the style sheet used over the rest of the home page.
-Line 111 renders the button which links to the page listed in the buttonLink parameter and displays the text in the button parameter as displayed in the home page content (above)
+* **Lines 104 & 116** functionality select the contact.md file from the homepage content folder.
+* The div in **line 105** places the block in 4 columns (of the 12 column block to place it next to the recent news section (which is 8 columns). This arrangement is if the responsive size is medium or larger. If smaller, this block takes up the full width of the screen (12 columns)
+* **Lines 107, 108 and 113** makes a 2:8:2 size ratio across the width - blankspace to content block to blankspace.
+* **Line 109** uses the “title” parameter in the home page content (above) and renders it capitalized in H2 size in the primary color (blue) 
+* **Line 120** renders the content (body) in the home page content (above). It uses the style sheet used over the rest of the home page.
+* **Line 111** renders the button which links to the page listed in the buttonLink parameter and displays the text in the button parameter as displayed in the home page content (above)
 
 ### CONTACT PAGE
 
@@ -257,11 +267,11 @@ Site wide data that are used in the contact page can be found in the following f
 
 ---
 
-# Getting Started Page
+## Getting Started Page
 
 This page is a little different from the others - it is organized more like the Home Page is. This is where you find each of the pieces of content for the page:
 
-## Top section: Getting Started
+### Top section: Getting Started
 
 **CONTENT LOCATION**: `content > work > _index.md`
 
