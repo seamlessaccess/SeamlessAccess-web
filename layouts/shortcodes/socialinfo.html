@@ -1,2 +1,21 @@
 <!-- Displays the social media info within the page -->
-<p><a href="{{ .Site.Data.social.twitter }}" target="blank"><span class="fab fa-twitter"></span> Follow us on twitter</a></p>
+{{ if .Site.Data.social.twitter }}
+  <p><a href="{{ .Site.Data.social.twitter }}" target="blank"><span class="fab fa-twitter"></span> Follow us on twitter</a></p>
+{{ end }}
+{{ if .Site.Data.social.youtube }}
+  <p><a href="{{ .Site.Data.social.youtube }}" target="blank"><span class="fab fa-youtube"></span> View us on YouTube</a></p>
+{{ end }}
+{{ if .Site.Data.social.instagram }}
+<p><a href="{{ .Site.Data.social.instagram }}" target="blank"><span class="fab fa-instagram"></span> View us on Instagram</a></p>
+{{ end }}
+{{ if .Site.Data.social.linkedin }}
+<p><a href="{{ .Site.Data.social.linkedin }}" target="blank"><span class="fab fa-linkedin"></span> Connect with us on LinkedIn</a></p>
+{{ end }}
+{{ if .Site.Data.social.medium }}
+<p><a href="{{ .Site.Data.social.medium }}" target="blank"><span class="fab fa-medium"></span> Read us on Medium</a></p>
+{{ end }}
+{{ if .Site.Data.social.facebook }}
+<p><a href="{{ .Site.Data.social.facebook }}" target="blank"><span class="fab fa-facebook"></span> Connect with us on Facebook</a></p>
+{{ end }}  {{ if .Site.Data.social.orcid }}
+<p><a href="{{ .Site.Data.social.orcid }}" target="blank"><span class="fab fa-orcid"></span> See our work us on ORCID</a></p>
+{{ end }}

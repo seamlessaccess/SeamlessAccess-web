@@ -1,5 +1,5 @@
 ---
-title: 'In the loop'
+title: 'Stay in the loop'
 weight: 1
 background: 'images/hero_about.jpg'
 button: 'Get Involved'

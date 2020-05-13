@@ -1,5 +1,11 @@
-vimeo: ""
+# the social sites will be displayed in this order.
+# To change it, you must update layouts > partials > social (in themes)
+#    AND layouts > shortcodes > socialinfo.html
+# If blank, it will not display
 twitter: "https://twitter.com/seamlessaccess"
+youtube: "https://www.youtube.com/channel/UCHVM4zXwtO3mKgGxBAwVVaQ/featured"
 instagram: ""
 linkedin: ""
+medium: ""
 facebook: ""
+orcid: ""

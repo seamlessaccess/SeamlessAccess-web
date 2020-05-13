@@ -7,6 +7,7 @@
 * [Before you start](#before-you-start)
 * [The process for making updates](#the-process-for-making-updates)
 * [Updating metadata](#updating-metadata)
+* [Social media connections](#social-media)
 * [Updating the site](#updating-the-site)
   * [General components](#general-components)
   * [Home page](#home-page)
@@ -61,6 +62,47 @@ The information displayed in the site sub-footer is contained in the `data > con
 To add things to this subfooter, the `Layouts > Partials > sub-footer.html` file must be edited to include these items.
 
 _NOTE: the Business Name is displayed in the copyright in the main footer and in the address if one exists._
+
+# Social media
+
+The site has been encoded with social media for the following types:
+
+* Twitter
+* YouTube
+* Instagram
+* LinkedIn
+* Medium
+* Facebook
+* ORCID
+
+## Adding social media
+
+To add social media links, update the social data file
+
+`data > social.yaml`
+
+Only items with a value will be displayed. If you do not want to include one of these social types, just leave the value blank.
+
+## Displaying social media
+
+Social media is configured to be displayed for any item with a value in the data file. 
+
+**Displaying in the footer**
+
+It will display in the footer as the social media icon which is also a link to the social media asset. The link will follow that put into the data file. To edit the display, you will need to edit the partial found at 
+
+`themes > hugo-hero-theme > layouts > partials > social.html`
+
+**Displaying elsewhere on the site**
+
+If you want to dipslay the soical media links on a page somewhere, you can do so by including the following text in your markdown file:
+
+`{{< socialinfo >}}`
+
+This addition will display a list of the available social media assets with the social logo and a short phrase liek "Follow us on twitter". To edit the display, you will need to edit the shortcode found at
+
+`layouts > shortcodes > socialinfo.html`
+
 
 # Updating the site
 
