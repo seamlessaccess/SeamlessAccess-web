@@ -1,0 +1,34 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-contact{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+<div class="intro intro-small">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      {{ .Content }}
+      <ul>
+        <!-- Only include the phone if it is present -->
+        {{ if .Site.Data.contact.phone }}
+          <li><strong>Phone: </strong>{{ .Site.Data.contact.phone }}</li>
+        {{ end }}
+        <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
+        {{ .Site.Data.contact.email }}</a></li>
+        <!-- Only include the address if it is present -->
+        {{ if .Site.Data.contact.address }}
+          <li><strong>Address: </strong>{{ .Site.Data.contact.address }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>
+{{ end }}
