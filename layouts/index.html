@@ -82,10 +82,11 @@
 
 <hr>
 
-<!-- SeamlessAction in Action AND Recent News -->
+<!-- Recent News AND Contact -->
 {{ range first 1 (after 1 $reusablePages) }}
 <div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
   <div class="container pt-4 pb-4">
+    <!-- Recent news -->
     <div class="row">
       <!--<div class="col-12 col-md-6">
         <h3 class="text-capitalize">{{ .Title }}</h3>
@@ -98,7 +99,21 @@
           {{ partial "blog/post-recent-summary" . }}
           <a class="button" href="posts/">View All News</a>
         </div>
-    </div>
+      </div>
+      <!-- Contact -->
+      {{ range first 1 $reusablePages }}
+      <div class="col-12 col-md-4">
+        <div class="row bg-ltgrey bg-cover bg-position-top bg-overlay pt-4 pb-4" style='background-image: url("{{ .Params.background | relURL }}");'>
+          <div class="col-2"></div>
+          <div class="col-8">
+          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+          <p>{{ .Content }}</p>
+          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      {{ end }}
     </div>
   </div>
 </div>
@@ -109,7 +124,7 @@
   <div class="container pt-4 pb-8 pb-md-8 pt-md-4">
     <!-- justify-content-center makes the text appear centered -->
     <div class="row justify-content-center">
-      <div class="col-12 col-md-8 text-center text-white">
+      <div class="col-12 col-md-6 text-center text-white">
         <h2>{{ .Title }}</h2>
         <p>{{ .Content }}</p>
         <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>

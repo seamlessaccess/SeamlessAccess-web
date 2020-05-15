@@ -1,4 +1,23 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e10e0e33-c380-49bf-98e4-a778dd8303cb/deploy-status)](https://app.netlify.com/sites/seamlessaccess-web/deploys)
+
 # Seamless Access Website
+
+**Table of Contents**
+
+* [Before you start](#before-you-start)
+* [The process for making updates](#the-process-for-making-updates)
+* [Updating metadata](#updating-metadata)
+* [Social media connections](#social-media)
+* [Updating the site](#updating-the-site)
+  * [General components](#general-components)
+  * [Home page](#home-page)
+    * [Service section](#the-service)
+    * [In Action section](#in-action-section)
+    * [About section](#about-section)
+    * [Contact section](#contact-section)
+  * [Getting Started Page](#getting-started-page)
+
+# Before you start
 
 > **IMPORTANT!!** ALL CHANGES to the website should be made in branches that are merged via a pull request into the `Master` Branch.
 >
@@ -11,17 +30,28 @@
 > 
 > **If this process is not followed, the site will not build.**
 
-# How to make a change that you made display on the site
+# The process for making updates
 
-## Make and check the changes that you are going to make
+1. Make and check the changes that you are going to make. ** Before making and saving changes, it is a good idea to create and use a branch for your changes
 
-1. Run the pages locally to make sure that they look okay 
+2. Run the pages locally to make sure that they look okay 
 
-  * Type `hugo server -D` from the folder where your website files are stored. on the command line to run the website on your computer
-  * Navigate to `http://localhost:1313/learn-hugo/` in your browser to see the site locally. **What you see here is NOT what is currently on the website**
-  * You can make changes in the files and (for most changes) when you save them in your files, the changes will be reflected on your local branch
+    * Type `hugo server -D` on the command line to run the website on your computer. You will need to type this command from the folder where your website files are stored. 
+    * Navigate to `http://localhost:1313/` in your browser to see the site locally. **What you see here is NOT what is currently on the website**
+    * You can make changes in the files and (for most changes) when you save them in your files, the changes will be reflected on your local branch and in your browser (if hugo is still running.)
+    * to stop your local website from running, type control-C from your keyboard.
 
-2. When you are satisfied with your additions and changes, make sure that all of your changes have been committed to the master branch. (It's a great idea to do this from a separate branch, and make a pull commit to contribute these changes to the site.)
+3. When you are satisfied with your additions and changes, make sure that all of your changes have been committed to the master branch on Github. (It's a great idea to do this from a separate branch, and make a pull commit to contribute these changes to the site.)
+
+4. Create a pull request from the `Master` branch to the `Live` branch. This action will build the static site in Hugo, and run some diagnostics to ensure that the build worked well. You will need to wait until all of the checks have completed before doing the next step:
+
+  ![screen shot - checks complete](readme-images/checks-complete.png)
+
+5. Once the checks are complete, preview the site by clicking the "details" link on deploy-preview. Review all of the pages that you changed, and check all of the links. If anything needs to be corrected, make the corrections in the master branch. You should be able to see the changes in the deploy preview once the build is complete.
+
+  ![screen shot - click details for the deploy preview](readme-images/deploy-preview.png)
+
+6. Once you're happy with the changes, merge the pull request to push the changes to production.
 
 # Updating metadata
 
@@ -32,6 +62,47 @@ The information displayed in the site sub-footer is contained in the `data > con
 To add things to this subfooter, the `Layouts > Partials > sub-footer.html` file must be edited to include these items.
 
 _NOTE: the Business Name is displayed in the copyright in the main footer and in the address if one exists._
+
+# Social media
+
+The site has been encoded with social media for the following types:
+
+* Twitter
+* YouTube
+* Instagram
+* LinkedIn
+* Medium
+* Facebook
+* ORCID
+
+## Adding social media
+
+To add social media links, update the social data file
+
+`data > social.yaml`
+
+Only items with a value will be displayed. If you do not want to include one of these social types, just leave the value blank.
+
+## Displaying social media
+
+Social media is configured to be displayed for any item with a value in the data file. 
+
+**Displaying in the footer**
+
+It will display in the footer as the social media icon which is also a link to the social media asset. The link will follow that put into the data file. To edit the display, you will need to edit the partial found at 
+
+`themes > hugo-hero-theme > layouts > partials > social.html`
+
+**Displaying elsewhere on the site**
+
+If you want to dipslay the soical media links on a page somewhere, you can do so by including the following text in your markdown file:
+
+`{{< socialinfo >}}`
+
+This addition will display a list of the available social media assets with the social logo and a short phrase liek "Follow us on twitter". To edit the display, you will need to edit the shortcode found at
+
+`layouts > shortcodes > socialinfo.html`
+
 
 # Updating the site
 
@@ -76,6 +147,8 @@ In the header:
 
 In the body of the markdown file, you should include the text that you want to display under the header.
 
+---
+
 ## The Service
 
 _This content is stored in the `content > services` folder_
@@ -101,6 +174,8 @@ heroSubHeadingLead | Additional text that can be displayed over the hero image. 
 heroSubHeading | Additional text that can be displayed over the hero image. This optional text will be displayed as a sub header | heroSubHeading: 'Include a useful subheader here'
 heroBackground | the image that is displayed as a hero image. Note that this image is automatically overlayed with an overlay background to make all images look more similar to each other | heroBackground: 'services/service1.jpg'
 
+---
+
 ## In Action section
 
 _This content is stored in the `content > work` folder. There is no menu pick for this content - it is displayed on the home page and at the bottom of the services page._
@@ -113,16 +188,17 @@ The content for this section is stored in the `content > work` folder. The `_ind
 
 Name | Description | Example
 ---- | ----------- | -------
-title | the title for the page. Displayed on the browser title bar | title: 'SpringerNature'
-date | the publication date for the page. This field is optional, but useful to get search engines to re-index the page if it changes | date: 2018-11-18T12:33:46+10:00
-draft | indication if this page is a draft or not. It is possible that this feature is not implemented on this site - not tested | draft: false
-weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | weight: 1
-heroHeading | on the page there is text that can be displayed over the hero image. This optional text will be displayed as a header | heroHeading: ''
-heroSubHeading | Additional text that can be displayed over the hero image. This optional text will be displayed as a sub header | heroSubHeading: ''
-heroBackground | the image that is displayed as a hero image. Note that this image is automatically overlayed with an overlay background to make all images look more similar to each other. While this image can be referenced by URL, it is a little safer to store the image in the `static > work` folder and reference it here `'work/fileName.jpg'` | heroBackground: 'https://source.unsplash.com/tjX_sniNzgQ/1600x400'
-thumbnail | this is the image that displays on the summary and list version. You can make it the same as the header image, or something different (including the same image with different dimensions | thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'
-images | a list of images for the gallery. Note the format shown in the example | images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+title | the title for the page. Displayed on the browser title bar | `title: 'SpringerNature'`
+date | the publication date for the page. This field is optional, but useful to get search engines to re-index the page if it changes | `date: 2018-11-18T12:33:46+10:00`
+draft | indication if this page is a draft or not. It is possible that this feature is not implemented on this site - not tested | `draft: false`
+weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | `weight: 1`
+heroHeading | on the page there is text that can be displayed over the hero image. This optional text will be displayed as a header | `heroHeading: ''`
+heroSubHeading | Additional text that can be displayed over the hero image. This optional text will be displayed as a sub header | `heroSubHeading: ''`
+heroBackground | the image that is displayed as a hero image. Note that this image is automatically overlayed with an overlay background to make all images look more similar to each other. While this image can be referenced by URL, it is a little safer to store the image in the `static > work` folder and reference it here `'work/fileName.jpg'` | `heroBackground: 'https://source.unsplash.com/tjX_sniNzgQ/1600x400'`
+thumbnail | this is the image that displays on the summary and list version. You can make it the same as the header image, or something different (including the same image with different dimensions | `thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'`
+images | a list of images for the gallery. Note the format shown in the example | `images: ['https://source.unsplash.com/random/400x600/?nature', 'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']`
+
+---
 
 ## About section
 
@@ -155,13 +231,86 @@ type | indicates the layout type for the page - this should remain as "about" | 
 description | this text is displayed on the about landing page | description: "Short description here. New image is needed."
 weight | the order that this item should be displayed in the list and summary views. Note, this is a dumb indicator. You are going to want to be careful about assigning different numbers to each page to avoid conflicts | weight: 2
 hero | as with the other pages, you can include a hero image and text here. the usual fields are included | heroHeading: 'SeamlessAccess.org Community'; heroSubHeading: 'Who is SeamlessAccess?'; heroBackground: 'https://source.unsplash.com/_v-EHHKKW3w/1600x700'
+
 ---
 
-# Getting Started Page
+## Contact section
+
+![Contact section of home page](readme-images/home-contact.png)
+
+### HOME PAGE CONTENT
+
+The information displayed in the box comes from the following file:
+
+`content > homepage > contact.md`
+
+* **Title** = blue “Get Involved” text. Note that it displays in title case regardless of how you type it in at the metadata
+* **Background** = the background image in this section. NOTE: the background is an overlay of the light grey color on the site. If no image is included, the background will be light grey by default
+* **Button** = the text displayed in the button. Note that it will be in all caps regardless of how it is expressed in the metadata
+buttonLink = the page that the reader will go when clicking the button - this is currently configured to go to the “contact” section of the site, or the content at `content > contact > _index.md`
+* **Body** = whatever you put into the body of this file will display in this box on the home page. You can use normal markdown formatting.
+* **Weight** = Please leave this number as-is. It is currently used as a shortcut for the rendering engine to know which content from the homepage content folder goes in this box.
+
+### HOME PAGE FORMATTING
+
+To format this section, you need to edit the following file:
+
+`layouts > index.html`
+
+At the time of this writing, the rendering of this box can be found in lines 103-115 of this file.
+
+``` html
+103      <!-- Contact -->
+104      {{ range first 1 $reusablePages }}
+105      <div class="col-12 col-md-4">
+106        <div class="row bg-ltgrey bg-cover bg-position-top bg-overlay pt-4 pb-4" style='background-image: url("{{ .Params.background | relURL }}");'>
+107          <div class="col-2"></div>
+108          <div class="col-8">
+109          <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+110          <p>{{ .Content }}</p>
+111          <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+112          </div>
+113          <div class="col-2"></div>
+114        </div>
+115      </div>
+116      {{ end }}
+```
+
+* **Lines 104 & 116** functionality select the contact.md file from the homepage content folder.
+* The div in **line 105** places the block in 4 columns (of the 12 column block to place it next to the recent news section (which is 8 columns). This arrangement is if the responsive size is medium or larger. If smaller, this block takes up the full width of the screen (12 columns)
+* **Lines 107, 108 and 113** makes a 2:8:2 size ratio across the width - blankspace to content block to blankspace.
+* **Line 109** uses the “title” parameter in the home page content (above) and renders it capitalized in H2 size in the primary color (blue) 
+* **Line 120** renders the content (body) in the home page content (above). It uses the style sheet used over the rest of the home page.
+* **Line 111** renders the button which links to the page listed in the buttonLink parameter and displays the text in the button parameter as displayed in the home page content (above)
+
+### CONTACT PAGE
+
+When the user clicks the button on the home page, they will be brought to the “contact” page. The content for this page can be found here:
+
+`content > contact > _index.md`
+
+The layout for this page uses can be found here:
+
+`layouts > contact > contact.html`
+
+Site wide data that are used in the contact page can be found in the following file:
+
+`data > contact.yaml`
+
+* email 
+* phone
+* businessName
+* address - note that the address is only displayed if there is one configured
+* url
+
+
+---
+
+## Getting Started Page
 
 This page is a little different from the others - it is organized more like the Home Page is. This is where you find each of the pieces of content for the page:
 
-## Top section: Getting Started
+### Top section: Getting Started
 
 **CONTENT LOCATION**: `content > work > _index.md`
 
