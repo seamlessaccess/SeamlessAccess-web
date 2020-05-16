@@ -6,7 +6,7 @@ categories: [General]
 hero: true
 heroHeading: 'Join SeamlessAccess.org at the first Trust & Identity Hackathon'
 heroSubHeading: ''
-heroBackground: "https://picsum.photos/2560/600?image=872"
+heroBackground: "images/hero_news.jpg"
 ---
 
 Taking the findings of the [RA21 initiative](https://ra21.org) to the next level, SeamlessAccess.org intends to support a streamlined federated authentication experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service will promote digital authentication leveraging an existing single-sign-on infrastructure through one’s home institution, while maintaining an environment that protects personal data and privacy. The service aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.

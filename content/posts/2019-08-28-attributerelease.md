@@ -6,7 +6,7 @@ categories: [General]
 hero: true
 heroHeading: 'Introduction to Identity Attributes and Attribute Release for Access to Online Library Resources'
 heroSubHeading: ''
-heroBackground: "https://picsum.photos/2560/600?image=872"
+heroBackground: "images/hero_news.jpg"
 ---
 
 This guide is for non-technical people who want to understand how attribute release enables secure and privacy-preserving access to online library resources using federated identity management. If you first want to read up on what federated identity management is, you can find a basic introduction [here](https://docs.google.com/document/d/12my34dszhjr7cj-YPM8g0hGUZ4KIBQLbL3hCVD-4h5c/edit).
