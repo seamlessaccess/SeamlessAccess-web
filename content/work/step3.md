@@ -108,27 +108,27 @@ For more details visit the [SSP documentation](https://simplesamlphp.org/docs/st
 
 You will need to reference the SeamlessAccess component library before you can use it. For the Standard implementation, you will always reference through a CDN:
 
-``` html
+{{< code lang="html" >}}
 <head>
 <!-- Include the SeamlessAccess Sign in Button & Discovery Service -->
 <script src="https://service.seamlessaccess.org/thiss.js"></script>
 </head>
-```
+{{< /code >}}
 
 ### Rendering the button
 
 Include a `<div>` container that is identified with an id tag where you want the button to appear on your HTML page:
 
-``` html
+{{< code lang="html" >}}
 <body>
   <!-- Location for the SeamlessAccess login button -->
   <div id='putMyLoginButtonHere'></div>
 </body>
-```
+{{< /code >}}
 
 And to display the button into this container, invoke the DiscoveryComponent.render function as a handler for the onload event on the window. This action will cause the button to initialize as soon as the window has finished loading. _(NOTE: while it is possible to initialize the button component earlier, the behavior can be unpredictable and is not recommended.)_
 
-``` html
+{{< code lang="html" >}}
 <script>
 window.onload = function() {
   // Render the SeamlessAccess button
@@ -137,7 +137,7 @@ window.onload = function() {
   }, '#putMyLoginButtonHere');
 };
 </script>
-```
+{{< /code >}}
 
 The `render` function in this code, takes two parameters:
 
@@ -148,9 +148,9 @@ The `render` function in this code, takes two parameters:
 
 If your website publishes a [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) you will need to make provision for the components served from the service.seamlessaccess.org CDN (or from your domain if you deploy your own version of thiss) by merging the following into your existing CSP:
 
-```
+{{< code lang="bash" >}}
 Content-Security-Policy: script-src 'unsafe-inline' service.seamlessaccess.org; frame-src service.seamlessaccess.org;
-```
+{{< /code >}}
 
 The `'unsafe-inline'` is required for the above `DiscoveryComponent.render` example, but could be removed if the onload function was included e.g. from a file.
 
@@ -185,33 +185,33 @@ When implementing the "Advanced" flavor, you will need to recreate the SeamlessA
 
 The SeamlessAccess software (`thiss-ds`) is registered as a [package](https://www.npmjs.com/package/@theidentityselector/thiss-ds) on [npm](https://www.npmjs.com/). You can install the latest version of SeamlessAccess with the npm CLI command
 
-```bash
+{{< code lang="bash" >}}
 > npm install [--save] @theidentityselector/thiss-ds
-```
+{{< /code >}}
 
 The thiss-ds package supports both CommonJS-style and ES6-style import as well as CDN delivery.
 
 **CommonJS:**
 
-``` js
+{{< code lang="js" >}}
 var thiss = require("this-ds.js");
-```
+{{< /code >}}
 
 **ES6-style:**
 
-``` js
+{{< code lang="js" >}}
 import {DiscoveryService} from "thiss-ds";
 import {PersistenceService} from "thiss-ds";
-```
+{{< /code >}}
 
 **CDN:**
 
-``` html
+{{< code lang="html" >}}
 <head>
 <!-- Include the downloaded SeamlessAccess Discovery Client API -->
 <script src="//unpkg.com/browse/@theidentityselector/thiss-ds"></script>
 </head>
-```
+{{< /code >}}
 
 _Also see the [software documentation](https://thiss-ds-js.readthedocs.io/en/latest/install.html) for more information._
 
