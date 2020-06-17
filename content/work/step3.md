@@ -50,6 +50,7 @@ For the "Advanced" flavor, you will implement:
 * **[Plan your user experience](#ux)** - Understand the SeamlessAccess guidelines for user interface and experience (UI/UX). Review the guidelines, review the usability studies, and plan a conversation with the SeamlessAccess UI/UX team.
 * **[Download and edit the SeamlessAccess Discovery service software](#software)** - you will use this set of clients to configure both persistence and discovery services for your custom service
 * **[Use the SeamlessAccess API](#api)** - Use these clients to interact with the persistence service when using your own discovery service.
+* **[Request production access for your implementation](#prod)** - Before your advanced flavor implementation can go live, you will need to request your service domains to be included in our list of production implementations.
 
 The "Advanced" flavor is significantly more complicated than the other implementations, and should only be used if you are unable to achieve your discovery and/or UX experiences otherwise.
 
@@ -176,7 +177,7 @@ For Shibboleth this is all handled by providing the single `loginInitiatorURL` p
 
 When implementing the "Advanced" flavor, you will need to recreate the SeamlessAccess user experience and interface. SeamlessAccess requires consistency in the user's experience when using the service across different service providers. To this end, we provide several resources:
 
-* **Advisory/Review Meeting** - During the beta period, we are requiring at least one meeting for each service provider with our UI/UX team to review and advise on your plans for incorporating SeamlessAccess into your service. _We highly recommend that you schedule this meeting as early as possible in your planning process._ Approval from this team is required before you'll be able to enable your service to work with the production service.
+* **Advisory/Review Meeting** - During the beta period, we are requiring at least one meeting for each service provider with our UI/UX team to review and advise on your plans for incorporating SeamlessAccess into your service. _We highly recommend that you schedule this meeting as early as possible in your planning process._ Approval from this team is required before you'll be able to enable your service to work with the production service. You can contact contact@seamlessaccess.org to set up a meeting.
 * **UI/UX guidelines** - The guidelines for the user experience and interface can be found in the [Recommended Practices for Improved Access to Institutionally-Provided Information Resources](https://groups.niso.org/apps/group_public/download.php/21892/NISO_RP-27-2019_RA21_Identity_Discovery_and_Persistence.pdf). These guidelines have evolved since their writing, so it will be important to pair your understanding of these practices with the **Advisory/Review Meeting** described above.
 * **Usability testing results** - In planning the user experience for SeamlessAccess, the solution went through extensive usability testing. See the insights: [RA21 User Research Summary](https://docs.google.com/presentation/d/1hN-u8CgEzG_9eVf8TGUz29fG876f_UVw9d5GOzA-gbE/edit?usp=sharing)
 
@@ -200,5 +201,11 @@ Once downloaded, you can reference the (edited) software in your HTML.
 ## Use the SeamlessAccess API <a name="api"></a>
 
 The documentation for the API and other details for using the software can be found in the [software documentation](https://thiss-js.readthedocs.io/en/latest/).
+
+## Request production access for your implementation <a name="prod"></a>
+
+Before your advanced flavor implementation can go live, you will need to request your service domains to be included in our list of production implementations. Your user experience will [need to have been reviewed](#ux) before moving to production, so, be sure that you have allowed enough time for this process.
+
+Once you are approved to go live, use this [form to submit your production domains](https://airtable.com/shrW1gq06nMazByEt) for access. Your request will be reviewed by the SeamlessAccess team, and you will be notified when everything is ready.
 
 NEXT: [Step 4. Tell your users](../step4)
