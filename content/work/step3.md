@@ -185,7 +185,7 @@ When implementing the "Advanced" flavor, you will need to recreate the SeamlessA
 
 The SeamlessAccess software (`thiss-ds`) is registered as a [package](https://www.npmjs.com/package/@theidentityselector/thiss-ds) on [npm](https://www.npmjs.com/). You can install the latest version of SeamlessAccess with the npm CLI command
 
-```
+```bash
 > npm install [--save] @theidentityselector/thiss-ds
 ```
 
@@ -193,13 +193,13 @@ The thiss-ds package supports both CommonJS-style and ES6-style import as well a
 
 **CommonJS:**
 
-``` javascript
+``` js
 var thiss = require("this-ds.js");
 ```
 
 **ES6-style:**
 
-``` javacript
+``` js
 import {DiscoveryService} from "thiss-ds";
 import {PersistenceService} from "thiss-ds";
 ```
