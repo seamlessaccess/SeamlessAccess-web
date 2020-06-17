@@ -178,29 +178,48 @@ For Shibboleth this is all handled by providing the single `loginInitiatorURL` p
 When implementing the "Advanced" flavor, you will need to recreate the SeamlessAccess user experience and interface. SeamlessAccess requires consistency in the user's experience when using the service across different service providers. To this end, we provide several resources:
 
 * **Advisory/Review Meeting** - During the beta period, we are requiring at least one meeting for each service provider with our UI/UX team to review and advise on your plans for incorporating SeamlessAccess into your service. _We highly recommend that you schedule this meeting as early as possible in your planning process._ Approval from this team is required before you'll be able to enable your service to work with the production service. You can contact contact@seamlessaccess.org to set up a meeting.
-* **UI/UX guidelines** - The guidelines for the user experience and interface can be found in the [Recommended Practices for Improved Access to Institutionally-Provided Information Resources](https://groups.niso.org/apps/group_public/download.php/21892/NISO_RP-27-2019_RA21_Identity_Discovery_and_Persistence.pdf). These guidelines have evolved since their writing, so it will be important to pair your understanding of these practices with the **Advisory/Review Meeting** described above.
+* **UI/UX guidelines** - The guidelines for the user experience and interface can be found in **section 2.4 - Improve the User Experience of Identity Provider Discovery** of the [Recommended Practices for Improved Access to Institutionally-Provided Information Resources](https://groups.niso.org/apps/group_public/download.php/21892/NISO_RP-27-2019_RA21_Identity_Discovery_and_Persistence.pdf). These guidelines have evolved since their writing, so it will be important to pair your understanding of these practices with the **Advisory/Review Meeting** described above.
 * **Usability testing results** - In planning the user experience for SeamlessAccess, the solution went through extensive usability testing. See the insights: [RA21 User Research Summary](https://docs.google.com/presentation/d/1hN-u8CgEzG_9eVf8TGUz29fG876f_UVw9d5GOzA-gbE/edit?usp=sharing)
 
-## The SeamlessAccess Service Software <a name="software"></a>
+## Install the SeamlessAccess Service Software <a name="software"></a>
 
-SeamlessAccess is registered as a [package](https://www.npmjs.com/package/@theidentityselector/thiss-ds) on [npm](https://www.npmjs.com/). You can install the latest version of SeamlessAccess with the npm CLI command
+The SeamlessAccess software (`thiss-ds`) is registered as a [package](https://www.npmjs.com/package/@theidentityselector/thiss-ds) on [npm](https://www.npmjs.com/). You can install the latest version of SeamlessAccess with the npm CLI command
 
 ```
 > npm install [--save] @theidentityselector/thiss-ds
 ```
 
-Once downloaded, you can reference the (edited) software in your HTML.
+The thiss-ds package supports both CommonJS-style and ES6-style import as well as CDN delivery.
+
+**CommonJS:**
+
+``` javascript
+var thiss = require("this-ds.js");
+```
+
+**ES6-style:**
+
+``` javacript
+import {DiscoveryService} from "thiss-ds";
+import {PersistenceService} from "thiss-ds";
+```
+
+**CDN:**
 
 ``` html
 <head>
 <!-- Include the downloaded SeamlessAccess Discovery Client API -->
-<script src="/thiss-ds.js"></script>
+<script src="//unpkg.com/browse/@theidentityselector/thiss-ds"></script>
 </head>
 ```
 
-## Use the SeamlessAccess API <a name="api"></a>
+_Also see the [software documentation](https://thiss-ds-js.readthedocs.io/en/latest/install.html) for more information._
 
-The documentation for the API and other details for using the software can be found in the [software documentation](https://thiss-js.readthedocs.io/en/latest/).
+## Use the SeamlessAccess software service <a name="api"></a>
+
+To use the SeamlessAccess software (and related API), you will first create an instance of the DiscoveryService and/or PersistenceService object (installed by the package above), and make calls on it to perform the functions of interacting with the service. Note that the DiscoveryService object enables one to add their own MDQ-style lookup for entity objects and include the URL for the SeamlessAccess persistence service.
+
+Please refer to the [full documentation and examples](https://thiss-ds-js.readthedocs.io/en/latest/intro.html) for information on how to use the service software. We recommend that you join the [SeamlessAccess Slack conversation](https://join.slack.com/t/seamlessaccess/shared_invite/zt-f02ee4rb-KUVKmtYWN9TKWClPQbtrjA) to ask technical questions and share experiences with other beta developers.
 
 ## Request production access for your implementation <a name="prod"></a>
 
