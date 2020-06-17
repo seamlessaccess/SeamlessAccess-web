@@ -77,11 +77,11 @@ By far the easiest integration is to use SeamlessAccess service as a standard SA
 
 In the file /etc/shibboleth/shibboleth.xml modify the SSO element to read:
 
-``` html
+{{< code lang="html" >}}
 <SSO discoveryProtocol="SAMLDS" discoveryURL="https://service.seamlessaccess.org/ds/">
    SAML2
 </SSO>
-```
+{{< /code >}}
 
 For a complete set of options related to discovery see the [shibboleth documentation](https://wiki.shibboleth.net/confluence/display/SP3/Home).
 
@@ -89,14 +89,14 @@ For a complete set of options related to discovery see the [shibboleth documenta
 
 In authsources.php (relative to the SSP config directory) find your SAML authentication source (often named ‘default-sp’) and set the discoURL parameter to https://service.seamlessaccess.org/ds/:
 
-``` php
+{{< code lang="php">}}
 'default-sp' => array(
     'saml:SP',
     'entityID' => NULL,
     'discoURL' => 'https://service.seamlessaccess.org/ds/',
     ....
 ),
-```
+{{< /code >}}
 
 For more details visit the [SSP documentation](https://simplesamlphp.org/docs/stable/).
 
