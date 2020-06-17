@@ -48,8 +48,8 @@ For the "Advanced" flavor, you will implement:
 
 * **[Understand the End-User Data Flow](#flow)** - Understand where the data is coming and going to inform your implementation design.
 * **[Plan your user experience](#ux)** - Understand the SeamlessAccess guidelines for user interface and experience (UI/UX). Review the guidelines, review the usability studies, and plan a conversation with the SeamlessAccess UI/UX team.
-* **[Download and edit the SeamlessAccess Discovery service software](#software)** - you will use this set of clients to configure both persistence and discovery services for your custom service
-* **[Use the SeamlessAccess API](#api)** - Use these clients to interact with the persistence service when using your own discovery service.
+* **[Install the SeamlessAccess service software](#software)** - you will use this software to configure both persistence and discovery services for your custom service
+* **[Use the SeamlessAccess API](#api)** - Use the SeamlessAccess software to interact with the persistence service when using your own discovery service.
 * **[Request production access for your implementation](#prod)** - Before your advanced flavor implementation can go live, you will need to request your service domains to be included in our list of production implementations.
 
 The "Advanced" flavor is significantly more complicated than the other implementations, and should only be used if you are unable to achieve your discovery and/or UX experiences otherwise.
