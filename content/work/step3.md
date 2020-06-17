@@ -38,17 +38,18 @@ For the "Limited" flavor, you will implement:
 For the "Standard" flavor, you will implement:
 
 * **[Understand the End-User Data Flow](#flow)** - Understand where the data is coming and going to inform your implementation design.
-* **[Discovery Service Integration](#discovery)** - Integrate the Seamless Access service to use it as your Discovery Service.
-* **[Display of Seamless Access Login Button](#display)** - Use the Seamless Access service to display the login button component on your SP login page.
-* **[Integration of Login Button with your SAML SP](#connect)** - Integrate the Seamless Access service to use it as your Discovery Service.
+* **[Discovery Service Integration](#discovery)** - Integrate the SeamlessAccess service to use it as your Discovery Service.
+* **[Display of SeamlessAccess Login Button](#display)** - Use the SeamlessAccess service to display the login button component on your SP login page.
+* **[Integration of Login Button with your SAML SP](#connect)** - Integrate the SeamlessAccess service to use it as your Discovery Service.
 
 ## Implementing the "Advanced" Flavor
 
 For the "Advanced" flavor, you will implement:
 
 * **[Understand the End-User Data Flow](#flow)** - Understand where the data is coming and going to inform your implementation design.
-* **[Download and edit the Seamless Access Discovery service software](#software)** - you will use this set of clients to configure both persistence and discovery services for your custom service
-* **[Use the Seamless Access API](#api)** - Use these clients to interact with the persistence service when using your own discovery service.
+* **[Plan your user experience](#ux)** - Understand the SeamlessAccess guidelines for user interface and experience (UI/UX). Review the guidelines, review the usability studies, and plan a conversation with the SeamlessAccess UI/UX team.
+* **[Download and edit the SeamlessAccess Discovery service software](#software)** - you will use this set of clients to configure both persistence and discovery services for your custom service
+* **[Use the SeamlessAccess API](#api)** - Use these clients to interact with the persistence service when using your own discovery service.
 
 The "Advanced" flavor is significantly more complicated than the other implementations, and should only be used if you are unable to achieve your discovery and/or UX experiences otherwise.
 
@@ -69,7 +70,7 @@ Each level of integration will have the user data flow through the environment a
 
 For the **Limited** and **Standard** integration flavors, you will be using the SeamlessAccess discovery service. This service is based on the [eduGAIN](https://edugain.org/) metadata list. You can see a list of participating organizations at the [eduGAIN technical website](https://technical.edugain.org/).
 
-By far the easiest integration is to use Seamless Access service as a standard SAML identity provider discovery service (DS). The DS URL is `https://service.seamlessaccess.org/ds`. You will use this URL in your Service Providers configuration where appropriate. Here is how to do this for some common SP software stacks:
+By far the easiest integration is to use SeamlessAccess service as a standard SAML identity provider discovery service (DS). The DS URL is `https://service.seamlessaccess.org/ds`. You will use this URL in your Service Providers configuration where appropriate. Here is how to do this for some common SP software stacks:
 
 ### Shibboleth
 
@@ -100,15 +101,15 @@ For more details visit the [SSP documentation](https://simplesamlphp.org/docs/st
 
 ---
 
-## Display of Seamless Access Login Button <a name="display"></a>
+## Display of SeamlessAccess Login Button <a name="display"></a>
 
 ### Including the component library
 
-You will need to reference the Seamless Access component library before you can use it. For the Standard implementation, you will always reference through a CDN:
+You will need to reference the SeamlessAccess component library before you can use it. For the Standard implementation, you will always reference through a CDN:
 
 ``` html
 <head>
-<!-- Include the Seamless Access Sign in Button & Discovery Service -->
+<!-- Include the SeamlessAccess Sign in Button & Discovery Service -->
 <script src="https://service.seamlessaccess.org/thiss.js"></script>
 </head>
 ```
@@ -119,7 +120,7 @@ Include a `<div>` container that is identified with an id tag where you want the
 
 ``` html
 <body>
-  <!-- Location for the Seamless Access login button -->
+  <!-- Location for the SeamlessAccess login button -->
   <div id='putMyLoginButtonHere'></div>
 </body>
 ```
@@ -129,7 +130,7 @@ And to display the button into this container, invoke the DiscoveryComponent.ren
 ``` html
 <script>
 window.onload = function() {
-  // Render the Seamless Access button
+  // Render the SeamlessAccess button
   thiss.DiscoveryComponent.render({
     loginInitiatorURL: 'https://sp.example.com/Shibboleth.sso/Login?target=https://sp.example.com/',
   }, '#putMyLoginButtonHere');
@@ -171,9 +172,17 @@ The discoveryRequest function is called with a single argument containing a JS o
 
 For Shibboleth this is all handled by providing the single `loginInitiatorURL` parameter as in the example above.
 
-## The Seamless Access Discovery Service Software <a name="software"></a>
+## The SeamlessAccess user experience <a name="ux"></a>
 
-Seamless Access is registered as a [package](https://www.npmjs.com/package/@theidentityselector/thiss-ds) on [npm](https://www.npmjs.com/). You can install the latest version of Seamless Access with the npm CLI command
+When implementing the "Advanced" flavor, you will need to recreate the SeamlessAccess user experience and interface. SeamlessAccess requires consistency in the user's experience when using the service across different service providers. To this end, we provide several resources:
+
+* **Advisory/Review Meeting** - During the beta period, we are requiring at least one meeting for each service provider with our UI/UX team to review and advise on your plans for incorporating SeamlessAccess into your service. _We highly recommend that you schedule this meeting as early as possible in your planning process._ Approval from this team is required before you'll be able to enable your service to work with the production service.
+* **UI/UX guidelines** - The guidelines for the user experience and interface can be found in the [Recommended Practices for Improved Access to Institutionally-Provided Information Resources](https://groups.niso.org/apps/group_public/download.php/21892/NISO_RP-27-2019_RA21_Identity_Discovery_and_Persistence.pdf). These guidelines have evolved since their writing, so it will be important to pair your understanding of these practices with the **Advisory/Review Meeting** described above.
+* **Usability testing results** - In planning the user experience for SeamlessAccess, the solution went through extensive usability testing. See the insights: [RA21 User Research Summary](https://docs.google.com/presentation/d/1hN-u8CgEzG_9eVf8TGUz29fG876f_UVw9d5GOzA-gbE/edit?usp=sharing)
+
+## The SeamlessAccess Service Software <a name="software"></a>
+
+SeamlessAccess is registered as a [package](https://www.npmjs.com/package/@theidentityselector/thiss-ds) on [npm](https://www.npmjs.com/). You can install the latest version of SeamlessAccess with the npm CLI command
 
 ```
 > npm install [--save] @theidentityselector/thiss-ds
@@ -183,12 +192,12 @@ Once downloaded, you can reference the (edited) software in your HTML.
 
 ``` html
 <head>
-<!-- Include the downloaded Seamless Access Discovery Client API -->
+<!-- Include the downloaded SeamlessAccess Discovery Client API -->
 <script src="/thiss-ds.js"></script>
 </head>
 ```
 
-## Use the Seamless Access API <a name="api"></a>
+## Use the SeamlessAccess API <a name="api"></a>
 
 The documentation for the API and other details for using the software can be found in the [software documentation](https://thiss-js.readthedocs.io/en/latest/).
 
