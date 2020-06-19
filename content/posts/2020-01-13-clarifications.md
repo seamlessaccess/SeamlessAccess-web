@@ -6,7 +6,7 @@ categories: [General]
 hero: true
 heroHeading: 'Clarifications About the SeamlessAccess.org Service'
 heroSubHeading: ''
-heroBackground: "https://picsum.photos/2560/600?image=872"
+heroBackground: "images/hero_news.jpg"
 ---
 
 Following feedback before and during the Internet2 Technology Exchange, the Seamless Access program is reviewing the permissible use of the stored Identity Provider (IdP) preference information when using some of the SeamlessAccess.org integration models (see our “Getting Started” page for more information about the different integration models).

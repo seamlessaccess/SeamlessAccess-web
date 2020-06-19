@@ -20,6 +20,7 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Heather Flanagan _(SeamlessAccess Program Director)_
 * Jason Griffey _(NISO)_
 * Laurel Haak _(ORCID)_
+* Tim Lloyd _(LibLynx)_
 * Eefke Smit _(STM)_
 * Ann West _(Internet2)_
 * Klaas Wierenga _(GÉANT)_
@@ -30,7 +31,6 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Michelle Brewer _(WoltersKluwer)_
 * Jane Charlton _(OpenAthens)_
 * John Felts _(Coastal Carolina University)_
-* Sari Frances _(IEEE)_
 * Jason Griffey _(NISO)_ - **co-chair**
 * Robert Kelshian _(American College)_
 * Tim Lloyd _(LibLynx)_ - **co-chair**
