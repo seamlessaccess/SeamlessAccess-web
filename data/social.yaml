@@ -1,9 +1,9 @@
 # the social sites will be displayed in this order.
-# To change it, you must update layouts > partials > social (in themes)
+# To change the order, you must update layouts > partials > social (in themes)
 #    AND layouts > shortcodes > socialinfo.html
-# If blank, it will not display
+# If blank, the icon for that social site will not display
 twitter: "https://twitter.com/seamlessaccess"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=4xRqdc0DeJI"
 instagram: ""
 linkedin: ""
 medium: ""
