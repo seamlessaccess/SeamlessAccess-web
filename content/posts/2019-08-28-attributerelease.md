@@ -127,6 +127,13 @@ Here are some example scenarios showing how attribute release can enable differe
   </tbody>
 </table>
 
+## Related resources
+
+_See also: **[VIDEO: How Federated Authentication Works](https://www.youtube.com/watch?v=wjvC_PUj4CI)** provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation._
+
+---
+
+FOOTNOTES:
 
 [^1]: Technically, an organization can be (one of many) attribute providers for a user, without also being their identity provider. Typically, an R&E institution acts as both identity provider as well as the main (or only) attribute provider.
 [^2]: As an example: in SAML the ‘NameID’ attribute can be used to communicate a transient id. The Shibboleth wiki has a nice overview of identifiers.
