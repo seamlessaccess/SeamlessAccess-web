@@ -16,7 +16,15 @@
     * [In Action section](#in-action-section)
     * [About section](#about-section)
     * [Contact section](#contact-section)
-  * [Getting Started Page](#getting-started-page)
+  * [Getting Started Section](#getting-started-section)
+    * [Overall formatting](#overall-formatting)
+    * [Introduction](#getting-started-introduction)
+    * [The steps listing](#the-steps-listing)
+    * [Step 1](#step-1)
+    * [Step 2](#step-2)
+    * [Step 3](#step-3)
+    * [Step 4](#step-4)
+    * [Step 5](#step-5)
 
 # Before you start
 
@@ -321,7 +329,7 @@ The landing page for this section is a little different from the others - it is 
 
 The Getting Stated page is formatted in the file `layouts > work > list.html`. Page-specific styling for this page can be found in `assets > pages > work > _page-work-list.scss_` (Though, at the time of this writing, this file is empty.) It is best for someone who is familiar with HTML and/or CSS to edit these files. However, some of the content can be updated by non-coders
 
-### INTRODCTION
+### GETTING STARTED INTRODCTION
 
 ![Getting Started Intro](readme-images/GettingStarted-0.png)
 
