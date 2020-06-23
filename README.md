@@ -43,7 +43,11 @@
 
 Occasionally a Hugo update will provide functionality that you'll want to leverage on the site. This situation happened in early 2020 when we wanted to include code syntax highlighting on the site which is only available in version 0.60 and later. The sit was originally published with version 0.51 of Hugo. 
 
-When updating, you will first need to update the Hugo version on your own computer. In addition, you'll need to update the Hugo version used for the build by making changes in the file at `themes > hugo-hero-theme > netlify.toml`. Note that other changes can be made in this file to affect build characteristics, for example, building differently for staging environments (perhaps to show items that are in draft status). Additional information about configuration parameters can be found on the Hugo site at https://gohugo.io/hosting-and-deployment/hosting-on-netlify/.
+When updating, you will first need to update the Hugo version on your own computer. In addition, you'll need to update the Hugo version used for the build by making changes in the file at the Netlify site: https://app.netlify.com/sites/seamlessaccess-web/settings/deploys
+
+![screen shot - setting the hugo version in Netlify](readme-images/dhugoEnvVariable.png)
+
+In the "Environment" section of the deploy settings, set the HUGO_VERSION to the version you are using. Be sure to use the version number as shown on the [gohugoio/hugo repository release page](https://github.com/gohugoio/hugo/releases) (without the preceding 'v'), for example, '0.69.0'
 
 # The process for making updates
 
