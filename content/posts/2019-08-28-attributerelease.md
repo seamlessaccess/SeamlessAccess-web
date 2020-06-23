@@ -127,6 +127,7 @@ Here are some example scenarios showing how attribute release can enable differe
   </tbody>
 </table>
 
+
 ## Related resources
 
 _See also: **[VIDEO: How Federated Authentication Works](https://www.youtube.com/watch?v=wjvC_PUj4CI)** provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation._
