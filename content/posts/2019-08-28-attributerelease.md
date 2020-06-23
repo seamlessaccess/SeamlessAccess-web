@@ -100,7 +100,7 @@ RA21 recommends:
 
 Here are some example scenarios showing how attribute release can enable different levels of personalization for the user:
 
-<table class="blog-table">
+<table>
   <thead>
     <tr>
       <th>Scenario</th>
