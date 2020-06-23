@@ -49,7 +49,7 @@ For the "Advanced" flavor, you will implement:
 * **[Understand the End-User Data Flow](#flow)** - Understand where the data is coming and going to inform your implementation design.
 * **[Plan your user experience](#ux)** - Understand the SeamlessAccess guidelines for user interface and experience (UI/UX). Review the guidelines, review the usability studies, and plan a conversation with the SeamlessAccess UI/UX team.
 * **[Install the SeamlessAccess service software](#software)** - you will use this software to configure both persistence and discovery services for your custom service
-* **[Use the SeamlessAccess API](#api)** - Use the SeamlessAccess software to interact with the persistence service when using your own discovery service.
+* **[Use the SeamlessAccess service software](#api)** - Use the SeamlessAccess software to interact with the persistence service when using your own discovery service.
 * **[Request production access for your implementation](#prod)** - Before your advanced flavor implementation can go live, you will need to request your service domains to be included in our list of production implementations.
 
 The "Advanced" flavor is significantly more complicated than the other implementations, and should only be used if you are unable to achieve your discovery and/or UX experiences otherwise.
@@ -141,7 +141,7 @@ window.onload = function() {
 
 The `render` function in this code, takes two parameters:
 
-1. **The `loginInitiatorURL`**: - See the next section, “Integration of Login Button with your SAML SP”, for more details
+1. **The `loginInitiatorURL`**: - See the next section, “[Integration of Login Button with your SAML SP](#connect)”, for more details
 2. **The location where to render the button** - here you will use the id tag that you used for your html `<div>` container, formatted using CSS selector styling in quotes.
 
 ### Content-Security-Policy considerations
@@ -181,7 +181,7 @@ When implementing the "Advanced" flavor, you will need to recreate the SeamlessA
 * **UI/UX guidelines** - The guidelines for the user experience and interface can be found in **section 2.4 - Improve the User Experience of Identity Provider Discovery** of the [Recommended Practices for Improved Access to Institutionally-Provided Information Resources](https://groups.niso.org/apps/group_public/download.php/21892/NISO_RP-27-2019_RA21_Identity_Discovery_and_Persistence.pdf). These guidelines have evolved since their writing, so it will be important to pair your understanding of these practices with the **Advisory/Review Meeting** described above.
 * **Usability testing results** - In planning the user experience for SeamlessAccess, the solution went through extensive usability testing. See the insights: [RA21 User Research Summary](https://docs.google.com/presentation/d/1hN-u8CgEzG_9eVf8TGUz29fG876f_UVw9d5GOzA-gbE/edit?usp=sharing)
 
-## Install the SeamlessAccess Service Software <a name="software"></a>
+## Install the SeamlessAccess service software <a name="software"></a>
 
 The SeamlessAccess software (`thiss-ds`) is registered as a [package](https://www.npmjs.com/package/@theidentityselector/thiss-ds) on [npm](https://www.npmjs.com/). You can install the latest version of SeamlessAccess with the npm CLI command
 
@@ -215,9 +215,45 @@ import {PersistenceService} from "thiss-ds";
 
 _Also see the [software documentation](https://thiss-ds-js.readthedocs.io/en/latest/install.html) for more information._
 
-## Use the SeamlessAccess software service <a name="api"></a>
+## Use the SeamlessAccess service software<a name="api"></a>
 
 To use the SeamlessAccess software (and related API), you will first create an instance of the DiscoveryService and/or PersistenceService object (installed by the package above), and make calls on it to perform the functions of interacting with the service. Note that the DiscoveryService object enables one to add their own MDQ-style lookup for entity objects and include the URL for the SeamlessAccess persistence service.
+
+### Creating the service software objects
+
+When you use the SeamlessAccess software, you will be instantiating a client for the persistence or discovery service.
+
+_NOTE: the code snippets below assume that the software package has already been installed and is available for object and function calls._
+
+**EXAMPLE: persistence service object**
+
+{{< code lang="js">}}
+  var ps = new thiss.PersistenceService('<persistence service URL>');
+{{< /code >}}
+
+**EXAMPLE: discovery service object**
+
+{{< code lang="js">}}
+  var ds = new DiscoveryService('<mdq URL>', '<persistence service URL>');
+{{< /code >}}
+
+### SeamlessAccess service URLs
+
+_NOTE: production URLs are only accessible for services that have completed the [review](#ux) and [acceptance](#prod) processes._
+
+**SeamlessAccess persistence service URLs**
+
+* Beta testing: https://use.thiss.io/ps/
+* Production URL: https://service.seamlessaccess.org/ps/
+
+**SeamlessAccess service MDQ URLs**
+
+_NOTE: you may substitute your own MDQ service_
+
+* Beta testing: https://md.thiss.io/entities/
+* Production URL: https://md.seamlessaccess.org/entities/
+
+### Full software documentation
 
 Please refer to the [full documentation and examples](https://thiss-ds-js.readthedocs.io/en/latest/intro.html) for information on how to use the service software. We recommend that you join the [SeamlessAccess Slack conversation](https://join.slack.com/t/seamlessaccess/shared_invite/zt-f02ee4rb-KUVKmtYWN9TKWClPQbtrjA) to ask technical questions and share experiences with other beta developers.
 

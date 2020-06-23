@@ -19,7 +19,7 @@ An end user working or studying in the Research & Education (R&E) sector often h
 ## Why are attributes important?
 Attributes can be used to transfer information about the end user from the IdP to the service a user wants to access. For example, attributes are commonly used for:
 
-<table class="blog-table">
+<table>
   <thead>
     <tr>
       <th>Use</th>
@@ -100,7 +100,7 @@ RA21 recommends:
 
 Here are some example scenarios showing how attribute release can enable different levels of personalization for the user:
 
-<table class="blog-table">
+<table>
   <thead>
     <tr>
       <th>Scenario</th>
@@ -127,6 +127,14 @@ Here are some example scenarios showing how attribute release can enable differe
   </tbody>
 </table>
 
+
+## Related resources
+
+_See also: **[VIDEO: How Federated Authentication Works](https://www.youtube.com/watch?v=wjvC_PUj4CI)** provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation._
+
+---
+
+FOOTNOTES:
 
 [^1]: Technically, an organization can be (one of many) attribute providers for a user, without also being their identity provider. Typically, an R&E institution acts as both identity provider as well as the main (or only) attribute provider.
 [^2]: As an example: in SAML the ‘NameID’ attribute can be used to communicate a transient id. The Shibboleth wiki has a nice overview of identifiers.

@@ -1181,6 +1181,29 @@ mark,
   .table-responsive > .table-bordered {
     border: 0; }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto; }
+
+.figure {
+  display: inline-block; }
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1; }
+
+.figure-caption {
+  font-size: 90%;
+  color: #6c757d; }
+
 .align-baseline {
   vertical-align: baseline !important; }
 
@@ -6247,19 +6270,22 @@ ul.social {
 /* LineTableTD */
 .chroma .lntd {
   vertical-align: top;
-  padding: 0;
+  padding: 8px;
   margin: 0;
-  border: 0; }
+  border: 1px solid #ddd; }
 
 /* LineTable */
 .chroma .lntable {
   border-spacing: 0;
-  padding: 0;
+  padding: 8px;
   margin: 0;
-  border: 0;
+  border: 1px solid #ddd;
   width: auto;
   overflow: auto;
-  display: block; }
+  display: block;
+  background-color: #05bf85;
+  color: white;
+  font-weight: bold; }
 
 /* LineHighlight */
 .chroma .hl {
@@ -10822,5 +10848,135 @@ readers do not read off random characters that represent icons */
       color: #666;
       font-size: 0.9rem;
       font-weight: 300; }
+
+.page-posts-list .posts-sidebar {
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  padding: 10px;
+  padding: 40px; }
+  .page-posts-list .posts-sidebar h4 {
+    text-transform: capitalize; }
+  .page-posts-list .posts-sidebar ul {
+    margin-bottom: 10px; }
+    .page-posts-list .posts-sidebar ul li {
+      text-transform: capitalize; }
+
+.page-posts-single .posts-sidebar {
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  padding: 10px;
+  padding: 40px; }
+  .page-posts-single .posts-sidebar h4 {
+    text-transform: capitalize; }
+  .page-posts-single .posts-sidebar ul {
+    margin-bottom: 10px; }
+    .page-posts-single .posts-sidebar ul li {
+      text-transform: capitalize; }
+
+.page-posts-single .post-author {
+  display: flex;
+  margin-bottom: 30px; }
+  .page-posts-single .post-author .post-author-avatar {
+    margin-right: 10px; }
+    .page-posts-single .post-author .post-author-avatar img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%; }
+  .page-posts-single .post-author .post-author-info a.post-author-name {
+    display: block;
+    font-size: 1.3rem;
+    color: #222; }
+  .page-posts-single .post-author .post-author-info span.post-author-date {
+    display: block;
+    color: #666;
+    font-size: 1.1rem; }
+
+.page-posts-single .content table td {
+  border: 1px solid #ddd;
+  padding: 8px; }
+
+.page-posts-single .content table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: #216E93;
+  color: white;
+  font-weight: bold; }
+
+.page-posts-single .content img {
+  max-width: 100%;
+  height: auto;
+  max-width: 100%;
+  height: auto; }
+
+.post-summary .post-date .post-date-date {
+  font-weight: bold;
+  color: #333; }
+
+.post-summary .post-date .post-date-author {
+  color: #333; }
+
+.post-summary .post-content {
+  margin-bottom: 20px; }
+
+.post-summary .post-tags {
+  display: inline-block;
+  margin-right: 10px; }
+  .post-summary .post-tags strong {
+    color: #1a1a1a;
+    font-weight: 700; }
+
+.post-summary .post-categories {
+  display: inline-block; }
+  .post-summary .post-categories strong {
+    color: #333;
+    font-weight: 700; }
+
+.post-summary .post-image {
+  width: 60px;
+  margin-bottom: 10px; }
+  .post-summary .post-image img {
+    max-width: 100%;
+    height: auto; }
+
+.post-summary .post-title {
+  font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 1.8rem;
+  font-weight: 400; }
+
+.post-summary .post-description {
+  font-size: 1.3rem; }
+
+.post-summary .post-link {
+  flex: 0;
+  margin-top: auto; }
+
+.post-summary a.post-read-more {
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+
+.post-summary .post-meta {
+  display: flex; }
+  .post-summary .post-meta .on {
+    margin: 0 4px 0 4px; }
+
+.post-summary .post-author {
+  display: flex; }
+  .post-summary .post-author .post-author-avatar {
+    margin-right: 5px; }
+    .post-summary .post-author .post-author-avatar img {
+      height: 26px;
+      width: 26px;
+      border-radius: 50%; }
+  .post-summary .post-author .post-author-info a.post-author-name {
+    font-size: 1rem;
+    color: #222; }
+  .post-summary .post-author .post-author-info span.post-author-date {
+    display: none; }
 
 /*# sourceMappingURL=style.css.map */

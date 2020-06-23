@@ -36,22 +36,28 @@
       }
     }
   }
+  .content {
+    table {
+      td {
+        border: 1px solid #ddd; 
+        padding: 8px; 
+      }
 
-}
-  /* table styling */
-  .blog-table {
-    td {
-      border: 1px solid #ddd; 
-      padding: 8px; 
+      th {
+        border: 1px solid #ddd; 
+        padding: 8px;
+        padding-bottom: 12px; 
+        padding-top: 12px; 
+        background-color: $primary; 
+        color: white; 
+        font-weight: bold;
+      }
     }
-
-    th {
-      border: 1px solid #ddd; 
-      padding: 8px;
-      padding-bottom: 12px; 
-      padding-top: 12px; 
-      background-color: #05bf85; 
-      color: white; 
-      font-weight: bold;
+    img {
+      @include img-fluid();
+      max-width: 100%;
+      height: auto;
     }
   }
+
+}

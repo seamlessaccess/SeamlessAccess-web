@@ -11,7 +11,7 @@
 @import 'bootstrap/grid';
 @import 'bootstrap/type';
 @import 'bootstrap/tables';
-// @import "bootstrap/images";
+@import "bootstrap/images";
 // @import "bootstrap/code";
 // @import "bootstrap/forms";
 // @import "bootstrap/buttons";
@@ -80,6 +80,9 @@ $fa-font-path: "../../fonts/fontawesome5";
 @import 'pages/about/page-about-list';
 @import 'pages/about/page-about-single';
 @import 'pages/about/about-summary';
+@import 'pages/posts/page-posts-list';
+@import 'pages/posts/page-posts-single';
+@import 'pages/posts/post-summary';
 
 // Display breakpoints for DEV
 // body:after {
