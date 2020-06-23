@@ -35,9 +35,9 @@
     {{ range .Site.Data.startedsteps }}
     <div class="col-12 col-md-4 col-lg-2">
       <div class="work-step">
-        <div class="step-image"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div>
+        <a href="{{ .sectionurl }}"><div class="step-image"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div>
         <div class="step-title">{{ .title }}</div>
-        <div class="step-content">{{ .description }}</div>
+        <div class="step-content">{{ .description }}</div></a>
       </div>
     </div>
       {{ end }}
