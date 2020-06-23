@@ -34,11 +34,10 @@ _lets you use the Seamless Access discovery service for users to find and sign i
 
 ### How it works
 
-You will display the SeamlessAccess button image on your site. When the end user clicks on the button, they are sent to the SeamlessAccess service to sign in and then will be returned back to your site after they sign in.
+You will display a link to sign into your site. When the end user clicks on the button, they are redirected to the SeamlessAccess service to sign in and then will be returned back to your site after they sign in.
 
 ### Benefits
 
-* The user will interact with the SeamlessAccess button - an increasingly recognizable symbol for access using their institution
 * The process for finding the user’s institution in a list will be consistent across all SeamlessAccess-enabled sites.
 * Once a user has signed in once, SeamlessAccess will register this provider as the user’s preferred sign in host, enabling easier subsequent sign in.
 
@@ -62,6 +61,7 @@ You will embed the SeamlessAccess widget on your site. The widget will know if t
 
 All of the benefits of the **Limited** implementation PLUS
 
+* The user will interact with the SeamlessAccess button - an increasingly recognizable symbol for access using their institution
 * If the user has a preferred sign in host (identity provider), the name of this institution will be displayed on the SeamlessAccess button.
 * If the user is currently signed into ANY SeamlessAccess-enabled site, the user will not have to enter their sign in credentials again.
 
@@ -86,12 +86,12 @@ You will implement nearly all components of the SeamlessAccess service, so you'l
 All of the benefits of the **Standard** implementation PLUS
 
 * Greater control over the user experience.
-* More control of the look and feel.
+* More control over the look and feel.
 
 ### Challenges
 
 * Requires significant technical resources, including knowledge of APIs, and a greater understanding federated sign in workflows.
-* Greater technical risk as the SeamlessAccess service evolves during the Beta Period (at least through June 2020.)
+* Greater technical risk as the SeamlessAccess service evolves during the Beta Period (scheduled to conclude on or before December 2020.)
 
 
 NEXT: [Step 3. Implementation the service](../step3)
