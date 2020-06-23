@@ -45,7 +45,7 @@ Occasionally a Hugo update will provide functionality that you'll want to levera
 
 When updating, you will first need to update the Hugo version on your own computer. In addition, you'll need to update the Hugo version used for the build by making changes in the file at the Netlify site: https://app.netlify.com/sites/seamlessaccess-web/settings/deploys
 
-![screen shot - setting the hugo version in Netlify](readme-images/hugoEnvVariable.png)
+![screen shot - setting the hugo version in Netlify](readme-images/hugoEnvVariable-wide.png)
 
 In the "Environment" section of the deploy settings, set the HUGO_VERSION to the version you are using. Be sure to use the version number as shown on the [gohugoio/hugo repository release page](https://github.com/gohugoio/hugo/releases) (without the preceding 'v'), for example, '0.69.0'
 
