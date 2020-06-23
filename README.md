@@ -45,7 +45,7 @@ Occasionally a Hugo update will provide functionality that you'll want to levera
 
 When updating, you will first need to update the Hugo version on your own computer. In addition, you'll need to update the Hugo version used for the build by making changes in the file at the Netlify site: https://app.netlify.com/sites/seamlessaccess-web/settings/deploys
 
-![screen shot - setting the hugo version in Netlify](readme-images/dhugoEnvVariable.png)
+![screen shot - setting the hugo version in Netlify](readme-images/hugoEnvVariable.png)
 
 In the "Environment" section of the deploy settings, set the HUGO_VERSION to the version you are using. Be sure to use the version number as shown on the [gohugoio/hugo repository release page](https://github.com/gohugoio/hugo/releases) (without the preceding 'v'), for example, '0.69.0'
 
@@ -333,7 +333,7 @@ The landing page for this section is a little different from the others - it is 
 
 The Getting Stated page is formatted in the file `layouts > work > list.html`. Page-specific styling for this page can be found in `assets > pages > work > _page-work-list.scss_` (Though, at the time of this writing, this file is empty.) It is best for someone who is familiar with HTML and/or CSS to edit these files. However, some of the content can be updated by non-coders
 
-### GETTING STARTED INTRODCTION
+### GETTING STARTED INTRODUCTION
 
 ![Getting Started Intro](readme-images/GettingStarted-0.png)
 
