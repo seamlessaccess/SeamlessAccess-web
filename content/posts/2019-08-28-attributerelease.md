@@ -19,7 +19,7 @@ An end user working or studying in the Research & Education (R&E) sector often h
 ## Why are attributes important?
 Attributes can be used to transfer information about the end user from the IdP to the service a user wants to access. For example, attributes are commonly used for:
 
-<table class="blog-table">
+<table>
   <thead>
     <tr>
       <th>Use</th>
