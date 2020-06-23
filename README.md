@@ -5,6 +5,7 @@
 **Table of Contents**
 
 * [Before you start](#before-you-start)
+  * [About HUGO versioning](#about-hugo-versioning)
 * [The process for making updates](#the-process-for-making-updates)
 * [Updating metadata](#updating-metadata)
 * [Social media connections](#social-media)
@@ -26,9 +27,15 @@
 > Changes should NEVER be committed directly to the `Live` branch - this will not work. They must be put onto the master branch and then submitted by pull request to the `Live` branch. The reason that this process is required is twofold:
 >
 > 1. there are critical site checks that are performed to ensure that the site builds correctly, and 
-> 2. this process also provides an opportunity to preview the changes before they go live - an important best practics. 
+> 2. this process also provides an opportunity to preview the changes before they go live - an important best practice. 
 > 
 > **If this process is not followed, the site will not build.**
+
+## About HUGO versioning
+
+Occasionally a Hugo update will provide functionality that you'll want to leverage on the site. This situation happened in early 2020 when we wanted to include code syntax highlighting on the site which is only available in version 0.60 and later. The sit was originally published with version 0.51 of Hugo. 
+
+When updating, you will first need to update the Hugo version on your own computer. In addition, you'll need to update the Hugo version used for the build by making changes in the file at `themes > hugo-hero-theme > netlify.toml`. Note that other changes can be made in this file to affect build characteristics, for example, building differently for staging environments (perhaps to show items that are in draft status). Additional information about configuration parameters can be found on the Hugo site at https://gohugo.io/hosting-and-deployment/hosting-on-netlify/.
 
 # The process for making updates
 
@@ -306,12 +313,111 @@ Site wide data that are used in the contact page can be found in the following f
 
 ---
 
-## Getting Started Page
+## Getting Started Section
 
-This page is a little different from the others - it is organized more like the Home Page is. This is where you find each of the pieces of content for the page:
+The landing page for this section is a little different from the others - it is organized more like the Home Page is. Since each part of the landing page for Getting Started is slightly different from the others, it is less configurable than the other pages on the site, and will require some HTML in some cases to make adjustments. This is where you find each of the pieces of content for the page:
 
-### Top section: Getting Started
+### OVERALL FORMATTING
+
+The Getting Stated page is formatted in the file `layouts > work > list.html`. Page-specific styling for this page can be found in `assets > pages > work > _page-work-list.scss_` (Though, at the time of this writing, this file is empty.) It is best for someone who is familiar with HTML and/or CSS to edit these files. However, some of the content can be updated by non-coders
+
+### INTRODCTION
+
+![Getting Started Intro](readme-images/GettingStarted-0.png)
 
 **CONTENT LOCATION**: `content > work > _index.md`
 
-This content, and the hero image are specified in the index file in the work section.
+The lead-in content and hero image are specified in the index file in the work section.
+
+### THE STEPS LISTING
+
+![Getting Started Steps](readme-images/GettingStarted-steps.png)
+
+**CONTENT LOCATION**: `data > startedsteps.json`
+
+The steps listed here are configured in a data file to make them easier to adjust if necessary. Each mini-block (image with a description) is a separate object listed in the data file. The header of this section is configured in the HTML for this section - see below.
+
+Name | Description | Example
+---- | ----------- | -------
+title | _not used_ | 
+description | The text displayed under the image | "Gather information and plan",
+image | the relative URL for the item. These images should be stored in the `static > getting-started` folder | "features/getting-started/icn_gettingstarted-1.svg"
+sectionurl | the relative URL for the details for this step. The name included here generaly will be the file name of one of the files within the `content > work` folder, without the `.md` extension. | "step1"
+
+### STEP 1
+
+![Getting Started Step 1](readme-images/GettingStarted-1.png)
+
+**CONTENT LOCATION** _(Landing page section)_: `layouts > partials > work-step-1.html`
+
+The content displayed on the Getting Started landing page and that on the Step 1 content page are in different locations. 
+
+**CONTENT LOCATION** _(Interior page section)_: `content > work > step1.md`
+
+The interior pages of this section have a few attributes that can be used to control content. Otherwise the content is managed as it is with other pages on the site. The page attributes for the interior pages in the Getting Started section (`content > work` folder)
+
+Name | Description | Example
+---- | ----------- | -------
+title | The page title | 'Step 1'
+date | Publication / update date for the page | 2020-02-15T12:33:46+10:00
+draft | Indication of if the page is a draft of not | false
+weight | The order that this page should be displayed when a list of pages in this section are shown | 1
+stepname | The descriptive title for the step | 'Gather information and make a plan'
+heroBackground / heroHeading / heroSubHeading | As with other section of the site, the Getting Started section can have a hero image with a heading and subheading. At the time of this writing, they are not used. |''
+thumbnail | The theme being used has a format to list summaries of items included in the `work` content folder (`themes > hugo-here=theme > layouts > work > summary.html`). At the time of this writing, this feature is not used. If used, the thumbnail image specified for this attribute would be displayed in the summary | ''
+images | This attribute expects a list of image URLs (using the conventions used elsewhere), separated by commas. When present, it will display these images in a gallery at the bottom of the page. | []
+
+### STEP 2
+
+![Getting Started Step 2](readme-images/GettingStarted-2.png)
+
+**CONTENT LOCATION** _(Landing page section)_: `data > implementflavors.json`
+
+The implementation flavors listed here are configured in a data file to make them easier to adjust if necessary. Each mini-block (image with a title and description) is a separate object listed in the data file. The header for this section and lead in for the implementation flavors are configured in the landing page HTML file as describe in the "Overall formatting" section above.
+
+Name | Description | Example
+---- | ----------- | -------
+title | The title displayed just under the image in the section | "Limited"
+description | The text displayed under the image | "Lets you use the SeamlessAccess discovery service for users to find and sign into their preferred Identity Provider, but doesn’t integrate this service into your site"
+image | the relative URL for the item. These images should be stored in the `static > work` folder | "work/icn_flavors_limited.svg",
+
+**CONTENT LOCATION** _(Interior page section)_: `content > work > step2.md`
+
+This page is configures as for Step 1 described above.
+
+### STEP 3
+
+![Getting Started Step 3](readme-images/GettingStarted-3.png)
+
+**CONTENT LOCATION** _(Landing page section)_: `layouts > partials > work-step-3.html`
+
+The content displayed on the Getting Started landing page and that on the Step 3 content page are in different locations. 
+
+**CONTENT LOCATION** _(Interior page section)_: `content > work > step3.md`
+
+This page is configures as for Step 1 described above.
+
+### STEP 4
+
+![Getting Started Step 4](readme-images/GettingStarted-4.png)
+
+**CONTENT LOCATION** _(Landing page section)_: `layouts > partials > work-step-4.html`
+
+The content displayed on the Getting Started landing page and that on the Step 4 content page are in different locations. 
+
+**CONTENT LOCATION** _(Interior page section)_: `content > work > step4.md`
+
+This page is configures as for Step 1 described above.
+
+### STEP 5
+
+![Getting Started Step 5](readme-images/GettingStarted-5.png)
+
+**CONTENT LOCATION** _(Landing page section)_: `layouts > partials > work-step-5.html`
+
+The content displayed on the Getting Started landing page and that on the Step 5 content page are in different locations. 
+
+**CONTENT LOCATION** _(Interior page section)_: `content > work > step5.md`
+
+This page is configures as for Step 1 described above.
+
