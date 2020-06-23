@@ -10,8 +10,8 @@
 @import 'bootstrap/reboot';
 @import 'bootstrap/grid';
 @import 'bootstrap/type';
-// @import 'bootstrap/tables';
-// @import "bootstrap/images";
+@import 'bootstrap/tables';
+@import "bootstrap/images";
 // @import "bootstrap/code";
 // @import "bootstrap/forms";
 // @import "bootstrap/buttons";
@@ -63,7 +63,7 @@
 @import 'components/hero-image';
 @import 'components/bg';
 @import 'components/work-step';
-@import 'components/syntax';
+// @import 'components/syntax';
 
 // Font Awesome
 $fa-font-path: "../../fonts/fontawesome5";
