@@ -47,3 +47,7 @@ theme = "hugo-hero-theme"
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
+
+# allow for raw HTML in markdown files
+[markup.goldmark.renderer]
+unsafe= true
