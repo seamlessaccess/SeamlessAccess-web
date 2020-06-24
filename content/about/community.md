@@ -51,10 +51,10 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Paul Dixon _(LibLynx)_
 * Heather Flanagan _(SeamlessAccess Program Director)_
 * Ron Hatcher _(Elsevier)_
-* Leif Johansson _(GEANT/SUNET)_ - **SeamlessAccess Architect**
-* Christos Kanellopoulos _(GEANT)_
+* Leif Johansson _(GÉANT/SUNET)_ - **SeamlessAccess Architect**
+* Christos Kanellopoulos _(GÉANT)_
 * Nick Roy _(Internet2)_
-* Albert Wu _(Internet2 secondary representative)_
+* Albert Wu _(Internet2)_
 * Ralph Youngen _(ACS)_
 
 # Advisory Committee
@@ -62,9 +62,10 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Prakash Bellur _(IEEE)_
 * Peter Brantley _(UC Davis)_
 * Todd Carpenter _(NISO)_
+* Aaron TAY Chee Hsien _(Singapore Management University)_
 * David Flynn _(EBSCO)_
 * Lisa Hinchliffe _(U of Illinois)_
-* Leif Johansson _(GEANT/SUNET)_ 
+* Leif Johansson _(GÉANT/SUNET)_ 
 * Phil Leahy _(OpenAthens)_
 * Tim Lloyd _(LibLynx)_
 * Allan Lu _(Proquest)_
@@ -94,6 +95,6 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Jiri Pavlik _(National Library of Technology, Czech Republic as FIM4L representative)_
 * Emily Singley _(Boston College)_
 * Andras Somagaal _(Springer Nature)_
-* Rich Wenger _(retired)_
+* Rich Wenger _(MIT, retired)_
 * Albert Wu _(Internet2)_
 * Ralph Youngen _(ACS)_
