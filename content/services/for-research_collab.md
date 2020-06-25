@@ -16,4 +16,4 @@ Federated Identity Management (FIM) is a priority for many research collaboratio
 
 Research collaborations have a unique role in the context of FIM: they often serve as both an Identity Provider (IdP) for participating researchers that do not have an account at an institution that supports FIM, and as a Service Provider (SP) for collaboration-specific services such as wikis and domain-specific tools for their participants. Any identity discovery and persistence service needs to be able to take into account both the collaboration-hosted IdP as well as any institutional IdPs that the collaboration has federated with. SeamlessAccess can be configured to support that model.
 
-See [SeamlessAccess for Identity Providers](./for-identity-providers.md) and [SeamlessAccess for Service Providers](./for-service-providers.md) for more detail.
+See [SeamlessAccess for Identity Providers](../for-identity-providers) and [SeamlessAccess for Service Providers](../for-service-providers) for more detail.
