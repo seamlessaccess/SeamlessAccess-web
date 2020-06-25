@@ -22,4 +22,4 @@ Service providers have choices around how they integrate with SeamlessAccess:
 
 Please recognize that we are in a beta phase and therefore the integration methods are subject to change. In particular, the method for controlling access to the Advanced Integration API is currently accomplished by domain whitelisting. This form of access control is not a scalable solution, and we plan to implement some form of API security key mechanism during the beta phase.  Other changes are possible as well. Service providers will be given a minimum of 60 days’ notice for any breaking changes.
 
-More information on how to integrate with SeamlessAccess, as well as our source code, is available at [thiss.io](https://thiss.io/).
+More information on how to integrate with SeamlessAccess, as well as our source code, is available at [Getting Started](/work).
