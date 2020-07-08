@@ -53,6 +53,7 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Ron Hatcher _(Elsevier)_
 * Leif Johansson _(GÉANT/SUNET)_ - **SeamlessAccess Architect**
 * Christos Kanellopoulos _(GÉANT)_
+* Tim McGeary _(Duke University)_
 * Nick Roy _(Internet2)_
 * Albert Wu _(Internet2)_
 * Ralph Youngen _(ACS)_
