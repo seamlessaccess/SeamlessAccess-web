@@ -9,7 +9,7 @@ heroHeight: 400
 
 # SeamlessAccess is a service
 
-designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service promotes digital authentication leveraging an existing single sign-on infrastructure through one's home institution, while maintaining an environment that protects personal data and privacy.
+designed to help foster a more streamlined online access experience when using scholarly collaboration tools, information resources, and shared research infrastructure. The service promotes digital authentication leveraging an existing single sign-on infrastructure through one's home institution, while maintaining an environment that protects personal data and privacy. We bridge the user experience gap, improving the usability of existing federations and federated services.  
 
 SeamlessAccess aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.
 

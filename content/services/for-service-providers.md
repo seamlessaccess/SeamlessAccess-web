@@ -23,3 +23,13 @@ Service providers have choices around how they integrate with SeamlessAccess:
 Please recognize that we are in a beta phase and therefore the integration methods are subject to change. In particular, the method for controlling access to the Advanced Integration API is currently accomplished by domain whitelisting. This form of access control is not a scalable solution, and we plan to implement some form of API security key mechanism during the beta phase.  Other changes are possible as well. Service providers will be given a minimum of 60 days’ notice for any breaking changes.
 
 More information on how to integrate with SeamlessAccess, as well as our source code, is available at [Getting Started](/work).
+
+# Production Implementations of SeamlessAccess
+
+| Service Provider | Level of Integration &nbsp; &nbsp; | URL |
+| --- | :--: | --- |
+| American Chemical Society (ACS) | Advanced | <https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm> |
+| GÉANT Trusted Certificate Service (TCS) | Limited | <https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo> (click on platform links) |
+| Nature.com | Advanced | <https://www.nature.com/articles/s41586-019-1750-x> (example) |
+| SAFIRE Test Service Provider | Standard | <https://testsp.safire.ac.za/> |
+| SWAMID | Standard | <https://wiki.swamid.se/> (click on Login button) |
