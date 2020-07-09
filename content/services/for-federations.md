@@ -18,3 +18,5 @@ Federation Operators will find SeamlessAccess a powerful tool that supports the 
 Today, services implement their own home-finding, or Where Are You From (WAYF), mechanisms with different vocabulary and user interface. This non-standardized format results in highly inconsistent experiences, making it difficult for casual users to navigate the sign-in experience. SeamlessAccess provides a consistent, intuitive, and easy-to-use home institution discovery mechanism. It dramatically simplifies the sign-in experience.
  
 Further, with appropriately branding, this discovery mechanism visually conveys to the user that they are signing into the service with the same trusted credential issued by their home institution, underpinned by a globally trusted research and education community. It lends a powerful platform to help the end-user intuit the value of R&E identity federations.
+
+If you would like to implement SeamlessAccess for your federated services, more information on how to integrate with SeamlessAccess, as well as our source code, is available at [Getting Started](/work).

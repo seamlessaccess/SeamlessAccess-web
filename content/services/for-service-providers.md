@@ -26,7 +26,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
 
 # Production Implementations of SeamlessAccess
 
-| Service Provider | Level of Integration | URL |
+| Service Provider | Level of Integration &nbsp; &nbsp; | URL |
 | --- | :--: | --- |
 | American Chemical Society (ACS) | Advanced | <https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm> |
 | GÉANT Trusted Certificate Service (TCS) | Limited | <https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo> (click on platform links) |
