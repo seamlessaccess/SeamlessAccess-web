@@ -5,7 +5,7 @@
     margin-bottom: 20px;
     font-family: $font-family-base;
     font-weight: $font-weight-light;
-    font-size: 1.1rem;    
+    font-size: 1.1rem;
     li {
       margin-left: 30px;
       list-style-position: outside;
@@ -66,4 +66,24 @@
     max-width: 70%;
     margin: auto;
   }
+
+  table {
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-size: 1.1rem;
+    font-weight: 300;
+
+    th {
+      font-weight: 600;
+    }
+
+    tr {
+      border-bottom : 1px solid #CCC
+    }
+
+    tr:last-child{
+      border-bottom: none;
+    }
+  }
+
+
 }
