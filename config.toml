@@ -1,6 +1,6 @@
 baseURL = "https://seamlessaccess.org/"
 languageCode = "en-us"
-title = "SeamlessAcccess"
+title = "SeamlessAccess"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
