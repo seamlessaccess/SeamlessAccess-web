@@ -32,4 +32,5 @@ More information on how to integrate with SeamlessAccess, as well as our source 
 | GÉANT Trusted Certificate Service (TCS) | Limited | <https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo> (click on platform links) |
 | Nature.com | Advanced | <https://www.nature.com/articles/s41586-019-1750-x> (example) |
 | SAFIRE Test Service Provider | Standard | <https://testsp.safire.ac.za/> |
+| ScienceDirect (Elsevier) | Advanced | (article level access only) <https://www.sciencedirect.com/science/article/pii/S2214785320349385> (example) |
 | SWAMID | Standard | <https://wiki.swamid.se/> (click on Login button) |
