@@ -1,97 +1,63 @@
-<div class="footer">
+<footer class="main-footer pr-5 pl-5 pt-3 pb-2">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="footer-inner">
-          <ul class="footer-menu">
-            {{ partial "social.html" .}}
-            <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-            <li><a href="mailto:{{ .Site.Data.contact.email }}">Contact</a></li>
-            <li class="copyright">© {{ now.Format "2006" }} {{.Site.Data.contact.businessName}}</li>
-          </ul>
+        <div class="row">
+          <div class="col-12 col-md-3 col-lg-3 text-center text-xl-left text-lg-left text-md-left">
+            <img class="footer-logo pb-3" alt="SeamlessAcces Logo" src="/images/sa-logo-white.svg"/>
+            <br/>
+            <p>
+              SeamlessAccess enables true Sign On. Your users will be able to sign in using
+              their preferred sign in credentials, and will not be bothered for them again
+              for all SeamlessAccess-enabled sites.
+            </p>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 d-none d-xl-block d-lg-block d-md-block">
+            <h3 class="pr-3 pl-3 font-weight-bold lh-title primary border-left-white pt-1 pb-1 mb-0">
+              <a href="https://seamlessaccess.org/services/" class="link"><strong>The Service</strong></a>
+            </h3>
+            <ul class="pr-3 pl-3 mb-1 border-left-white">
+              <li><a href="https://seamlessaccess.org/services/for-service-providers/" class="link">SeamlessAccess for Service Providers</a></li>
+              <li><a href="https://seamlessaccess.org/services/for-libraries/" class="link">SeamlessAccess for Libraries</a></li>
+              <li><a href="https://seamlessaccess.org/services/for-identity-providers/" class="link">SeamlessAccess for Identity Providers</a></li>
+              <li><a href="https://seamlessaccess.org/services/for-federations/" class="link">SeamlessAccess for R&E Federation Operators</a></li>
+              <li><a href="https://seamlessaccess.org/services/for-researchers/" class="link">SeamlessAccess for Researchers</a></li>
+              <li><a href="https://seamlessaccess.org/services/for-research_collab" class="link">SeamlessAccess for Research Collaborations</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 d-none d-xl-block d-lg-block d-md-block">
+            <h3 class="pr-3 pl-3 font-weight-bold lh-title primary border-left-white pt-1 pb-1 mb-0">
+              <a href="https://seamlessaccess.org/about/" class="link"><strong>About</strong></a>
+            </h3>
+            <ul class="pr-3 pl-3 mb-1 border-left-white">
+              <li><a href="https://seamlessaccess.org/about/governance/" class="link">Governance and Funding</a></li>
+              <li><a href="https://seamlessaccess.org/about/community/" class="link">Community</a></li>
+              <li><a href="https://seamlessaccess.org/about/trust/" class="link">Privacy and Trust</a></li>
+              <li><a href="https://seamlessaccess.org/posts/" class="link">News</a></li>
+            </ul>
+            <br>
+            <h3 class="pr-3 pl-3 font-weight-bold lh-title primary border-left-white pt-1 pb-1 mb-0">
+              <a href="https://seamlessaccess.org/about/" class="link"><strong>FAQ</strong></a>
+            </h3>
+          </div>
+          <div class="col-12 col-md-3 col-lg-3 d-none d-xl-block d-lg-block d-md-block">
+            <h3 class="pr-3 pl-3 font-weight-bold lh-title primary border-left-white pt-1 pb-1 mb-0">
+              <a href="https://seamlessaccess.org/work/" class="link"><strong>Getting Started</strong></a>
+            </h3>
+            <ul class="pr-3 pl-3 mb-1 border-left-white">
+              <li><a href="https://seamlessaccess.org/work/step1/" class="link">Gather Information</a></li>
+              <li><a href="https://seamlessaccess.org/work/step2/" class="link">Select Your Implementation</a></li>
+              <li><a href="https://seamlessaccess.org/work/step3/" class="link">Implement the Service</a></li>
+              <li><a href="https://seamlessaccess.org/work/step4/" class="link">Tell Your Users</a></li>
+              <li><a href="https://seamlessaccess.org/work/step5/" class="link">Tell Us About It</a></li>
+            </ul>
+            <br>
+            <h3 class="pr-3 pl-3 font-weight-bold lh-title primary border-left-white pt-1 pb-1 mb-0">
+              <a href="https://seamlessaccess.org/work/" class="link"><strong>Documentation</strong></a>
+            </h3>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<footer class="main-footer ph5-ns pt1 pb4 white">
-  <div class="center pt3">
-    <div class="flex-ns">
-      <div class="ph3 w-25-ns pv2">
-        <img class="footer-logo pb3" alt="SeamlessAcces Logo" src="/img/SeamlessFooterLogo.svg"/>
-        <br/>
-        <p>
-          SeamlessAccess enables true Sign On. Your users will be able to sign in using
-          their preferred sign in credentials, and will not be bothered for them again
-          for all SeamlessAccess-enabled sites.
-        </p>
-      </div>
-
-      <div class="w-25-ns pv2">
-        <h3 class="ph3 f4 b lh-title mb1 primary border-left-white pb1">
-          <a href="https://seamlessaccess.org/services/" class="link">The Service</a>
-        </h3>
-        <ul class="ph3 mb1 border-left-white">
-          <li><a href="https://seamlessaccess.org/services/for-service-providers/" class="link">SeamlessAccess for Service Providers</a></li>
-          <li><a href="https://seamlessaccess.org/services/for-libraries/" class="link">SeamlessAccess for Libraries</a></li>
-          <li><a href="https://seamlessaccess.org/services/for-identity-providers/" class="link">SeamlessAccess for Identity Providers</a></li>
-          <li><a href="https://seamlessaccess.org/services/for-federations/" class="link">SeamlessAccess for R&E Federation Operators</a></li>
-          <li><a href="https://seamlessaccess.org/services/for-researchers/" class="link">SeamlessAccess for Researchers</a></li>
-          <li><a href="https://seamlessaccess.org/services/for-research_collab" class="link">SeamlessAccess for Research Collaborations</a></li>
-        </ul>
-      </div>
-
-      <div class="w-25-ns pv2">
-        <h3 class="ph3 f4 b lh-title mb1 primary border-left-white pb1">
-          <a href="https://seamlessaccess.org/about/" class="link">About</a>
-        </h3>
-        <ul class="ph3 mb1 border-left-white">
-          <li><a href="https://seamlessaccess.org/about/governance/" class="link">Governance and Funding</a></li>
-          <li><a href="https://seamlessaccess.org/about/community/" class="link">Community</a></li>
-          <li><a href="https://seamlessaccess.org/about/trust/" class="link">Privacy and Trust</a></li>
-          <li><a href="https://seamlessaccess.org/posts/" class="link">News</a></li>
-        </ul>
-        <br>
-        <h3 class="ph3 f4 b lh-title mb1 primary border-left-white pb1">
-          <a href="https://seamlessaccess.org/about/" class="link">FAQ</a>
-        </h3>
-      </div>
-
-      <div class="w-25-ns pv2">
-        <h3 class="ph3 f4 b lh-title mb1 primary border-left-white pb1">
-          <a href="https://seamlessaccess.org/work/" class="link">Getting Started</a>
-        </h3>
-        <ul class="ph3 mb1 border-left-white">
-          <li><a href="https://seamlessaccess.org/work/step1/" class="link">Gather Information</a></li>
-          <li><a href="https://seamlessaccess.org/work/step2/" class="link">Select Your Implementation</a></li>
-          <li><a href="https://seamlessaccess.org/work/step3/" class="link">Implement the Service</a></li>
-          <li><a href="https://seamlessaccess.org/work/step4/" class="link">Tell Your Users</a></li>
-          <li><a href="https://seamlessaccess.org/work/step5/" class="link">Tell Us About It</a></li>
-        </ul>
-        <br>
-        <h3 class="ph3 f4 b lh-title mb1 primary border-left-white pb1">
-          <a href="https://seamlessaccess.org/work/" class="link">Documentation</a>
-        </h3>
-      </div>
-    </div>
-  </div>
-</footer>
-<footer class="center sub-footer pa3 center">
-  <div class="flex-ns justify-between">
-
-    <div>
-      <p class="mv2 mv0-ns">© 2020 All Rights Reserved <strong>SeamlessAccess</strong></p>
-    </div>
-
-    <div>
-      <p class="mv2 mv0-ns">
-				<span class="mh3">
-					<a href="/contact"><strong>CONTACT</strong></a>
-				</span>
-        <span class="mh1"><i class="fab fa-twitter"></i></span>
-        <span class="mh2"><i class="fab fa-youtube"></i></span>
-      </p>
     </div>
 
   </div>
@@ -105,6 +71,12 @@
   .main-footer {
     font-size: 14px;
     background: #216E93;
+    color: white;
+  }
+
+  .main-footer a, .main-footer p {
+    font-size: 14px;
+    font-weight: 300;
     color: white;
   }
 
