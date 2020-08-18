@@ -58,3 +58,4 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://wiki.swamid.se/">wiki.swamid.se</a> - click on Login button</td>
   </tr>   
 </table>
+
