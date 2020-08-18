@@ -99,3 +99,28 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Rich Wenger _(MIT, retired)_
 * Albert Wu _(Internet2)_
 * Ralph Youngen _(ACS)_
+
+# Contract Language Working Group
+
+* Sharon Boland Bayer _(Harvard Libraries)_
+* Rachel Bock _(Wiley)_
+* Joel Derby _(Springer Nature)_
+* Amanda Ferrante _(EBSCO)_
+* Sarah Forzetting _(Digital Collections Librarian, Stanford University)_
+* Jason Griffey _(NISO)_
+* Gabe Harp _(The MIT Press)_
+* Lisa Janicke Hinchliffe _(Professor & Coordinator for Information Literacy Services and Instruction, University of Illinois at Urbana-Champaign)_
+* Ken Klingenstein _(Internet2)_
+* Virginia Martin _(Duke University)_
+* Jennifer Matthews _(Collection Strategy Librarian, Rowan University)_
+* Laura L Morse _(Harvard Libraries)_
+* Peter Murray _(Index Data LLC)_
+* Kelechi Okere _(Elsevier)_
+* Christee Pascale _(Head of Acquisitions, University of South Carolina)_
+* Jiri Pavlik _(National Library of Technology, Czech Republic)_
+* Chris Shillum _(Principal, Swiss House Information)_
+* Pim Slot _(SURFnet)_
+* Lisa Syer _(Harvard Libraries)_
+* Mark Williams _(JISC)_
+* Ralph Youngen _(American Chemical Society)_
+
