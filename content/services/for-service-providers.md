@@ -42,6 +42,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Limited</td>
     <td><a href="https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo">wiki.geant.org</a> - click on platform links</td>
   </tr>
+    <tr>
+    <td>Elsevier</td>
+    <td>Advanced</td>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S1878535217300990">www.sciencedirect.com</a> - example</td>
+  </tr>
   <tr>
     <td>Nature.com</td>
     <td>Advanced</td>
