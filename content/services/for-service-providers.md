@@ -26,11 +26,36 @@ More information on how to integrate with SeamlessAccess, as well as our source 
 
 # Production Implementations of SeamlessAccess
 
-| Service Provider | Level of Integration &nbsp; &nbsp; | URL |
-| --- | :--: | --- |
-| American Chemical Society (ACS) | Advanced | <https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm> |
-| GÉANT Trusted Certificate Service (TCS) | Limited | <https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo> (click on platform links) |
-| Nature.com | Advanced | <https://www.nature.com/articles/s41586-019-1750-x> (example) |
-| SAFIRE Test Service Provider | Standard | <https://testsp.safire.ac.za/> |
-| ScienceDirect (Elsevier) | Advanced | (article level access only) <https://www.sciencedirect.com/science/article/pii/S2214785320349385> (example) |
-| SWAMID | Standard | <https://wiki.swamid.se/> (click on Login button) |
+<table style="width:100%">
+  <tr>
+    <th>Service Provider</th>
+    <th>Level of Integration</th>
+    <th>URL</th>
+  </tr>
+  <tr>
+    <td>American Chemical Society (ACS)</td>
+    <td>Advanced</td>
+    <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a></td>
+  </tr>
+  <tr>
+    <td>GÉANT Trusted Certificate Service (TCS)</td>
+    <td>Limited</td>
+    <td><a href="https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo">wiki.geant.org</a> - click on platform links</td>
+  </tr>
+  <tr>
+    <td>Nature.com</td>
+    <td>Advanced</td>
+    <td><a href="https://www.nature.com/articles/s41586-019-1750-x">nature.com</a> - example</td>
+  </tr>
+  <tr>
+    <td>SAFIRE Test Service Provider</td>
+    <td>Standard</td>
+    <td><a href="https://testsp.safire.ac.za/">testsp.safire.ac.za</a></td>
+  </tr>
+  <tr>
+    <td>SWAMID</td>
+    <td>Standard</td>
+    <td><a href="https://wiki.swamid.se/">wiki.swamid.se</a> - click on Login button</td>
+  </tr>   
+</table>
+

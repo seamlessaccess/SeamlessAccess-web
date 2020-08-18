@@ -11,7 +11,7 @@ thumbnail: ''
 images: []
 ---
 
-How does your system support federated authentication? In all cases, your service needs to be enabled with federated authentication. If a user can already sign into your site using their institution's sign in credentials you may be able to simply configure your service to use SeamlessAccess.
+Does your service support federated authentication? In all cases, your service needs to be enabled with federated authentication. If a user can already sign into your site using their institution's sign in credentials, you may be able to simply configure your service to use SeamlessAccess.
 
 
 # 1. Gather information and make a plan
