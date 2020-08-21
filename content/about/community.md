@@ -113,7 +113,6 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Ken Klingenstein _(Internet2)_
 * Virginia Martin _(Duke University)_
 * Jennifer Matthews _(Collection Strategy Librarian, Rowan University)_
-* Laura L Morse _(Harvard Libraries)_
 * Peter Murray _(Index Data LLC)_
 * Kelechi Okere _(Elsevier)_
 * Christee Pascale _(Head of Acquisitions, University of South Carolina)_
