@@ -119,7 +119,7 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Jiri Pavlik _(National Library of Technology, Czech Republic)_
 * Chris Shillum _(Principal, Swiss House Information)_
 * Pim Slot _(SURFnet)_
-* Lisa Syer _(Harvard Libraries)_
+* Lauren Syer _(Harvard Libraries)_
 * Mark Williams _(JISC)_
 * Ralph Youngen _(American Chemical Society)_
 
