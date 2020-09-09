@@ -37,15 +37,15 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a></td>
   </tr>
+      <tr>
+    <td>Elsevier</td>
+    <td>Advanced</td>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S1878535217300990">www.sciencedirect.com</a> - example</td>
+  </tr>
   <tr>
     <td>GÉANT Trusted Certificate Service (TCS)</td>
     <td>Limited</td>
     <td><a href="https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo">wiki.geant.org</a> - click on platform links</td>
-  </tr>
-    <tr>
-    <td>Elsevier</td>
-    <td>Advanced</td>
-    <td><a href="https://www.sciencedirect.com/science/article/pii/S1878535217300990">www.sciencedirect.com</a> - example</td>
   </tr>
   <tr>
     <td>Nature.com</td>
@@ -57,10 +57,16 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Standard</td>
     <td><a href="https://testsp.safire.ac.za/">testsp.safire.ac.za</a></td>
   </tr>
+    </tr>   
+    <tr>
+    <td>SUNET</td>
+    <td>Standard</td>
+    <td><a href="https://edusign.sunet.se/">edusign.sunet.se</a></td>
+  </tr>   
   <tr>
     <td>SWAMID</td>
-    <td>Standard</td>
+    <td>Limited</td>
     <td><a href="https://wiki.swamid.se/">wiki.swamid.se</a> - click on Login button</td>
-  </tr>   
+
 </table>
 
