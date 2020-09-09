@@ -1,6 +1,6 @@
 ---
 title: 'The Service'
-date: 2018-02-10T11:52:18+07:00
+date: 2020-08-31T11:52:18+07:00
 heroHeading: 'The Service'
 heroBackground: 'services/hero_theservices.jpg'
 heroSubHeading: ""
@@ -13,4 +13,4 @@ designed to help foster a more streamlined online access experience when using s
 
 SeamlessAccess aims to enable simple, trusted use of scholarly resources and services anytime, anywhere, and on any device.
 
-**_SeamlessAccess is being run as a beta service in a high availability environment. Services are expected to change as we gain experience and feedback from the community._**
+**_The functionality of SeamlessAccess in a beta service; services are expected to change as we gain experience and feedback from the community. The availability of the service is a full production, highly available environment._**
