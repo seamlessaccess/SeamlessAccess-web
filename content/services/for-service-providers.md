@@ -38,7 +38,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a></td>
   </tr>
       <tr>
-    <td>Elsevier</td>
+    <td>Elsevier's ScienceDirect</td>
     <td>Advanced</td>
     <td><a href="https://www.sciencedirect.com/science/article/pii/S1878535217300990">www.sciencedirect.com</a> - example</td>
   </tr>
@@ -67,6 +67,13 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>SWAMID</td>
     <td>Limited</td>
     <td><a href="https://wiki.swamid.se/">wiki.swamid.se</a> - click on Login button</td>
+  </tr>
+    <tr>
+    <td>Wiley Online Library</td>
+    <td>Advanced</td>
+    <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1316/">onlinelibrary.wiley.com</a></td>
+  </tr>
+    
 
 </table>
 
