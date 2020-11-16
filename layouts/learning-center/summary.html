@@ -1,0 +1,15 @@
+<div class="service service-summary">
+  {{ if .Params.icon }}
+  <div class="service-image">
+    <a href="{{ .Permalink }}"><img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/></a>
+  </div>
+  {{ end }}
+  <div class="service-content">
+    <h2 class="service-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <p>{{ .Params.description }}</p>
+    <!-- Display the first 120 characters of the page content
+    {{ .Content | truncate 120 "..." }} -->
+  </div>
+</div>

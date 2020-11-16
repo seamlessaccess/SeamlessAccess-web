@@ -1,26 +1,28 @@
 ---
 title: 'Libraries'
 date: 2018-11-28T15:14:39+10:00
-icon: 'services/icn_libraries.svg'
+icon: 'stakeholders/icn_libraries.svg'
 featured: true
 draft: false
 weight: 3
 heroHeading: 'Libraries'
 heroSubHeading: ''
-heroBackground: 'services/hero_libraries.jpg'
+heroBackground: 'stakeholders/hero_libraries.jpg'
 description: ""
 ---
 
 # SeamlessAccess for Libraries
 
-Libraries recognize that users do not always begin their access journey on the library website, or start with a proxied link. When users begin outside the library environment, they may end up on a publisher’s site and may encounter frustrating paywalls, or confusing and non-standardized login pathways. Seamless Access is designed to make access more consistent and understandable for users. 
+Libraries recognize that users do not always begin their access journey on the library website, or start with a proxied link. When users begin outside the library environment, they may end up on a publisher’s site and may encounter frustrating paywalls, or confusing and non-standardized login pathways. SeamlessAccess is designed to make access more consistent and understandable for users. 
 
-Libraries also care deeply about patron privacy. When implementing federated access on publisher sites (for example, using Shibboleth), libraries may find themselves negotiating with individual vendors regarding what information to release. Seamless Access provides standards and guidelines that ensure patron privacy. 
+Libraries also care deeply about patron privacy. When implementing federated access on publisher sites (for example, using Shibboleth), libraries may find themselves negotiating with individual vendors regarding what information to release. SeamlessAccess provides standards and guidelines that ensure patron privacy. 
+
+If your library is already set up to use federated authentication with a publisher, there is nothing further you need to do!
 
 ## What libraries can do
-Libraries can ask resource vendors whether or not they are implementing Seamless Access, and can partner with their campus IT to implement federated identity management (FIM) for resource vendors. Librarians can also stay up to date with news and new features in the FIM space by joining the Seamless Access mailing list. 
+Libraries can ask resource vendors whether or not they are implementing SeamlessAccess, and can partner with their campus IT to implement federated identity management (FIM) for resource vendors. Librarians can also stay up to date with news and new features in the FIM space by joining the Seamless Access mailing list. 
 
-By beginning these conversations about Seamless Access, libraries can begin to improve the access experience for our users.
+By beginning these conversations about SeamlessAccess, libraries can begin to improve the access experience for our users.
 
 ## How can my library get started with SeamlessAccess?
 Here are a few things libraries can do to get started with SeamlessAccess and federated authentication:
