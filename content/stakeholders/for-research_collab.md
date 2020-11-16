@@ -1,12 +1,12 @@
 ---
 title: 'Research Collaborations'
 date: 2018-11-18T12:33:46+10:00
-icon: 'services/icn_researchcollab.svg'
+icon: 'stakeholders/icn_researchcollab.svg'
 draft: false
 featured: false
 weight: 6
 heroHeading: 'Researcher Collaborations'
-heroBackground: 'services/hero_researchcollab.jpg'
+heroBackground: 'stakeholders/hero_researchcollab.jpg'
 description: ""
 ---
 

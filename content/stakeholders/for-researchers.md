@@ -1,12 +1,12 @@
 ---
 title: 'Researchers'
 date: 2018-11-18T12:33:46+10:00
-icon: 'services/icn_researchers.svg'
+icon: 'stakeholders/icn_researchers.svg'
 draft: false
 featured: true
 weight: 1
 heroHeading: 'Researchers'
-heroBackground: 'services/hero_researchers.jpg'
+heroBackground: 'stakeholders/hero_researchers.jpg'
 description: ""
 ---
 
