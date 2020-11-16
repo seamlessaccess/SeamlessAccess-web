@@ -1,12 +1,12 @@
 ---
 title: 'Service Providers'
 date: 2018-11-28T15:15:34+10:00
-icon: 'services/icn_serviceproviders.svg'
+icon: 'stakeholders/icn_serviceproviders.svg'
 featured: true
 draft: false
 weight: 2
 heroHeading: 'Service Providers'
-heroBackground: 'services/hero_serviceprov.jpg'
+heroBackground: 'stakeholders/hero_serviceprov.jpg'
 description: ""
 ---
 

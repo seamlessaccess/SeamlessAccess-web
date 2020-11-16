@@ -78,6 +78,9 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Ralph Youngen _(ACS)_
 
 # Entity Categories and Attribute Bundles Working Group
+The purpose of this working group is to define and promote a set of attribute release profiles and associated entity categories applicable to the access of scholarly information resources and services in the context of federated authentication. 
+
+The goal is to have these categorizations and profiles adopted and/or endorsed by global research and education federations, library communities, and other stakeholder groups. Any specific proposals for new entity categories should be submitted to REFEDS for consideration.
 
 * Laird Barrett _(Springer Nature)_
 * Judith Bush _(OCLC)_
@@ -101,6 +104,18 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Ralph Youngen _(ACS)_
 
 # Contract Language Working Group
+The purpose of this working group is to define and promote language that 
+may be used in contracts that include provisions for Federated Access. 
+Typically, these contracts involve the library organization's Identity 
+Provider Operator (IdP Operator) and electronic resources management staff 
+as well as the Service Provider Operator (SP Operator) of the content or 
+resource supplier. These provisions will hold both the Licensing Institution 
+and the Resource Provider responsible for adherence to the Attribute Release 
+Entity Categories applicable to the access of scholarly information resources 
+and services in the context of federated authentication. The Technical Steering 
+committee and the larger Seamless Access process have produced a technical 
+infrastructure that is able to protect end user privacy; this group will 
+endeavor to ensure those protections are maintained via contractual means.
 
 * Sharon Boland Bayer _(Harvard Libraries)_
 * Rachel Bock _(Wiley)_
@@ -122,4 +137,5 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Lauren Syer _(Harvard Libraries)_
 * Mark Williams _(JISC)_
 * Ralph Youngen _(American Chemical Society)_
+
 

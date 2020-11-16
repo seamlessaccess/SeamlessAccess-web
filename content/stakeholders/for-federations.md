@@ -1,12 +1,12 @@
 ---
 title: 'R&E Federation Operators'
 date: 2018-11-18T12:33:46+10:00
-icon: 'services/icn_researchcollab.svg'
+icon: 'stakeholders/icn_researchcollab.svg'
 draft: false
 featured: false
 weight: 5
 heroSubHeading: ''
-heroBackground: 'services/hero_refederation.jpg'
+heroBackground: 'stakeholders/hero_refederation.jpg'
 heroHeading: 'R&E Federation Operators'
 description: ""
 ---

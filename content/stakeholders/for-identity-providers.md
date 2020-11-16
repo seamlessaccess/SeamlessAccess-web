@@ -1,12 +1,12 @@
 ---
 title: 'Identity Providers'
 date: 2018-11-28T15:15:26+10:00
-icon: 'services/icn_identityprov.svg'
+icon: 'stakeholders/icn_identityprov.svg'
 featured: true
 draft: false
 weight: 4
 heroHeading: 'Identity Providers'
-heroBackground: 'services/hero_identityprov.jpg'
+heroBackground: 'stakeholders/hero_identityprov.jpg'
 description: ""
 ---
 
