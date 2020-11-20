@@ -6,8 +6,6 @@
   flex-direction: column;
   text-align: center;
   .service-summary {
-    display: flex;
-    align-items: flex-start;
     .service-image {
       /*flex: 0 0 40px;*/
       /*margin-right: 10px;*/
@@ -31,9 +29,9 @@
       }
       h2 {
         font-size: 1.2rem;
-        line-height: 1.2; 
+        line-height: 1.2;
         font-weight: 700;
-        color: $secondary;  
+        color: $secondary;
       }
     }
   }
