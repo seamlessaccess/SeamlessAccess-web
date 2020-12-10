@@ -69,6 +69,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://wiki.swamid.se/">wiki.swamid.se</a> - click on Login button</td>
   </tr>
     <tr>
+    <td>Taylor & Francis</td>
+    <td>Advanced</td>
+    <td><a href="https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009">https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009</a> - example</td>
+  </tr>
+    <tr>
     <td>Wiley Online Library</td>
     <td>Advanced</td>
     <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1316/">onlinelibrary.wiley.com</a></td>
