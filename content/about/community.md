@@ -33,11 +33,11 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * John Felts _(Coastal Carolina University)_
 * Jason Griffey _(NISO)_ - **co-chair**
 * Robert Kelshian _(American College)_
+* Linda Van Keuren _(Dahlgren Memorial Library, Georgetown University Medical Center)_
 * Tim Lloyd _(LibLynx)_ - **co-chair**
 * Lee Lockton _(University of Bath)_
 * Judy Luther _(Informed Strategies)_
 * Laura Paglione _(SeamlessAccess)_
-* Emily Singley _(Boston College)_
 * Raoul Teeuwen _(SURFnet)_
 * Tracy Tolliver _(University of Illinois)_
 * Lauren Tulloch _(CCC)_
