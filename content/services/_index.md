@@ -12,7 +12,7 @@ but there are some Terms of Service a Service Provider will need to agree to in 
 **_The functionality of SeamlessAccess in a beta service; services are expected to change as we gain experience and feedback from the community. The availability of the service is a full production, highly available environment._**
 
 # Architecture and Availability
-SeamlessAccess is hosted by SUNET with funding by GÉANT. Monitored 24x7, SEamlessAccess is considered a production service. A detailed diagram of the technical architecture is available [here](https://wiki.geant.org/display/gn43wp5/Seamless+Access+Deployment+Architecture).
+SeamlessAccess is hosted by SUNET with funding by GÉANT. Monitored 24x7, SeamlessAccess is considered a production service. A detailed diagram of the technical architecture is available [here](https://wiki.geant.org/display/gn43wp5/Seamless+Access+Deployment+Architecture).
 
 ## Service Announcements
 To check on the status of the SeamlessAccess central services, or to sign up for scheduled service announcements, please see our [status pages](https://status.seamlessaccess.org/).
