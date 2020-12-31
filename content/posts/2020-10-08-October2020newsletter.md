@@ -4,7 +4,7 @@ title: 'October 2020 Newsletter'
 date: 2020-10-09
 categories: [General]
 hero: true
-heroHeading: 'September 2020 Newsletter'
+heroHeading: 'October 2020 Newsletter'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
