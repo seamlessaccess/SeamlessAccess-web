@@ -24,7 +24,7 @@ Please recognize that we are in a beta phase and therefore the integration metho
 
 More information on how to integrate with SeamlessAccess, as well as our source code, is available at [Getting Started](/work).
 
-# Production Implementations of SeamlessAccess
+# Live Implementations of SeamlessAccess
 
 <table style="width:100%">
   <tr>
