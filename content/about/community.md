@@ -38,7 +38,7 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Lee Lockton _(University of Bath)_
 * Judy Luther _(Informed Strategies)_
 * Laura Paglione _(SeamlessAccess)_
-* Raoul Teeuwen _(SURFnet)_
+* Raoul Teeuwen _(SURF)_
 * Tracy Tolliver _(University of Illinois)_
 * Lauren Tulloch _(CCC)_
 * Keith Webster _(CMU)_
@@ -94,7 +94,7 @@ The goal is to have these categorizations and profiles adopted and/or endorsed b
 * Ken Klingenstein _(Internet2)_
 * Adam Lewenberg _(Stanford IT)_
 * Tim McGeary _(Duke University Libraries)_
-* Femke Morsch _(SURFconext)_
+* Femke Morsch _(SURF)_
 * Peter Murray _(consultant)_
 * Jiri Pavlik _(National Library of Technology, Czech Republic as FIM4L representative)_
 * Emily Singley _(Boston College)_
@@ -133,7 +133,7 @@ endeavor to ensure those protections are maintained via contractual means.
 * Christee Pascale _(Head of Acquisitions, University of South Carolina)_
 * Jiri Pavlik _(National Library of Technology, Czech Republic)_
 * Chris Shillum _(Principal, Swiss House Information)_
-* Pim Slot _(SURFnet)_
+* Pim Slot _(SURF)_
 * Lauren Syer _(Harvard Libraries)_
 * Mark Williams _(JISC)_
 * Ralph Youngen _(American Chemical Society)_
