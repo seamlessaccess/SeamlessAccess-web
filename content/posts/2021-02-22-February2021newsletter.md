@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'January 2021 Newsletter'
-date: 2021-01-11
+title: 'February 2021 Newsletter'
+date: 2021-02-22
 categories: [General]
 hero: true
-heroHeading: 'January 2021 Newsletter'
+heroHeading: 'February 2021 Newsletter'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
