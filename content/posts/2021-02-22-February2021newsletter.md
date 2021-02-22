@@ -22,7 +22,7 @@ And on March 27, the STM Association’s Society Day will include a session on S
 SeamlessAccess focuses on the Where-Are-You-From (WAYF) aspect of the Federated Identity Management (FIM) workflow. The metadata that sources the list of Identity Providers (IdPs) to users is often aggregated from several sources in order to get the broadest list possible. While providing the user as much choice in IdPs as possible is usually a good thing, we are seeing significant confusion when an institution has two IdPs with the same Display Name. Most commonly to date, this is found when an institution has a campus IdP and a library-specific IdP service (although this issue could arise with any organization where multiple IdPs might be implemented).
 
 For example:
-![](WAYF-disambiguation-example.png)
+![](./WAYF-disambiguation-example.png)
 
 
 From the user's perspective, these are the same. From a technical perspective, however, these are different. One point to 'https://login.bc.edu/idp/shibboleth' and the other points to 'https://idp.bc.edu/openathens'. We are beginning to see this area of potential confusion more frequently, and the above example is just the first that we identified. 
