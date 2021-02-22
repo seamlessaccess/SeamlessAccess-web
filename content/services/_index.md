@@ -7,7 +7,7 @@ heroBackground: 'images/hero_about.jpg'
 ---
 
 # SeamlessAccess is free
-but there are some Terms of Service a Service Provider will need to agree to in order to use SeamlessAccess.
+but there are some [Terms of Service](https://seamlessaccess.org/services/tos/) a Service Provider will need to agree to in order to use SeamlessAccess. Please go to our [Registration Form](https://airtable.com/shrZQbIHnIeX97B6H) to register your Service Provider; this will allow us to reach out when there are service changes and to record your organization's acceptance of the Terms of Service.
 
 **_The functionality of SeamlessAccess in a beta service; services are expected to change as we gain experience and feedback from the community. The availability of the service is a full production, highly available environment._**
 
