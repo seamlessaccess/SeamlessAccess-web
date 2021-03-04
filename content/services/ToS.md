@@ -55,7 +55,7 @@ set out opposite them below.
 <tr class="odd">
 <td>“Integrator”</td>
 <td> 
-<p>A Service Provider that has accepted the then current version of these Terms of Service at <a href="https://seamlessaccess.org/work/ToS">https://seamlessaccess.org/work/ToS</a> in order to integrate the Service into its digital authentication procedures for online access to the resources it provides.</p>
+<p>A Service Provider that has accepted the then current version of these Terms of Service at <a href="https://seamlessaccess.org/services/ToS">https://seamlessaccess.org/services/ToS</a> in order to integrate the Service into its digital authentication procedures for online access to the resources it provides.</p>
  </td>
 </tr>
 <tr class="even">
@@ -146,8 +146,8 @@ Identity Provider into the Persistence Service.
 
 The Service is available to be integrated in three versions, namely
 Limited, Standard and Advanced, as detailed and updated from time to
-time in the SeamlessAccess website at
-[<u>https://seamlessaccess.org/work/</u>](https://seamlessaccess.org/work/).
+time in the SeamlessAccess Documentation website at
+[<u>hhttps://seamlessaccess.atlassian.net/wiki/spaces/DOCUMENTAT/overview</u>](https://seamlessaccess.atlassian.net/wiki/spaces/DOCUMENTAT/overview).
 Advanced integration of the Service allows the Integrator to set up
 its own Discovery Services and to use a Persistence Service API as
 approved by SeamlessAccess.org.
@@ -180,8 +180,8 @@ in clause 3, and subject to these Terms of Service.
 4.2. In order to have the Service activated, the Integrator must
 have integrated the Service into its digital authentication
 procedures by following the instructions in the Integration
-Guide linked from the SeamlessAccess.org website at
-[<u>https://seamlessaccess.org/work/</u>](https://seamlessaccess.org/work/)
+Guide linked from the SeamlessAccess.org Documentation website at
+[<u>https://seamlessaccess.atlassian.net/wiki/spaces/DOCUMENTAT/overview</u>](https://seamlessaccess.atlassian.net/wiki/spaces/DOCUMENTAT/overview)
 and the software documentation at
 [<u>https://thiss.io/integration/</u>](https://thiss.io/integration/).
     
