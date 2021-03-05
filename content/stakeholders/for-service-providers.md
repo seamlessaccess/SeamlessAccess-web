@@ -40,7 +40,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
       <tr>
     <td>Elsevier's ScienceDirect</td>
     <td>Advanced</td>
-    <td><a href="https://www.sciencedirect.com/science/article/pii/S1878535217300990">www.sciencedirect.com</a> - example</td>
+    <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">www.sciencedirect.com</a> - example</td>
   </tr>
   <tr>
     <td>GÉANT Trusted Certificate Service (TCS)</td>
