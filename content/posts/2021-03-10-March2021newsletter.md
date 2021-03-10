@@ -20,7 +20,7 @@ On March 27, the STM Association’s Society Day will include a session on Seaml
 If you are interested in learning more about federations around the world, REFEDS will be hosting a free webinar on 1 April that examines the results of the most recent REFEDS Annual Survey. It’s an excellent opportunity to see how different federations are structured, their priorities, and their challenges. Registration is available here: <https://events.geant.org/event/581/>. 
 
 
-## NISO Plus Roundup!
+## NISO Plus Roundup
 The SeamlessAccess session at NISO Plus was a fun and engaging session! Discussion, particularly in the Q&A after the event, was active, with librarians, federation operators, and publishers all involved in better understanding the technologies behind SeamlessAccess. If you missed the session, you can see the recording here: 
 <https://nisoplus2021.cadmore.media/Title/dcddde5b-cef9-45dd-a932-cd546c84760b>.
 
