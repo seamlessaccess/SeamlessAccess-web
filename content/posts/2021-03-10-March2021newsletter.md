@@ -15,7 +15,7 @@ _SeamlessAccess is a service designed to help streamline the online access exper
 On 16 March, OpenAthens is hosting a session at their Access Lab 2021 event that includes a case study on one library’s experience with SeamlessAccess, Shibboleth, and OpenAthens.  Registration is now closed, but the content will be publicly available from 1 July 2021. More information is available on the Access Lab page:
 <https://openathens.org/access-lab-2021/>.
 
-On March 27, the STM Association’s Society Day will include a session on SeamlessAccess and GetFTR. See more information on the meeting website: <https://www.stm-assoc.org/events/stm-spring-conference-society-day-2021/>.
+On April 27, the STM Association’s Society Day will include a session on SeamlessAccess and GetFTR. See more information on the meeting website: <https://www.stm-assoc.org/events/stm-spring-conference-society-day-2021/>.
 
 If you are interested in learning more about federations around the world, REFEDS will be hosting a free webinar on 1 April that examines the results of the most recent REFEDS Annual Survey. It’s an excellent opportunity to see how different federations are structured, their priorities, and their challenges. Registration is available here: <https://events.geant.org/event/581/>. 
 
