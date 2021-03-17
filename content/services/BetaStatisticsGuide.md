@@ -29,4 +29,4 @@ As part of the Beta Phase for SeamlessAccess, Service Providers at any level of 
   * Comparable completion rate for equivalent journey prior to SeamlessAccess implementation is also requested.
 
 ## UI/UX information
-* SPs are asked to share any quantitative and/or qualitivative user research they conduct during the beta period, providing no confidential information is disclosed. 
+* SPs are asked to share any quantitative and/or qualitative user research they conduct during the beta period, provided no confidential information is disclosed. 

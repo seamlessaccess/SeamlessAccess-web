@@ -48,6 +48,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo">wiki.geant.org</a> - click on platform links</td>
   </tr>
   <tr>
+    <td>IOP Publishing</td>
+    <td>Advanced</td>
+    <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">iop.org</a> - example</td>
+  </tr>
+  <tr>
     <td>Nature.com</td>
     <td>Advanced</td>
     <td><a href="https://www.nature.com/articles/s41586-019-1750-x">nature.com</a> - example</td>
