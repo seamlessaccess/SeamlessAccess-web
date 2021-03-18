@@ -10,7 +10,7 @@ heroBackground: "images/hero_news.jpg"
 ---
 # Identity Provider Filtering in SeamlessAccess
 ## Thoughts on architecture
-By Leif Johansson, CTO for SUNET and architect for SeamlessAccess
+By Leif Johansson, Head of Infrastructure Services for SUNET and architect for SeamlessAccess
 
 Today SeamlessAccess presents a single view of all the identity providers it knows about - a single set of IdPs is available for searches to whatever SP is calling the discovery service. 
 
