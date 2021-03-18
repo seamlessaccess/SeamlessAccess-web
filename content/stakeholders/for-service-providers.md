@@ -50,7 +50,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>IOP Publishing</td>
     <td>Standard</td>
-    <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">https://iopscience.iop.org’</a> - example</td>
+    <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">https://iopscience.iop.org</a> - example</td>
   </tr>
   <tr>
     <td>Nature.com</td>
