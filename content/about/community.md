@@ -15,13 +15,13 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 
 # Governance Committee
 
-* Laird Barrett _(SpringerNature)_
+
 * Todd Carpenter _(NISO)_
 * Heather Flanagan _(SeamlessAccess Program Director)_
 * Jason Griffey _(NISO)_
-* Laurel Haak _(ORCID)_
+* Andy Halliday _(SpringerNature)_
+* Hylke Koers _(STM)_
 * Tim Lloyd _(LibLynx)_
-* Eefke Smit _(STM)_
 * Ann West _(Internet2)_
 * Klaas Wierenga _(GÉANT)_
 * Ralph Youngen _(ACS)_
@@ -32,16 +32,13 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Jane Charlton _(OpenAthens)_
 * John Felts _(Coastal Carolina University)_
 * Jason Griffey _(NISO)_ - **co-chair**
-* Robert Kelshian _(American College)_
 * Linda Van Keuren _(Dahlgren Memorial Library, Georgetown University Medical Center)_
 * Tim Lloyd _(LibLynx)_ - **co-chair**
-* Lee Lockton _(University of Bath)_
 * Judy Luther _(Informed Strategies)_
-* Laura Paglione _(SeamlessAccess)_
+* Heather Staines _(SeamlessAccess)_
 * Raoul Teeuwen _(SURF)_
 * Tracy Tolliver _(University of Illinois)_
-* Lauren Tulloch _(CCC)_
-* Keith Webster _(CMU)_
+* Rich Wenger _(MIT, retired)_
 * Ralph Youngen _(ACS)_
 
 # Technical Steering Committee
@@ -137,5 +134,24 @@ endeavor to ensure those protections are maintained via contractual means.
 * Lauren Syer _(Harvard Libraries)_
 * Mark Williams _(JISC)_
 * Ralph Youngen _(American Chemical Society)_
+
+# WAYF Entry Disambiguation Working Group
+The purpose of this working group is to develop recommendations around the issue of visually indistinguishable Identity Providers (IdPs) appearing in Where-Are-You-From (WAYF) IdP discovery services.
+
+* Fredrik Domeij _(SWAMID)_
+* Amanda Ferrante _(EBSCO Information Services)_
+* Heather Flanagan _(SeamlessAccess)_
+* Jason Griffey _(NISO)_
+* Meshna Koren _(Elsevier)_
+* Phil Leahy _(OpenAthens)_
+* Tim Lloyd _(LibLynx)_
+* Hong Ma _(Loyola University Chicago)_
+* Richard Northover _(Elsevier)_
+* Adam Snook _(OpenAthens)_
+* Albert Wu _(InCommon)_
+* Ralph Youngen _(ACS)_
+
+
+
 
 
