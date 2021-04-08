@@ -30,17 +30,23 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <th>Service Provider</th>
     <th>Level of Integration</th>
-    <th>URL</th>
+    <th>Example URL</th>
   </tr>
+   <tr>
+    <td>AIP Publishing - Scitation</td>
+    <td>Advanced</td>
+    <td><a href="https://aapt.scitation.org/doi/full/10.1119/10.0003395">scitation.org</a></td>
+  </tr>
+
   <tr>
     <td>American Chemical Society (ACS)</td>
     <td>Advanced</td>
-    <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a></td>
+    <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a> </td>
   </tr>
       <tr>
     <td>Elsevier's ScienceDirect</td>
     <td>Advanced</td>
-    <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">www.sciencedirect.com</a> - example</td>
+    <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">www.sciencedirect.com</a></td>
   </tr>
   <tr>
     <td>GÉANT Trusted Certificate Service (TCS)</td>
@@ -50,12 +56,12 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>IOP Publishing</td>
     <td>Standard</td>
-    <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">https://iopscience.iop.org</a> - example</td>
+    <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">iopscience.iop.org</a></td>
   </tr>
   <tr>
     <td>Nature.com</td>
     <td>Advanced</td>
-    <td><a href="https://www.nature.com/articles/s41586-019-1750-x">nature.com</a> - example</td>
+    <td><a href="https://www.nature.com/articles/s41586-019-1750-x">nature.com</a></td>
   </tr>
   <tr>
     <td>SAFIRE Test Service Provider</td>
@@ -76,7 +82,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <tr>
     <td>Taylor & Francis</td>
     <td>Advanced</td>
-    <td><a href="https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009">https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009</a> - example</td>
+    <td><a href="https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009">tandfonline.com</a></td>
   </tr>
     <tr>
     <td>Wiley Online Library</td>
