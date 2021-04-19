@@ -84,3 +84,5 @@ Our roadmap for filtering looks something like this:
 4. Implement the chosen UX/UI solution for filtering
 5. Begin roll-out
 6. Provide a pixie-dusting service
+
+As soon as we have deployed a mechanism for filtering, we plan to open SeamlessAccess to subscribe to arbitrary metadata feeds - this could be your federation feed (including entities not provided to edugain) or a set of private metadata that is only relevant to a single SP. If it is possible for SeamlessAccess to fetch and update metadata we will make every effort to do so.
