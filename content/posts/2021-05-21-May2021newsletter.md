@@ -20,7 +20,7 @@ Best practice guidance from SeamlessAccess comes from research into what users f
 # The SeamlessAccess Product Roadmap
 Work on SeamlessAccess is an ever-evolving set of activities. Over the next few months, we expect several features to be released, including progressive scrolling on the Standard IdP discovery page and various internationalization improvements. Much of our planning and development work is focused on improving how we signal to a user that a given IdP is more or less likely to work with a given service provider. Below is a copy of our roadmap, which shares our goals and target dates (though the target dates will likely change as real-world activities impact our efforts). We will keep you informed via the newsletter as new features are released!
 
-![SeamlessAccess Product Roadmap](SeamlessAccess2021Roadmap.png)
+![SeamlessAccess Product Roadmap](/posts/SeamlessAccess2021Roadmap.png)
 
 
 _SeamlessAccess.org is a service designed to help streamline the online access experience for researchers using scholarly collaboration tools, information resources, and shared research infrastructure. This service is governed as a coalition between four organizations: [GÉANT](https://geant.org), [Internet2](https://internet2.edu), the [National Information Standards Organization (NISO)](https://niso.org), and the [International Association of STM Publishers](https://stm-assoc.org). Participants include researchers, service providers, libraries, identity providers, and federation operators. We’re excited to bring you up to date on the latest news._
