@@ -123,7 +123,6 @@ endeavor to ensure those protections are maintained via contractual means.
 * Gabe Harp _(The MIT Press)_
 * Lisa Janicke Hinchliffe _(Professor & Coordinator for Information Literacy Services and Instruction, University of Illinois at Urbana-Champaign)_
 * Ken Klingenstein _(Internet2)_
-* Virginia Martin _(Duke University)_
 * Jennifer Matthews _(Collection Strategy Librarian, Rowan University)_
 * Peter Murray _(Index Data LLC)_
 * Kelechi Okere _(Elsevier)_
