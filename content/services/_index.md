@@ -12,6 +12,14 @@ but there are some [Terms of Service](https://seamlessaccess.org/services/tos/) 
 **_The functionality of SeamlessAccess in a beta service; services are expected to change as we gain experience and feedback from the community. The availability of the service is a full production, highly available environment._**
 
 # Product Roadmap
+The SeamlessAccess roadmap is based on the backlog of issues reported in GitHub as well as insights that we receive from the service adopters and stakeholders. 
+
+Most of our early adopters are coming from the publishing industry and are using the Advanced Integration. Our current strategy is to introduce some of the features that are the reason for choosing the Advanced Integration into the Standard and Limited Integrations. This will provide more flexibility for Standard and Limited Integration models, and we hope the changes will attract new adopters. 
+
+The new features include the ability to filter the IdPs that are available in the discovery services for a given SP, localize the SeamlessAccess central discovery service, and others as indicated below. 
+
+_Please note that the time frames presented in this roadmap are aspirational goals for when our teams will be working on particular features, and not the committed release dates._
+
 <div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://lucid.app/documents/embeddedchart/7843e420-8af2-42bd-ad69-daa61d6cec30" id="YSDE.Wh67_vI"></iframe></div>
 
 # Architecture and Availability
