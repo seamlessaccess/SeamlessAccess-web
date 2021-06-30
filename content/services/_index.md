@@ -11,6 +11,9 @@ but there are some [Terms of Service](https://seamlessaccess.org/services/tos/) 
 
 **_The functionality of SeamlessAccess in a beta service; services are expected to change as we gain experience and feedback from the community. The availability of the service is a full production, highly available environment._**
 
+# Product Roadmap
+<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://lucid.app/documents/embeddedchart/7843e420-8af2-42bd-ad69-daa61d6cec30" id="YSDE.Wh67_vI"></iframe></div>
+
 # Architecture and Availability
 SeamlessAccess is hosted by SUNET with funding by GÉANT. Monitored 24x7, SeamlessAccess is considered a production service. A detailed diagram of the technical architecture is available [here](https://wiki.geant.org/display/gn43wp5/Seamless+Access+Deployment+Architecture).
 
