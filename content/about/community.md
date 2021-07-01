@@ -36,7 +36,6 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 * Tim Lloyd _(LibLynx)_ - **co-chair**
 * Judy Luther _(Informed Strategies)_
 * Heather Staines _(SeamlessAccess)_
-* Raoul Teeuwen _(SURF)_
 * Tracy Tolliver _(University of Illinois)_
 * Rich Wenger _(MIT, retired)_
 * Ralph Youngen _(ACS)_
