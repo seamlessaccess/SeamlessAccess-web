@@ -11,7 +11,7 @@ heroBackground: "images/hero_news.jpg"
 
 # Web browsers, privacy, and federated identity
 
-> Dr. Jane Smith is a postdoc at a major research institution. Overnight, 
+> _Dr. Jane Smith is a postdoc at a major research institution. Overnight, 
 > she upgraded her Apple Macbook to the latest version 
 > of Apple’s MacOS.  While in her lab she powers up her Macbook
 >  and connects to the campus WiFi network.  She reads an email 
@@ -23,7 +23,7 @@ heroBackground: "images/hero_news.jpg"
 > publisher’s website that she reads on a regular basis, and also 
 > finds she doesn’t have access.  Really strange.  She asks a 
 > colleague in the lab if he is having trouble accessing journal 
-> articles.  Access from his Windows laptop is working just fine.
+> articles.  Access from his Windows laptop is working just fine._
  
 This scenario could begin to happen at campuses across the globe in the not-so-distant future.  Browser vendors are beginning to signal changes they plan to make that will bolster privacy but could also cause unintended disruption.  On June 7, 2021 during Apple’s WWDC conference, Apple [announced](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) that subscribers to their iCloud+ service will have their IP address obfuscated from website operators.  This is a strong signal regarding Apple’s thoughts on how to protect privacy, and this kind of feature will almost certainly make its way to the rest of Apple’s products (like Safari). While Apple is making this move (and others) to protect user privacy, for an industry that has leveraged IP address recognition as the predominant means of authorizing access to scholarly resources, the potential for unintended disruption is massive.
 
