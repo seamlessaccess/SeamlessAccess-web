@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'June 2021 Newsletter'
+title: 'Summer 2021 Newsletter'
 date: 2021-07-06
 categories: [General]
 hero: true
-heroHeading: 'June 2021 Newsletter'
+heroHeading: 'Summer 2021 Newsletter'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
