@@ -26,5 +26,3 @@ Work on SeamlessAccess is an ever-evolving set of activities. Over the next few 
 _SeamlessAccess.org is a service designed to help streamline the online access experience for researchers using scholarly collaboration tools, information resources, and shared research infrastructure. This service is governed as a coalition between four organizations: [GÉANT](https://geant.org), [Internet2](https://internet2.edu), the [National Information Standards Organization (NISO)](https://niso.org), and the [International Association of STM Publishers](https://stm-assoc.org). Participants include researchers, service providers, libraries, identity providers, and federation operators. We’re excited to bring you up to date on the latest news._
 
 
-_You are receiving this newsletter because you signed up for news about SeamlessAccess. If you would like to be removed from this list, please let me know._  
-
