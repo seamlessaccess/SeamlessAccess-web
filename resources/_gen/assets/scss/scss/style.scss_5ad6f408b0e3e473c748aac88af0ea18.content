@@ -5898,6 +5898,17 @@ ul.social {
   max-width: 70%;
   margin: auto; }
 
+.content table {
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 1.1rem;
+  font-weight: 300; }
+  .content table th {
+    font-weight: 600; }
+  .content table tr {
+    border-bottom: 1px solid #CCC; }
+  .content table tr:last-child {
+    border-bottom: none; }
+
 .intro {
   display: flex;
   justify-content: flex-start;
@@ -10727,31 +10738,28 @@ readers do not read off random characters that represent icons */
   align-items: center;
   flex-direction: column;
   text-align: center; }
-  .service .service-summary {
-    display: flex;
-    align-items: flex-start; }
-    .service .service-summary .service-image {
-      /*flex: 0 0 40px;*/
-      /*margin-right: 10px;*/
-      width: 80px; }
-      .service .service-summary .service-image img {
-        max-width: 100%;
-        height: auto; }
-    .service .service-summary .service-content {
-      flex: 1; }
-      .service .service-summary .service-content .service-title {
-        font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
-        font-size: 1rem; }
-      .service .service-summary .service-content p {
-        color: #666;
-        font-size: 0.9rem;
-        width: 90%;
-        text-align: left; }
-      .service .service-summary .service-content h2 {
-        font-size: 1.2rem;
-        line-height: 1.2;
-        font-weight: 700;
-        color: #51514F; }
+  .service .service-summary .service-image {
+    /*flex: 0 0 40px;*/
+    /*margin-right: 10px;*/
+    width: 80px; }
+    .service .service-summary .service-image img {
+      max-width: 100%;
+      height: auto; }
+  .service .service-summary .service-content {
+    flex: 1; }
+    .service .service-summary .service-content .service-title {
+      font-family: "Source Sans Pro", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+      font-size: 1rem; }
+    .service .service-summary .service-content p {
+      color: #666;
+      font-size: 0.9rem;
+      width: 90%;
+      text-align: left; }
+    .service .service-summary .service-content h2 {
+      font-size: 1.2rem;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #51514F; }
 
 .service-content {
   text-align: left;
