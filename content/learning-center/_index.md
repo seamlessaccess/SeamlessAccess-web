@@ -26,4 +26,8 @@ The first two video titles focus on addressing questions and concerns about fede
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4xRqdc0DeJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+- [Seamless Access and the User Journey](https://youtu.be/V5xfPyaIMyI) Outlines a description of the early researcher point of view, and how Seamless Access makes the process much more straightforward and simple. Narrated by Georgetown University nursing student Esther Yang.
+
+    <iframe width="560" height="315" src="https://youtu.be/V5xfPyaIMyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Future videos will address other core topics around the use of the SeamlessAccess service, as well as implementation guides covering the various user communities, such as libraries, technical departments, and publishers.
