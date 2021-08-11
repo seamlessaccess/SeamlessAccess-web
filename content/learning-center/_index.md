@@ -16,7 +16,7 @@ We have worked with the Georgetown University Medical Center Library to produce 
 
 
 ## Video
-The first two video titles focus on addressing questions and concerns about federated authentication, the technology underlying the SeamlessAccess service.  Both are designed to provide accessible overviews for a non-technical audience:
+This video series is designed to help answer basic questions about both federated authentication and how Seamless Access fits into the authentication ecosystem.  All are designed to provide accessible overviews for a non-technical audience, and we hope to add more over time. 
 
 - [How Federated Authentication](https://www.youtube.com/watch?v=wjvC_PUj4CI) works provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation.
 
