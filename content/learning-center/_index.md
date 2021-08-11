@@ -16,7 +16,7 @@ We have worked with the Georgetown University Medical Center Library to produce 
 
 
 ## Video
-The first two video titles focus on addressing questions and concerns about federated authentication, the technology underlying the SeamlessAccess service.  Both are designed to provide accessible overviews for a non-technical audience:
+This video series is designed to help answer basic questions about both federated authentication and how Seamless Access fits into the authentication ecosystem.  All are designed to provide accessible overviews for a non-technical audience, and we hope to add more over time. 
 
 - [How Federated Authentication](https://www.youtube.com/watch?v=wjvC_PUj4CI) works provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation.
 
@@ -25,5 +25,9 @@ The first two video titles focus on addressing questions and concerns about fede
 - [Privacy, Attributes, and Why They're Important](https://www.youtube.com/watch?v=4xRqdc0DeJI) builds on the previous video to describe the role that Attributes play in preserving user privacy, and the particular challenge that libraries face in configuring library access.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4xRqdc0DeJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [Seamless Access and the User Journey](https://youtu.be/V5xfPyaIMyI) Outlines a description of the early researcher point of view, and how Seamless Access makes the process much more straightforward and simple. Narrated by Georgetown University nursing student Esther Yang.
+
+    <iframe width="560" height="315" src="https://youtu.be/V5xfPyaIMyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Future videos will address other core topics around the use of the SeamlessAccess service, as well as implementation guides covering the various user communities, such as libraries, technical departments, and publishers.
