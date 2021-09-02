@@ -10,13 +10,13 @@ heroHeight: 400
 A key part of our mission is to improve understanding of the technologies that support our SeamlessAccess experience.  To date, a significant proportion of our outreach activity has been in-person presentations at meetings and conferences, but we also work to gather resources for our community that are useful for understanding both the Seamless Access service and the broader federated authentication infrastructure.  
 
 ## Case Study
-We have worked with the Georgetown University Medical Center Library to produce a simple case study that outlines the benefits of using Seamless Access for their users, as well as outline their process and rationale behind the choice to emphasize federated authentication for those users.
+We have worked with the Georgetown University Medical Center Library to produce a simple case study that outlines the benefits of using SeamlessAccess for their users, as well as outline their process and rationale behind the choice to emphasize federated authentication for those users.
 
 [Seamless Access/Georgetown University Medical Center Library Case Study](./case-study/)
 
 
 ## Video
-This video series is designed to help answer basic questions about both federated authentication and how Seamless Access fits into the authentication ecosystem.  All are designed to provide accessible overviews for a non-technical audience, and we hope to add more over time. 
+This video series is designed to help answer basic questions about both federated authentication and how SeamlessAccess fits into the authentication ecosystem.  All are designed to provide accessible overviews for a non-technical audience, and we hope to add more over time.
 
 - [How Federated Authentication](https://www.youtube.com/watch?v=wjvC_PUj4CI) works provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation.
 
@@ -26,7 +26,7 @@ This video series is designed to help answer basic questions about both federate
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/4xRqdc0DeJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [Seamless Access and the User Journey](https://www.youtube.com/watch?v=V5xfPyaIMyI) Outlines a description of the early researcher point of view, and how Seamless Access makes the process much more straightforward and simple. Narrated by Georgetown University nursing student Esther Yang.
+- [Seamless Access and the User Journey](https://www.youtube.com/watch?v=V5xfPyaIMyI) Outlines a description of the early researcher point of view, and how SeamlessAccess makes the process much more straightforward and simple. Narrated by Georgetown University nursing student Esther Yang.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/V5xfPyaIMyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
