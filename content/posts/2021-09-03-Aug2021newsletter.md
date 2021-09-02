@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'August 2021 Newsletter'
-date: 2021-09-03
+date: 2021-09-02
 categories: [General]
 hero: true
 heroHeading: 'August 2021 Newsletter'
@@ -10,20 +10,32 @@ heroBackground: "images/hero_news.jpg"
 ---
 
 
+# Upcoming Events
 
-# The SeamlessAccess Product Roadmap
-Work on SeamlessAccess is an ever-evolving set of activities. Over the next few months, we expect several features to be released, including progressive scrolling on the Standard IdP discovery page and various internationalization improvements. Much of our planning and development work is focused on improving how we signal to a user that a given IdP is more or less likely to work with a given service provider. The roadmap is now available on our [website](https://seamlessaccess.org/services/) and will be updated regularly. 
+On 24 September, Heather Staines will be talking about SeamlessAccess in a webinar entitled _"Identity in Research Infrastructure: An overview of how identity is managed in scholarly infrastructure"_ as part of [Peer Review Week 2021](https://peerreviewweek.wordpress.com/peer-review-week-2021/). You are cordially invited, please register [here](https://zoom.us/webinar/register/WN_mONhEv20TXmIUJJLjN8hLQ).
+
+# SeamlessAccess and the User Journey
+
+SeamlessAccess is all about providing a seamless, intuitive user experience, with the ideal being that it “just works” with as little user interaction as possible. Interestingly, that also means that it is not always obvious to users what exactly SeamlessAccess is doing for them, and how their user experiences would be different without it. To explain the value of SeamlessAccess in a visual and easily digestible way, we have created a series of videos that are available on our [Learning Center](https://seamlessaccess.org/learning-center/).
+
+The latest video in this series, just released, is called “SeamlessAccess and the User Journey”. It offers a step-by-step description of the access user journey from a researcher point of view, demonstrating how SeamlessAccess is making the whole process of accessing a journal article much more straightforward. Check it out [here](https://seamlessaccess.org/learning-center/).
 
 
-# Staff Change
-As of July 1st, Hylke Koers has taken over the baton from Heather Flanagan as SeamlessAccess’ Program Director. Hylke recently joined the STM Association as CIO for it’s new [STM Solutions](https://scholarlykitchen.sspnet.org/2021/04/02/introducing-stm-solutions-an-interview-with-hylke-koers-and-ian-moss/.) initiative, which has access as one of its priorities. Hylke is excited to be part of SeamlessAccess and looks forward to working with the SeamlessAccess community and helping shape its future direction.
 
-Heather Flanagan will continue to stay involved as Technical Liaison, working on an optimal coordination and collaboration between SeamlessAccess and relevant other community groups as well as contributing to the more technically-focused Working Groups.
+# Feedback from Integrator Workshops
 
-Eefke Smit, Director S&T of STM and one of the long-term sponsors of SeamlessAccess, says:
+Over the summer period, we organised three workshops for SeamlessAccess integrators and federation operators. Collectively, these were attended by close to 100 individuals which meant that we were able to get a lot of valuable feedback from different angles on SeamlessAccess’ current offering and our plans for the future. 
 
-_"Heather came as a gift from heaven to the project - a woman with exactly the right expertise, the right network and a well-fitting skill set. She took a key role in developing it from RA21 (Resource Access in the 21st Century) into SeamlessAccess.org. This was now 5 years ago. The rest is history – our gratitude for her contributions live on. Her new role will be equally valuable for the future of the project, with SeamlessAccess now ready to go operational."_
+By and large, the feedback suggested that we have the right items on our current [roadmap](https://seamlessaccess.org/services/). In particular, IdP filtering and internationalization were confirmed as priorities, and the team is actively focusing on these topics at the moment. Additional items that we will be taking on board include branding (especially for federation operators) and thinking through the options to include non federated IdP’s such as social in the central discovery service. We always value further feedback: We have a [SeamlessAccess Slack channel](https://seamlessaccess.slack.com/archives/CM6R5GRS9) for general discussions with our community, and any concrete issue reports or feature requests can be submitted as an issue via [GitHub](https://github.com/TheIdentitySelector/thiss-js).
 
+Once we’re done implementing internationalization, we will be looking for contributions for translations - stay tuned!
+
+
+# Apple’s iCloud Private Relay impacting IP recognition
+
+Even though SeamlessAccess focuses on Federated Authentication as the best technology to enable researchers to access digital resources in a user-friendly and secure way, we realize that for many organisations and for many use cases IP-recognition is still an important access mechanism. With that in mind, we’d like to raise awareness within our community for ongoing work at Apple (dubbed “iCloud Private Relay”) that will anonymize IP addresses for Safari users on both iOS and MacOS. Very recently, Apple published a document that provides [guidance](https://developer.apple.com/support/prepare-your-network-for-icloud-private-relay/) for network administrators to prepare their institutions on how to deal with these changes.
+
+These developments at Apple fit into a [larger story](https://seamlessaccess.org/posts/2021-07-06-browserchanges/) as changes in legislation and expectations with regard to user privacy are driving significant changes at browser vendors over the next few years - with potentially huge impact on the scholarly web and services like SeamlessAccess. If you’d like to know more about what’s happening in this space, we highly recommend a recent webinar _[“Web browsers, privacy, and your publishing platform webinar”](https://www.stm-assoc.org/events/web-browsers-privacy-and-your-publishing-platform-webinar/)_  by Heather Flanagan.
 
 
 
