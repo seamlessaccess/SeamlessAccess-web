@@ -48,6 +48,12 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">www.sciencedirect.com</a></td>
   </tr>
+      <tr>
+    <td>Emerald Publishing</td>
+    <td>Advanced</td>
+    <td><a href="https://www.emerald.com/insight/content/doi/10.1108/IJPCC-10-2020-0169/full/html">emerald.com</a></td>
+  </tr>
+
   <tr>
     <td>GÉANT Trusted Certificate Service (TCS)</td>
     <td>Limited</td>
