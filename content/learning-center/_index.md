@@ -9,6 +9,9 @@ heroHeight: 400
 
 A key part of our mission is to improve understanding of the technologies that support our SeamlessAccess experience.  To date, a significant proportion of our outreach activity has been in-person presentations at meetings and conferences, but we also work to gather resources for our community that are useful for understanding both the Seamless Access service and the broader federated authentication infrastructure.  
 
+## Browser FAQ
+This [FAQ](./browser-faq) is intended for librarians and IT departments. It will also be useful for librarians communicating with their end-users, whether that is a student, faculty, or practitioner of any kind. It is intended for the scholarly library ecosystem to advise, explain, and provide some suggestions on how to recognize if an access issue stems from this specific browser problem. This FAQ can also be helpful when working with technical staff to problem-solve a solution for your library and institutional needs. When you hear a patron say, “I can’t access this content,” we hope this FAQ may provide clues for you to use, to either rule this issue “in” as the cause; or, to rule it “out.” It is a sneaky thing, this browser problem. https://seamlessaccess.org/posts/2021-07-06-browserchanges/
+
 ## Case Study
 We have worked with the Georgetown University Medical Center Library to produce a simple case study that outlines the benefits of using SeamlessAccess for their users, as well as outline their process and rationale behind the choice to emphasize federated authentication for those users.
 
