@@ -1,5 +1,13 @@
-#FAQ on Browser Privacy Changes and Library Resource Access  
-*(Or Why Your IP Authentication is About to Break)*
+---
+title: 'FAQ on Browser Privacy Changes and Library Resource Access'
+date: 2021-04-21T11:58:54+10:00
+featured: true
+draft: false
+weight: 1
+heroHeading: 'FAQ on Browser Privacy Changes and Library Resource Access'
+heroSubHeading: '(Or Why Your IP Authentication is About to Break)'
+heroBackground: 'learning-center/hero_theservices.jpg'
+---
 
 This FAQ is intended for librarians and IT departments. It will also be
 useful for librarians communicating with their end-users, whether that
