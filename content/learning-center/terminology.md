@@ -81,7 +81,7 @@ heroBackground: 'learning-center/hero_theservices.jpg'
 
 <td>OAuth</td>
 <td></td>
-<td>OAuth is an open standard for access delegation. See &lt;https://en.wikipedia.org/wiki/OAuth?</td>
+<td>OAuth is an open standard for access delegation. See <a href="https://en.wikipedia.org/wiki/OAuth" class="uri">https://en.wikipedia.org/wiki/OAuth</a></td>
 </tr>
 <tr class="odd">
 
