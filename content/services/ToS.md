@@ -189,7 +189,9 @@ and the software documentation at
 When the Integrator makes the Standard version or the Advanced
 version of the Service available on its online platform(s), it
 must do so by way of displaying the Button in the manner set
-out in the Integration Guide. With the licence of the Service,
+out in the Integration Guide. 
+Integrator agrees to a UX review by SeamlessAccess staff before deploying SeamlessAccess into their production environment. The UX review needs to be happen in a timely fashion so that potential deviations from the Integration Guide can be approved. 
+With the licence of the Service,
 SeamlessAccess.org hereby grants the Integrator a
 non-exclusive, non-transferable licence to use the Mark only
 for the purpose of displaying the Button, subject to these
@@ -296,7 +298,7 @@ between SeamlessAccess.org and the Integrator.
     
 6.7. The licenses granted by SeamlessAccess.org to the Integrator
 for the use of the Beta version of the Service under these
-Terms of Service are free of monetary consideration.
+Terms of Service are free of monetary consideration. This is subject to change.
 
 # 7. Privacy Notice:
     
