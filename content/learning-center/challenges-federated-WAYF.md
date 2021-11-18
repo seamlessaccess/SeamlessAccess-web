@@ -1,13 +1,14 @@
 ---
-title: 'Challenges in Federated Where-Are-You-From Services'
+title: 'Challenges in Federated Where-Are-You-From (WAYF) Services'
 date: 2021-04-21T11:58:54+10:00
 featured: true
 draft: false
 weight: 1
-heroHeading: 'Challenges in Federated Where-Are-You-From Services'
+heroHeading: 'Challenges in Federated Where-Are-You-From (WAYF) Services'
 heroBackground: 'learning-center/hero_theservices.jpg'
 ---
 # Challenges in Federated Where-Are-You-From (WAYF) Services
+_Work Product of the SeamlessAccess WAYF Entry Disambiguation Working Group_
 
 
 ## Purpose of this white paper:
@@ -16,7 +17,7 @@ heroBackground: 'learning-center/hero_theservices.jpg'
     we know what it is)
 -   Clarify terminology
 
-_Target audiences_
+## Target audiences
 
 -   IdP Operators / Campus IT
     -   they need to be aware of the implications of the choices they
