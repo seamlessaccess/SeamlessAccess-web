@@ -7,57 +7,41 @@ weight: 1
 heroHeading: 'Challenges in Federated Where-Are-You-From Services'
 heroBackground: 'learning-center/hero_theservices.jpg'
 ---
-# Challenges in Federated Where-Are-You-From Services
+# Challenges in Federated Where-Are-You-From (WAYF) Services
 
 
 ## Purpose of this white paper:
 
 -   Describe the problem; set the stage for framing the solution (when
     we know what it is)
-
 -   Clarify terminology
 
-Target audiences
+_Target audiences_
 
 -   IdP Operators / Campus IT
-
     -   they need to be aware of the implications of the choices they
         make in their metadata
-
     -   they need to know that they might not be alone wanting to use
         their institution’s name in WAYF services
-
 -   Librarian IT
-
     -   they need to be aware of the implications of the choices they
         make in their metadata (using the Metadata Explorer Tool
         (met.refeds.org) may help the librarian see what their
         institution’s metadata looks like to others)
-
     -   they need to be in close conversation with Campus IT
-
     -   they need to know how to handle user feedback when there is
         confusion
-
 -   Federation Operators
-
     -   need to consider how they’re handling metadata from the same
         institution
-
 -   SP Operators
-
     -   they are the ones sending their users to WAYF
-
     -   and when they are building their own WAYF, they need to be aware
-
     -   they need to know how to handle user feedback when there is
         confusion
-
 -   Vendors of IdP Software
-
     -   encourage vendors to be consistent with what they include in
         metadata such as including DisplayName
-
     -   support communication with academic identity federations
 
 
