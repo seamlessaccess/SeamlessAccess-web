@@ -3,14 +3,14 @@ title: 'Terms of Service - Beta Version'
 date: 2020-08-26T12:33:46+10:00
 draft: false
 weight: 1
-stepname: 'Version 1 - 31 August 2020'
+stepname: 'Version 1.1 - 18 Nov 2020'
 heroHeading: ''
 heroSubHeading: ''
 heroBackground: ''
 thumbnail: ''
 images: []
 ---
-
+<sup> _(Last updated: 18 Nov 2021)_ </sup>
 # 1. Introduction: 
 
 These Terms of Service are the general terms and conditions under
