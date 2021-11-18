@@ -18,8 +18,8 @@ Heather Staines gave an overview of both SeamlessAccess and GetFTR as part of th
 
 And there’s more coming up!
 
-* 8 Dec: [STM Solutions Seminar](https://www.stm-assoc.org/events/stm-week-2021-stm-solutions/) will include a contribution on SeamlessAccess. 
-* 14 Dec: [Atypon webinar](https://atypon.zoom.us/webinar/register/WN_bPKL1wcQTauRybEM0yCyWg) about GetFTR & SeamlessAccess: 
+* 8 Dec: [STM Solutions Seminar](https://www.stm-assoc.org/events/stm-week-2021-stm-solutions/) will include a contribution on SeamlessAccess
+* 14 Dec: [Atypon webinar](https://atypon.zoom.us/webinar/register/WN_bPKL1wcQTauRybEM0yCyWg) about GetFTR & SeamlessAccess
 
 
 
