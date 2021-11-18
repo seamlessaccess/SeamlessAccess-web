@@ -294,3 +294,5 @@ The SeamlessAccess WAYF Entry Disambiguation Working Group is focused on
 raising awareness of the issues and coming up with short, medium, and
 long-term solutions that will offer the needed best practice guidance
 for these issues.
+
+**_A PDF copy of this paper is available for download [here](/learning-center/challenges-federated-WAYF.pdf)._**
