@@ -69,12 +69,21 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://www.nature.com/articles/s41586-019-1750-x">nature.com</a></td>
   </tr>
+    <tr>
+    <td>REFEDS Metadata Explorer Tool</td>
+    <td>Standard</td>
+    <td><a href="https://met.refeds.org">met.refeds.org</a></td>
+  </tr>
   <tr>
     <td>SAFIRE Test Service Provider</td>
     <td>Standard</td>
     <td><a href="https://testsp.safire.ac.za/">testsp.safire.ac.za</a></td>
   </tr>
-    </tr>   
+  <tr>
+    <td>Sage Publishing</td>
+    <td>Advanced</td>
+    <td><a href="https://journals.sagepub.com/doi/full/10.1177/00013455211049160">Abstracts in Anthropology article</a></td>
+  </tr>
     <tr>
     <td>SUNET</td>
     <td>Standard</td>
