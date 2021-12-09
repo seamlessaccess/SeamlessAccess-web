@@ -36,4 +36,8 @@ This video series is designed to help answer basic questions about both federate
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/V5xfPyaIMyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+- [Problems with IP Authorization](https://youtu.be/80WH6epXwRw) A video from the Seamless Access project that outlines some of the difficulties in the use of IP based authorization and authentication.
+
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/80WH6epXwRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Future videos will address other core topics around the use of the SeamlessAccess service, as well as implementation guides covering the various user communities, such as libraries, technical departments, and publishers.
