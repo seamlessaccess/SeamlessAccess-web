@@ -18,7 +18,7 @@ heroBackground: 'images/hero_governance.jpg'
 Coalition for Seamless Access
 
   
-**Lead UX Designer & Strategist – estimated .25 FTE for 6-12 months; Location: remote**
+**Lead UX Designer & Strategist – estimated .25 FTE for 12 months; Location: remote**
 
 The Coalition for Seamless Access seeks a strategically minded senior UX practitioner who can use UX research and design activities to help evolve and improve adoption of the SeamlessAccess.org service. The Coalition is actively collaborating with service providers who are implementing the SeamlessAccess persistence service, button, and/or central identity provider discovery service in a Beta Phase.  The UX designer is expected to take a lead role providing design guidance and consulting with the UX teams of implementing organizations, as well as plan and help execute ongoing validation of existing and evolving design recommendations, including usability testing, user research and analytics.  
 
