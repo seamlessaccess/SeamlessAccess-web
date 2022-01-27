@@ -4,7 +4,7 @@ title: 'Opening for a Lead UX designer & strategist'
 date: 2022-01-27
 categories: [General]
 hero: true
-heroHeading: 'Are you our next UX designer?'
+heroHeading: 'Are you our new UX designer?'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
