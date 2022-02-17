@@ -20,7 +20,10 @@ The new features include the ability to filter the IdPs that are available in th
 
 _Please note that the time frames presented in this roadmap are aspirational goals for when our teams will be working on particular features, and not the committed release dates._
 
-<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="https://lucid.app/documents/embeddedchart/7843e420-8af2-42bd-ad69-daa61d6cec30" id="YSDE.Wh67_vI"></iframe></div>
+
+![2022 Roadmap](/posts/SA-roadmap-2022-mid.png)
+
+
 
 # Architecture and Availability
 SeamlessAccess is hosted by SUNET with funding by GÉANT. Monitored 24x7, SeamlessAccess is considered a production service. A detailed diagram of the technical architecture is available [here](https://wiki.geant.org/display/gn43wp5/Seamless+Access+Deployment+Architecture).
