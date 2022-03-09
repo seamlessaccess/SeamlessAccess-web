@@ -44,7 +44,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a> </td>
   </tr>
       <tr>
-    <td>Elsevier's ScienceDirect</td>
+    <td>Elsevier ScienceDirect</td>
     <td>Advanced</td>
     <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">www.sciencedirect.com</a></td>
   </tr>
@@ -59,7 +59,12 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">iopscience.iop.org</a></td>
   </tr>
   <tr>
-    <td>Nature.com</td>
+    <td>Mark Allen Group</td>
+    <td>Advanced</td>
+    <td><a href="https://www.magonlinelibrary.com">magonlinelibrary.com</a></td>
+  </tr>
+  <tr>  <tr>
+    <td>Nature</td>
     <td>Advanced</td>
     <td><a href="https://www.nature.com/articles/s41586-019-1750-x">nature.com</a></td>
   </tr>
@@ -84,12 +89,21 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009">tandfonline.com</a></td>
   </tr>
+  <tr>
+    <td>The HistoryMakers</td>
+    <td>Standard</td>
+    <td><a href="https://www.thehistorymakers.org/digital-archives">thehistorymakers.org</a></td>
+  </tr>
     <tr>
     <td>Wiley Online Library</td>
     <td>Advanced</td>
     <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1316/">onlinelibrary.wiley.com</a></td>
   </tr>
-    
+<tr>
+    <td>Wolters Kluwer</td>
+    <td>Standard</td>
+    <td><a href="https://oce.ovid.com/journals/aaprac/202203000/02054229-202203000-00001">ovid.com</a></td>
+  </tr>    
 
 </table>
 
