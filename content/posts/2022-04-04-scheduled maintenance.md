@@ -10,12 +10,11 @@ heroBackground: "images/hero_news.jpg"
 ---
 
 
-# Maintenance
+# Maintenance April 19
 
-
-SeamlessAccess has scheduled maintenance on:
+**Note: updated date!** SeamlessAccess has scheduled maintenance on:
  
-**April 4, 2022 8:00AM - 12:00PM UTC**
+**April 19, 2022 8:00AM - 12:00PM UTC**
  
 We have booked a four-hour maintenance window to upgrade SeamlessAccess to [version 1.6.2](https://thiss-js.readthedocs.io/en/latest/releasenotes.html#version-1-6-2). We expect that end-users will not experience any interruptions during this maintenance window, however it is possible that there may be some caching issues. 
 
