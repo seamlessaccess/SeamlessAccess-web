@@ -24,7 +24,11 @@ We have worked with the Georgetown University Medical Center Library to produce 
 ## Video
 This video series is designed to help answer basic questions about both federated authentication and how SeamlessAccess fits into the authentication ecosystem.  All are designed to provide accessible overviews for a non-technical audience, and we hope to add more over time.
 
-- [How Federated Authentication](https://www.youtube.com/watch?v=wjvC_PUj4CI) works provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation.
+- [Access Apocalypse: Be Prepared for Anything](https://www.youtube.com/watch?v=NQNQ_sRPzHc) was originally presented at the NISO Plus 2022 Conference, and walks through current and evolving changes in access methods to explore how the information community can maintain workflows that minimize access friction for users, deliver an engaging and personalized experience for service providers, and protect data privacy.
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NQNQ_sRPzHc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [How Federated Authentication Works](https://www.youtube.com/watch?v=wjvC_PUj4CI) provides a conceptual understanding of how this technology enables more seamless and privacy-preserving access, including definitions of key terms, such as Service Provider, Identity Provider, and Identity Federation.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wjvC_PUj4CI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
