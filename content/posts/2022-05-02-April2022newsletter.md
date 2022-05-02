@@ -14,8 +14,8 @@ heroBackground: "images/hero_news.jpg"
 
 We have several events coming up where you can learn more about SeamlessAccess and have an opportunity to interact with the team:
 
-* _[“What’s new with SeamlessAccess?”](https://www.stm-assoc.org/events/seamlessaccess-webinar/)_  webinar (May 24), hosted by the STM Association. Register [here](https://www.stm-assoc.org/events/seamlessaccess-webinar/) to learn more about SeamlessAccess, our roadmap, and experiences from Emerald Publishing, who have integrated SeamlessAccess onto their Emerald Insight platform last year.
-* SeamlessAccess will be one of the services covered in the _[“Access and Assessment: Delivering Privacy Preserving Services”](https://2022nasig.sched.com/event/ygYJ/access-and-assessment-delivering-privacy-preserving-services)_ session at NASIG 2022 (June 7). The session will focus on protecting user privacy while delivering seamless user experiences. You can register for NASIG [here](https://nasig.org/event-4646033). 
+* [_“What’s new with SeamlessAccess?”_](https://www.stm-assoc.org/events/seamlessaccess-webinar/)  webinar (May 24), hosted by the STM Association. Register [here](https://www.stm-assoc.org/events/seamlessaccess-webinar/) to learn more about SeamlessAccess, our roadmap, and experiences from Emerald Publishing, who have integrated SeamlessAccess onto their Emerald Insight platform last year.
+* SeamlessAccess will be one of the services covered in the [_“Access and Assessment: Delivering Privacy Preserving Services”_](https://2022nasig.sched.com/event/ygYJ/access-and-assessment-delivering-privacy-preserving-services) session at NASIG 2022 (June 7). The session will focus on protecting user privacy while delivering seamless user experiences. You can register for NASIG [here](https://nasig.org/event-4646033). 
 
 And a reminder for two other upcoming opportunities where you can meet us in person:
 
@@ -33,7 +33,7 @@ Drop us a line if you’re planning to attend these events and we will be deligh
 
 We’re thrilled to announce that SeamlessAccess now supports internationalization. We believe this is an important value-add for the service, given that SeamlessAccess has a very international user base and is all about providing those users with easy, intuitive access journeys. Internationalization features for SeamlessAccess were made available for testing in Beta back in [February](https://seamlessaccess.org/posts/2022-03-09-feb2022newsletter/), and have now been deployed to the main SeamlessAccess service. 
 
-At this moment SeamlessAccess is available in two languages: English and Spanish. We hope that, with the help from the wider SeamlessAccess community, many other languages will follow soon. If you are willing to support this effort, please consider contributing to the set of translations via our [GitHub repository](https://github.com/TheIdentitySelector/thiss-js/tree/master/src/assets/translations).
+At this moment SeamlessAccess is available in two languages: English and Spanish. We hope that, with the help from the wider SeamlessAccess community, many other languages will follow soon. **If you are willing to support this effort, please consider contributing to the set of translations via our [GitHub repository](https://github.com/TheIdentitySelector/thiss-js/tree/master/src/assets/translations).**
 
 
 
