@@ -43,9 +43,21 @@ heroBackground: 'learning-center/hero_theservices.jpg'
 </tr>
 <tr class="even">
 
+<td>Entity</td>
+<td></td>
+<td>Any unique member of an identity federation, typically an IdP or SP.</td>
+</tr>
+<tr class="odd">
+
 <td>Entity Category</td>
 <td></td>
 <td>Entity Categories group federation entities that share common criteria. The intent is that all entities in a given entity category are obliged to conform to the characteristics set out in the definition of that category. See <a href="https://wiki.refeds.org/display/ENT/Entity-Categories+Home" class="uri">https://wiki.refeds.org/display/ENT/Entity-Categories+Home</a></td>
+</tr>
+<tr class="even">
+
+<td>EntityID</td>
+<td></td>
+<td>The unique identifier, usually in the form of a URI, for a member of an identity federation, typically an IdP or SP.</td>
 </tr>
 <tr class="odd">
 
