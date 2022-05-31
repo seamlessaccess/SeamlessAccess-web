@@ -44,6 +44,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a> </td>
   </tr>
       <tr>
+    <td>Cambridge University Press Higher Education</td>
+    <td>Advanced</td>
+    <td><a href="https://www.cambridge.org/highereducation/books/geometry/337E4BCCB67C04A25028255A6FB553FC#overview">CUP Higher Education</a></td>
+  </tr>
+      <tr>
     <td>Elsevier ScienceDirect</td>
     <td>Advanced</td>
     <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">www.sciencedirect.com</a></td>
