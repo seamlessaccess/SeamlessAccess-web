@@ -48,6 +48,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://www.cambridge.org/highereducation/books/geometry/337E4BCCB67C04A25028255A6FB553FC#overview">CUP Higher Education</a></td>
   </tr>
+        <tr>
+    <td>De Gruyter</td>
+    <td>Advanced</td>
+    <td><a href="https://www.degruyter.com/">www.degruyter.com</a></td>
+  </tr>
       <tr>
     <td>Elsevier ScienceDirect</td>
     <td>Advanced</td>
