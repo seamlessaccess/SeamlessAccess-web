@@ -11,6 +11,9 @@ heroBackground: 'learning-center/hero_theservices.jpg'
 _Work Product of the SeamlessAccess WAYF Entry Disambiguation Working Group_
 
 
+**_A PDF copy of the Challenges paper is available for download [here](/learning-center/challenges-federated-WAYF.pdf)._**
+
+
 ## Purpose of this white paper:
 
 -   Describe the problem; set the stage for framing the [recommendations](/learning-center/WAYF-Recommendations.pdf)
@@ -295,15 +298,15 @@ raising awareness of the issues and coming up with short, medium, and
 long-term solutions that will offer the needed best practice guidance
 for these issues.
 
-**_A PDF copy of the Challenges paper is available for download [here](/learning-center/challenges-federated-WAYF.pdf)._**
 
 # Recommendations to Improve Federated Where-Are-You-From Services
 
 _Developed by the SeamlessAccess WAYF Entry Disambiguation Working Group; if you have questions or comments, please reach out to contact@seamlessaccess.org._
 
-If there are terms in this document that are new to you, we encourage you to look at the [Acronyms and Terminology](https://seamlessaccess.org/learning-center/terminology/) page on the SeamlessAccess website. 
+_If there are terms in this document that are new to you, we encourage you to look at the [Acronyms and Terminology](https://seamlessaccess.org/learning-center/terminology/) page on the SeamlessAccess website._
 
 
+**_A PDF copy of the Recommendations paper is available for download [here](/learning-center/WAYF-Recommendations.pdf)._**
 
 ## Introduction
 The Where-Are-You-From (WAYF) entry disambiguation problem, where identity provider (IdP) discovery services offer what look like duplicate names to users, is a solvable one. IdPs have several options that will mitigate or even eliminate the problem for users, including adapting their logos, improving the searchable keyword terms, and modifying their display name. Federation operators can also help mitigate this issue by offering standardized guidance for logos and support for keywords in their metadata, as well as supporting a registry for common keywords that should be used as part of the disambiguation process.
