@@ -1,5 +1,5 @@
 ---
-title: 'Challenges in Federated Where-Are-You-From (WAYF) Services'
+title: 'Challenges and Recommendations in Federated Where-Are-You-From (WAYF) Services'
 date: 2021-04-21T11:58:54+10:00
 featured: true
 draft: false
@@ -11,10 +11,12 @@ heroBackground: 'learning-center/hero_theservices.jpg'
 _Work Product of the SeamlessAccess WAYF Entry Disambiguation Working Group_
 
 
+**_A PDF copy of the Challenges paper is available for download [here](/learning-center/challenges-federated-WAYF.pdf)._**
+
+
 ## Purpose of this white paper:
 
--   Describe the problem; set the stage for framing the solution (when
-    we know what it is)
+-   Describe the problem; set the stage for framing the [recommendations](/learning-center/WAYF-Recommendations.pdf)
 -   Clarify terminology
 
 ## Target audiences
@@ -296,4 +298,149 @@ raising awareness of the issues and coming up with short, medium, and
 long-term solutions that will offer the needed best practice guidance
 for these issues.
 
-**_A PDF copy of this paper is available for download [here](/learning-center/challenges-federated-WAYF.pdf)._**
+
+# Recommendations to Improve Federated Where-Are-You-From Services
+
+_Developed by the SeamlessAccess WAYF Entry Disambiguation Working Group; if you have questions or comments, please reach out to contact@seamlessaccess.org._
+
+_If there are terms in this document that are new to you, we encourage you to look at the [Acronyms and Terminology](https://seamlessaccess.org/learning-center/terminology/) page on the SeamlessAccess website._
+
+
+**_A PDF copy of the Recommendations paper is available for download [here](/learning-center/WAYF-Recommendations.pdf)._**
+
+## Introduction
+The Where-Are-You-From (WAYF) entry disambiguation problem, where identity provider (IdP) discovery services offer what look like duplicate names to users, is a solvable one. IdPs have several options that will mitigate or even eliminate the problem for users, including adapting their logos, improving the searchable keyword terms, and modifying their display name. Federation operators can also help mitigate this issue by offering standardized guidance for logos and support for keywords in their metadata, as well as supporting a registry for common keywords that should be used as part of the disambiguation process.
+This document provides specific, detailed recommendations for every technical option currently available. Additional options, in particular user education, are entirely within the mandate of the organization managing the IdP.
+
+### Understanding the Actions
+Each section offers specific guidance for the different stakeholders that are involved in enabling federated access to online content. 
+
+The “Action for the Institution” recommendations offers guidance to whatever person, team, or department manages the IdP, either from a contractual perspective or a technical one. For example, this may be applicable to the library or to campus IT, or possibly both if the campus is running multiple IdPs.
+
+The “Action for the Federation” recommendations offers guidance to federation operators to help them assist their members in avoiding the WAYF entry disambiguation problem. 
+
+In some cases, the WAYF service is itself offered by a third party, at which point the “Action for the IdP Discovery Service” comes into play.
+
+“Action for REFEDS” is a very specific recommendation to the organization, REFEDS, that facilitates the development of best practices in the academic and research federation community. 
+
+
+## Community Survey
+To better understand community awareness of these issues, we identified 64 organizations that might encounter WAYF disambiguation problems as a result of having multiple IdPs registered in federation metadata.  A brief survey was sent in March 2022 to each organization's registered public contacts (a mixture of librarians and IT staff) asking whether they or their users viewed  multiple WAYF entries as a problem and, if so, how they had resolved any user confusion.
+The 16 responses that we received to our survey reinforced our understanding that:
+
+1. Libraries are experiencing problems with multiple IdPs.  Twelve respondents recognized multiple WAYF entries as a problem for their users, and ten respondents had received reports from users about multiple entries.
+2. Institutional IT departments do not appear to be aware of or engaging with this issue.  We received no responses from IT staff outside the library.
+3. There is no shared understanding across the community on how to address these issues.  Seven of the twelve respondents who recognized the problem did not know how to resolve it, and the remainder adopted various approaches including user education and approaching their service provider.
+In summary, the results of the survey validated the need for user education around these issues and guidance on best practices for addressing them.
+
+
+## DisplayName
+DisplayName is the user-friendly name registered in federation metadata with an Entity ID. It may be used in an IdP discovery service, in a service catalog, or any other display where a more human-readable name is appropriate. A typical entry looks like this:
+
+<mdui:DisplayName xml:lang="en">Example University</mdui:DisplayName>
+
+Before joining a federation, it is important to search for your domain name (e.g., example.edu) in a tool like the REFEDS Metadata Explorer Tool (MET). If your institution has joined one of the identity federations that provides data to MET, you will see what name(s) is being displayed to users for that IdP. 
+
+When considering what name to include in your DisplayName, note that many users will be going through an IdP discovery service from a mobile device. The number of characters that will display are going to be limited (though the exact limit will depend on the device, the IdP discovery service service, and possibly other factors). So, a DisplayName of “The University of Extended Learning, Experience, and Opportunity - Library” will be less helpful by itself than “UELEO - Library”. What acronym or short name is most commonly used within your institution? That will likely provide the best option for your DisplayName if you need to add department-specific information to the text. 
+
+
+### Action for the Institution: 
+* Check to see if your organization has an IdP registered in a federation. 
+* If you are registering a second IdP, make sure the DisplayName is unique and makes sense to your users.
+* Make sure your DisplayName fits on a mobile device. 
+
+### Action for the Federation:
+* Make sure your members can update their DisplayName
+
+
+
+## Metadata User Interface (MDUI) Extensions
+SAML metadata is rich with options for improving IdP discovery services. The SAML V2.0 Metadata Extensions for Login and Discovery User Interface, commonly known as the MDUI extensions, includes provisions for informing user interface (UI) elements. From the standard:
+
+“This document defines a set of extensions to metadata that provide information necessary for user agents to present effective user interfaces and, in the case of identity provider discovery, provide for recommendation of appropriate choices to the user.”
+
+DisplayName is one of those elements, as is Logo. Other elements exist, however, that can further assist the user in reaching the appropriate choice of IdP with minimal confusion.
+
+### Description
+The MDUI Description includes support for human-readable text, and can include different descriptions in different languages. According to the standard, “this SHOULD include a description of the user community serviced.” For example:
+
+<mdui:Description xml:lang="en">Identity Provider for Example University (https://example.edu/) and Example University Library (https://library.example.edu)</mdui:Description>
+
+IdP descriptions are, currently, very rarely used. Most IdP discovery services do not even attempt to display this field.
+
+#### Action for the Institution:
+Include simple, descriptive text regarding what users and/or services your IdP is primarily intended to support (e.g., Identity Provider for %mdui:DisplayName%)
+
+#### Action for the Federation:
+If not already in place, add support for Description in your federation’s metadata.
+
+#### Action for the IdP Discovery Service:
+When Description is available, display that to the user.
+
+### Keyword
+Keywords are another field that is available to help include information that should help the user get to the appropriate IdP. In the MDUI specification, keyword “specifies a list of localized search keywords, tags, categories, or labels that apply to the containing role.” 
+
+Suitable keywords are often challenging to identify, so a registry where the more common keywords appropriate to IdP discovery services would help organizations get started with keywords that shared a common, documented definition.
+
+#### Action for the Institution:
+* Prepare a list of keywords (e.g., “library”, “physics”, “law school”) and request they be added to your IdPs metadata entry.
+* (When available) Check the MDUI keyword registry to see if suitable, clearly defined keywords exist for your use case.
+
+#### Action for the Federation:
+* If not already in place, add support for Keywords in your federation’s metadata.
+
+#### Action for the IdP Discovery Service:
+* Make sure your service includes keywords as part of their search function.
+
+#### Action for REFEDS:
+* Develop a registry of common keywords with their specific descriptions that institutions may refer to as they develop their keyword lists.
+
+
+## Logos
+Logos can make it easy for users to visually differentiate between organizations that look similar, or potentially between departments within an organization that have separate entity IDs (e.g. library vs general campus).  Although various organizations across our industry have published standards for images, including federations, Research and Education Networks (RENs), and other IdP discovery service providers, the availability of standards (or perhaps the overabundance of standards) has not led to wide scale use of logos.
+
+That said, we strongly recommend the use of logos as a tool for disambiguation. Federations should adopt common standards for their members, specifically:
+
+1. Moving away from raster (pixel-based) image formats to vector image formats that can be resized as needed for the IdP discovery experience without loss of image quality, such as SVG (Scalable Vector Graphics).
+
+2. Transparent backgrounds to allow more flexibility about the use of logo images.
+
+Regarding accessibility concerns, in the absence of image alt text which can be used for disambiguation - which, if it existed, would by definition be used as the main display name of the IdP discovery service result - the use of a logo would be explicitly intended as a visual enhancement rather than a core page element. As such, the alt text for logos of this kind would be intentionally blank or set to be ignored by assistive technologies, as any attempt to provide an alt text value would make the user experience worse, for example by leading to repetition. Where more specific text is available, it should be provided as the main display name for the IdP, so that it’s available universally.
+
+### Action for the Institution:
+* Create a logo suitable for use on an IdP discovery service with a height and width, as required by the Metadata User Interface (MDUI) specifications, that will inform the aspect ratio for the vector image.
+
+### Action for the Federation:
+* At minimum, request your members use an SVG image on a transparent background. This may require coordination with members’ branding policies.
+
+### Action for the IdP Discovery Service:
+* Be prepared to support additional image formats, specifically SVG. 
+
+
+## WAYFless URLs
+When looking specifically at library use cases, WAYFless URLs are an additional option.  WAYFless URLs are links that libraries can request from SPs to allow their users to directly access a content item using federated authentication credentials without having to go through the WAYF process. Not all SPs support these types of URLs, and even for those that do, the librarian must request the URLs.
+
+While WAYFless URLs seem like a very straightforward option, it’s worth noting that these are not useful when individuals are accessing content from the open web and not the library portal or discovery service. 
+
+## Conclusion
+The confusing user experience that exists when organizations have seemingly identical names in a WAYF service is more than a technical challenge. It is a communication challenge that reinforces the need for better communication between campus services, such as libraries, and campus IT departments, as well as better communication with users. There are ways that technology can mitigate this confusion, as noted in the above recommendations, but ultimately this is a communications exercise for all parties involved in offering federated services to their users. 
+
+
+# WAYF Entry Disambiguation Working Group Membership
+Tim Lloyd, LibLynx
+Albert Wu, InCommon
+Ralph Youngen, ACS
+Richard Northover, Elsevier
+Jason Griffey, NISO
+Fredrik Domeij, SWAMID
+Meshna Koren, Elsevier
+Hong Ma, Loyola University Chicago
+Phil Leahy, OpenAthens
+Heather Flanagan, SeamlessAccess
+Adam Snook, OpenAthens
+Amanda Ferrante, EBSCO Information Services
+Logan Thomison, Wiley
+
+
+
+
