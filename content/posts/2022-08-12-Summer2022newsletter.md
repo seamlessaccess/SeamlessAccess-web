@@ -23,7 +23,7 @@ Here are some upcoming events where SeamlessAccess will be presented as we head 
 
 * 14 Sept: Presentation about SeamlessAccess at the “Trust and Identity” track of the  [31st NORDUnet Conference](https://events.nordu.net/display/NDN2022/Welcome), focusing on value for federation operators.
 * 18 Oct: Frankfurt: SeamlessAccess will be one of the services discussed during a panel session about “New Collaborations” at the [2022 STM Frankfurt conference](https://www.stm-assoc.org/events/stm-frankfurt-conference-2022/).
-* 2-4 Nov: Charleston Conference. SeamessAccess will be featured in a session called “In It Together: Bold New Collaborations for Researchers and Publishers” - more details to follow!
+* 2-4 Nov: Charleston Conference. SeamlessAccess will be featured in a session called _“In It Together: Bold New Collaborations for Researchers and Publishers”_ - more details to follow!
 
 Also, Heather Staines will be attending the [ALPSP annual conference](https://alpsp.cventevents.com/event/69159d93-473f-4712-88af-cf9f2a2d26ea/websitePage:7fbb9e72-33e2-4188-9b9a-fdb799d34e65?RefId=web) (14-16 Sept) and the [SSP New Directions Seminar](https://customer.sspnet.org/ssp/Events/ssp/EventDisplayGF.aspx?EventKey=SEM22FALL) (Sept 21-22) - don’t hesitate to say hi when you’re there!
 
