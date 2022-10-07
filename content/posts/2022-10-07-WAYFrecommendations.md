@@ -24,7 +24,7 @@ multitude of other choices. However, that clarity is not always the case: in som
 # Recommendations and Webinar
 
 
-To address this challenge, SeamlessAccess started a Working Group to analyse the situation and present actionable recommendations for the various stakeholder groups. **This work has now completed, and we're happy to share the recommendations coming out of this Working Group in a webinar on October 24. Read more about it and register [here](https://www.stm-assoc.org/events/seamlessaccess-webinar-2/).**
+To address this challenge, SeamlessAccess started a Working Group to analyse the situation and present actionable recommendations for the various stakeholder groups. **This work has now completed, and we're happy to share the recommendations coming out of this Working Group in a webinar on October 26. Read more about it and register [here](https://www.stm-assoc.org/events/seamlessaccess-webinar-2/).**
 
-If you're interested in reading more about this issue, please visit [the Learning Center] (https://seamlessaccess.org/learning-center/challenges-federated-wayf/) are jump straight to [the recommendations](https://seamlessaccess.org/learning-center/WAYF-Recommendations.pdf).
+If you're interested in reading more about this issue, please visit [the Learning Center](https://seamlessaccess.org/learning-center/challenges-federated-wayf/) or jump straight to [the recommendations](https://seamlessaccess.org/learning-center/WAYF-Recommendations.pdf).
 
