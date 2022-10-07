@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Webinar 24 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
+title: 'Webinar 26 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
 date: 2022-10-07
 categories: [General]
 hero: true
-heroHeading: 'Webinar 24 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
+heroHeading: 'Webinar 26 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
