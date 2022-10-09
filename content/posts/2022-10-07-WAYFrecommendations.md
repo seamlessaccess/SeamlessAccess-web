@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Webinar 26 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
+title: 'Free webinar 26 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
 date: 2022-10-07
 categories: [General]
 hero: true
-heroHeading: 'Webinar 26 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
+heroHeading: 'Free webinar 26 Oct: Understanding the Challenges around Where-Are-You-From (WAYF)'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
@@ -21,10 +21,10 @@ institutional name is clear and unambiguous, users will have no problem selectin
 multitude of other choices. However, that clarity is not always the case: in some situations the user is presented with a number of options with identical or very similar names, which makes it difficult and frustrating for them to choose the institute that grants access to the resource they are looking for. This is a thorny usability problem known as _WAYF ('Where Are You From') Entry Disambiguation_.
 
 
-# Recommendations and Webinar
+# Recommendations and free Webinar
 
 
-To address this challenge, SeamlessAccess started a Working Group to analyse the situation and present actionable recommendations for the various stakeholder groups. **This work has now completed, and we're happy to share the recommendations coming out of this Working Group in a webinar on October 26. Read more about it and register [here](https://www.stm-assoc.org/events/seamlessaccess-webinar-2/).**
+To address this challenge, SeamlessAccess started a Working Group to analyse the situation and present actionable recommendations for the various stakeholder groups. **This work has now completed, and we're happy to share the recommendations coming out of this Working Group in a webinar on October 26. The webinar is free of charge, please register [here](https://www.stm-assoc.org/events/seamlessaccess-webinar-2/).**
 
 If you're interested in reading more about this issue, please visit [the Learning Center](https://seamlessaccess.org/learning-center/challenges-federated-wayf/) or jump straight to [the recommendations](https://seamlessaccess.org/learning-center/WAYF-Recommendations.pdf).
 
