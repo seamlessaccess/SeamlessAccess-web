@@ -44,7 +44,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a> </td>
   </tr>
       <tr>
-    <td>Cambridge University Press Higher Education</td>
+    <td>Cambridge University Press (Core and Higher Education)</td>
     <td>Advanced</td>
     <td><a href="https://www.cambridge.org/highereducation/books/geometry/337E4BCCB67C04A25028255A6FB553FC#overview">CUP Higher Education</a></td>
   </tr>
@@ -69,6 +69,12 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Limited</td>
     <td><a href="https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo">wiki.geant.org</a> - click on platform links</td>
   </tr>
+  <tr>
+    <td>IEEE</td>
+    <td>Advanced</td>
+    <td><a href="https://ieeexplore.ieee.org/document/9046288">IEEE Xplore</a></td>
+  </tr>
+  <tr>
   <tr>
     <td>IOP Publishing</td>
     <td>Standard</td>
