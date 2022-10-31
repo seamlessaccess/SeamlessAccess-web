@@ -18,12 +18,12 @@ The Contract Language Working Group is pleased to release the Federated Authenti
 
 There are two documents that the Working Group would like to provide as a part of this release. The first is the Model License itself, a version of the [Library Model License Agreement 5.0](http://liblicense.crl.edu/licensing-information/model-license/) from the Center for Research Libraries which was edited to provide federated authentication specific language where needed.
 
-Federated Authentication Contract Language Model License Agreement 1.0
+<b>Federated Authentication Contract Language Model License Agreement 1.0</b>
 https://docs.google.com/document/d/1scLrPQMDTtl4j7F7oqnQCPPQFBa2IB9P8dlJe2XYDUs/edit?usp=sharing
 
 The second is a document with only the altered language, pulled out of context of the license as a whole, but perhaps more useful for those libraries who have existing license language they would prefer to continue to use. With this, those libraries could borrow language where necessary without needing to incorporate the entirety of a new license.
 
-Seamless Access Model License Language - Isolated FedAuth Language
+<b>Seamless Access Model License Language - Isolated FedAuth Language</b>
 https://docs.google.com/document/d/1d7TFFphRlKwAE3CsvGBtiS7s2XVcPD4fr1PaJV6Ikt4/edit?usp=sharing
 
 This MLA builds on the earlier work of this group to provide [Entity Category Use Case Scenarios](https://seamlessaccess.org/posts/2021-06-17-contractlangusecases/) for libraries and publishers to use when determining which attributes should be shared during federated authentication.  
