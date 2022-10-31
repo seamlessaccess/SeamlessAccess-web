@@ -19,7 +19,7 @@ The Contract Language Working Group is pleased to release the Contract Language 
 There are two documents that the Working Group would like to provide as a part of this release. The first is the Model License itself, a version of the [Library Model License Agreement 5.0](http://liblicense.crl.edu/licensing-information/model-license/) from the Center for Research Libraries which was edited to provide federated authentication specific language where needed.
 
 Contract Language Model License Agreement 1.0
-https://docs.google.com/document/d/1CK9gD78YF1pbd_xSrIs6gPpkaZA3W-xx/edit?usp=sharing&ouid=116670098887693312199&rtpof=true&sd=true
+https://docs.google.com/document/d/1scLrPQMDTtl4j7F7oqnQCPPQFBa2IB9P8dlJe2XYDUs/edit?usp=sharing
 
 The second is a document with only the altered language, pulled out of context of the license as a whole, but perhaps more useful for those libraries who have existing license language they would prefer to continue to use. With this, those libraries could borrow language where necessary without needing to incorporate the entirety of a new license.
 
@@ -28,4 +28,4 @@ https://docs.google.com/document/d/1d7TFFphRlKwAE3CsvGBtiS7s2XVcPD4fr1PaJV6Ikt4/
 
 This MLA builds on the earlier work of this group to provide [Entity Category Use Case Scenarios](https://seamlessaccess.org/posts/2021-06-17-contractlangusecases/) for libraries and publishers to use when determining which attributes should be shared during federated authentication.  
 
-The Working Group would like to acknowledge that much of the feedback from the library community revolved around the need for privacy-specific language updates throughout the broader license text. We agree that a language review along that front is warranted, but came to the conclusion that this group is the wrong one to do so. We strongly encourage a privacy-focused library group to review this document to bring it into line regarding privacy best practices, and would gladly update our version of the license here when that review becomes available.
+The Working Group would like to acknowledge that much of the feedback from the library community revolved around the need for privacy-specific language updates throughout the broader, unchanged license text. We agree that a language review along that front is warranted, but this working group was focused on the federated authentication aspects of the license. We feel that those aspects are strongly privacy-preserving when implemented as outlined. We strongly encourage a privacy-focused library group to review the underlying license document to bring it into line regarding privacy best practices, and would gladly update our version of the license here when that review becomes available.
