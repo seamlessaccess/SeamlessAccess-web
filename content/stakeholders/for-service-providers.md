@@ -43,6 +43,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">pubs.acs.org</a> </td>
   </tr>
+  <tr>
+    <td>British Online Archives</td>
+    <td>Advanced</td>
+    <td><a href="http://www.britishonlinearchives.digital."> britishonlinearchives.digital</a> </td>
+  </tr>
       <tr>
     <td>Cambridge University Press (Core and Higher Education)</td>
     <td>Advanced</td>
@@ -79,6 +84,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>IOP Publishing</td>
     <td>Standard</td>
     <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">iopscience.iop.org</a></td>
+  </tr>
+  <tr>
+    <td>KweliTV</td>
+    <td>Advanced</td>
+    <td><a href="https://www.kweli.tv/start">kweli.tv</a></td>
   </tr>
   <tr>
     <td>Mark Allen Group</td>
