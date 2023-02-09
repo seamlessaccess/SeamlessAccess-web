@@ -1,15 +1,17 @@
 ---
 title: 'FAQ on Browser Privacy Changes for Publishers'
-date: 2021-04-21T11:58:54+10:00
+date: 2023-02-09T11:58:54+10:00
 featured: true
 draft: false
 weight: 1
-heroHeading: 'FAQ on Browser Privacy Changes and Library Resource Access'
+heroHeading: 'FAQ on Browser Privacy Changes for Publishers'
 heroSubHeading: ''
 heroBackground: 'learning-center/hero_theservices.jpg'
 ---
 
-This FAQ is intended for product managers, technology staff and others with an interest in access methods within academic publishing organisations. 
+This FAQ is intended for product managers, developers, technology staff and others with an interest in access methods within academic publishing organisations. 
+
+
 # Questions:
 
 - [Question 1: What is this “changes to browser technology” issue?](#question-1-what-is-this-changes-to-browser-technology-issue)
@@ -18,8 +20,8 @@ This FAQ is intended for product managers, technology staff and others with an i
 - [Question 4: When is this happening?](#question-4-when-is-this-happening)
 - [Question 5: Will these changes impact IP-based authentication?](#question-5-will-these-changes-impact-ip-based-authentication)
 - [Question 6: Will these changes impact federated authentication?](#question-6-will-these-changes-impact-federated-authentication)
-- [Question 7: ... and SeamlessAccess?](#question-7-and-seamlessaccess)
-- [Question 8: How will I know if my users are encountering this browser issue?](#question-8-how-will-I-know-if-my-users-are-encountering-this-browser-issue)
+- [Question 7: ... and SeamlessAccess?](#question-7--and-seamlessaccess)
+- [Question 8: How will I know if my users are encountering this browser issue?](#question-8-how-will-i-know-if-my-users-are-encountering-this-browser-issue)
 - [Question 9: Which software and browsers are affected?](#question-9-which-software-and-browsers-are-affected)
 - [Question 10: Why now, why this change? And why make access more difficult?](#question-10-why-now-why-this-change-and-why-make-access-more-difficult)
 - [Question 11: How are users tracked in a browser?](#question-11-how-are-users-tracked-in-a-browser)
