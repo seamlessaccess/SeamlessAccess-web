@@ -19,7 +19,7 @@ This [FAQ](./browser-faq-librarians) is intended for librarians and IT departmen
 
 ### For publishers
 
-This [FAQ](./browser-faq-publishers) is intended for product managers and technology departments within scholalry publishers.
+This [FAQ](./browser-faq-publishers) is intended for product managers, developers, technology staff and others with an interest in access methods within academic publishing organisations. This FAQ can also be helpful when working with technical staff to problem-solve a solution for your end-users, and to be able to determine if an access problem might be caused by changing browser technology. 
 
 
 ## Case Study
