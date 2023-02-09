@@ -9,19 +9,7 @@ heroSubHeading: ''
 heroBackground: 'learning-center/hero_theservices.jpg'
 ---
 
-This FAQ is intended for librarians and IT departments. It will also be
-useful for librarians communicating with their end-users, whether that
-is a student, faculty, or practitioner of any kind. It is intended for
-the scholarly library ecosystem to advise, explain, and provide some
-suggestions on how to recognize if an access issue stems from this
-specific browser problem. This FAQ can also be helpful when working with
-technical staff to problem-solve a solution for your library and
-institutional needs. When you hear a patron say, “*I can’t access this
-content*,” we hope this FAQ may provide clues for you to use, to either
-rule this issue “in” as the cause; or, to rule it “out.” It is a sneaky
-thing, this browser problem.
-[<u>https://seamlessaccess.org/posts/2021-07-06-browserchanges/</u>](https://seamlessaccess.org/posts/2021-07-06-browserchanges/)
-
+This FAQ is intended for product managers, technology staff and others with an interest in access methods within academic publishing organisations. 
 # Questions:
 
 - [Question 1: What is this “changes to browser technology” issue?](#question-1-what-is-this-changes-to-browser-technology-issue)
