@@ -5,9 +5,11 @@ featured: true
 draft: false
 weight: 1
 heroHeading: 'FAQ on Browser Privacy Changes and Library Resource Access'
-heroSubHeading: '(Or Why Your IP Authentication is About to Break)'
+heroSubHeading: ''
 heroBackground: 'learning-center/hero_theservices.jpg'
 ---
+
+_Last updated: 17 Feb 2023_
 
 This FAQ is intended for librarians and IT departments. It will also be
 useful for librarians communicating with their end-users, whether that
@@ -183,7 +185,7 @@ for the browser vendors to figure out how to remediate.
 
 ## Question 12: When might a user find browser access issues? E.g. the “remote access issues”
 
-* **Answer 12:** In 2021, users will find these issues when using these
+* **Answer 12:** Users may experience these issues when using
 devices with IP authentication to access library resources, such as
 online articles, ebooks, databases, and research and learning platforms
 from publishers and vendors. Depending on a user’s location on or off
@@ -230,9 +232,8 @@ Safari, a temporary solution at best. If there is any possibility to
 direct your campus and your vendors towards SAML-based federated
 authentication, that is the best long-term strategy we know of. Other
 mitigations may be developed over time as more organizations engage in
-developing the standards for browser behavior, though it is highly
-unlikely that IP address authorization will be re-enabled by browser
-vendors.
+developing the standards for browser behavior.
+
 
 ## Question 16: What other solutions are there I could consider for my library and discuss with my IT department?
 
@@ -275,8 +276,7 @@ resources.
 
 ## Question 18: Will this last, what is the future of this trend?
 
-* **Answer 18:** The expectation is that this is just the start of the
-IP authorization access issues. This issue is not going away. Librarians
+* **Answer 18:** The expectation is that this is just the start of a process of several years that will see fundamental changes in how users can access resources on the web. This issue is not going away. Librarians
 need to be knowledgeable about it to better participate in discussions
 and implement possible technological solutions for access to library
 resources.

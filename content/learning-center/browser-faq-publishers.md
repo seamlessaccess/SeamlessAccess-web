@@ -9,6 +9,8 @@ heroSubHeading: ''
 heroBackground: 'learning-center/hero_theservices.jpg'
 ---
 
+_Last updated: 17 Feb 2023_
+
 This FAQ is intended for product managers, developers, technology staff and others with an interest in access methods within academic publishing organisations. 
 
 
@@ -122,7 +124,7 @@ SAML-based federated authentication is a well-established remote authentication 
 
 **Answer 14:** Right now, there are few good answers. To provide users that cannot access content that they are entitled to with immediate support, publishers can suggest that the user switches to a different browser or disable Private Relay on Apple devices.
 
-For a more durable solution, publishers should intensify conversations with libraries and other stakeholders and review access methods, where SAML-based federated authentication would be the best long-term strategy that we know of. Other mitigations may be developed over time as more organizations engage in developing the standards for browser behavior, though it is highly unlikely that IP address authorization will be re-enabled by browser vendors.
+For a more durable solution, publishers should intensify conversations with libraries and other stakeholders and review access methods, where SAML-based federated authentication would be the best long-term strategy that we know of. Other mitigations may be developed over time as more organizations engage in developing the standards for browser behavior.
 
 
 ## Question 15: Where can I learn more?
