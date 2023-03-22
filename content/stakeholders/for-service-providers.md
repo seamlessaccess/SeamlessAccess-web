@@ -54,7 +54,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>Bone & Joint</td>
     <td>Advanced</td>
-    <td><a href="https://boneandjoint.org.uk/Article/10.1302/0301-620X.105B2.BJJ-2023-00028">The Bone & Joint journal</a> </td>
+    <td><a href="https://boneandjoint.org.uk/Article/10.1302/0301-620X.105B3.BJJ-2023-0145">The Bone & Joint journal</a> </td>
   </tr>
   
   
