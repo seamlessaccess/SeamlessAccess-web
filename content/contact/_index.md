@@ -13,4 +13,4 @@ We have an occasional emailed newsletter that provides periodic updates on the S
 
 ## Contact us directly
 
-If you would like to reach us for another reason, please send a note to our email address below.
+If you are interested in integrating with SeamlessAccess or would like to get in touch with us for another reason, please send a note to our email address below.
