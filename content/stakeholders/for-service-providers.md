@@ -89,6 +89,14 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Limited</td>
     <td><a href="https://wiki.geant.org/display/TCSNT/TCS+Participants+Sectigo">Wiki.geant.org</a> (click on platform links) </td>
   </tr>
+
+  <tr>
+    <td>Geological Survey of London</td>
+    <td>Advanced</td>
+    <td><a href="https://www.lyellcollection.org/doi/10.1144/jgs2021-149">Lyell collection</a></td>
+  </tr>
+
+
   <tr>
     <td>IEEE</td>
     <td>Advanced</td>
