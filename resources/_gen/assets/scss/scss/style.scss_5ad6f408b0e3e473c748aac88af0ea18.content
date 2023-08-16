@@ -11415,4 +11415,10 @@ readers do not read off random characters that represent icons */
   background: #B3337C;
   border: 1px solid #FFF; }
 
+.sa-hero-index {
+  margin-left: 10%; }
+
+.sa-hero-index img {
+  width: 80%; }
+
 /*# sourceMappingURL=style.css.map */
