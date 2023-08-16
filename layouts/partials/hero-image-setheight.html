@@ -1,14 +1,22 @@
 <div id="hero" class="hero-image hero-image-setheight" style="background-image: url('{{ .background | relURL }}')">
-  <div class="container ">
-    <div class="hero-text">
-      <h1>{{ if .section }}<a href="../" style="color: inherit;"><span class="hero-section">{{ .section }}</span></a> > {{ end }}{{ .heading }}</h1>
-      <p><strong>{{ .subheadinglead }}</strong>{{ .subheading }}</p>
-      <a class="btn btn-primary" href="https://demo.seamlessaccess.org">Demo</a>
-      <!-- For displaying the image in the hero
-      <div class="hero-image icon-image">
-        <img src="{{ .Site.BaseURL }}{{ .icon }}"/>
+  <div class="container">
+    <div class="row">
+      <div class="col my-auto">
+        <div class="sa-text">
+          <h1>{{ if .section }}<a href="../" style="color: inherit;"><span class="hero-section">{{ .section }}</span></a> > {{ end }}{{ .heading }}</h1>
+          <p><strong>{{ .subheadinglead }}</strong>{{ .subheading }}</p>
+          <a class="btn btn-primary sa-button" href="https://demo.seamlessaccess.org">Demo</a> 
+        </div>
+        </div>
+        <div class="col my-auto">
+          <p>holaa</p>
+        </div>
+        <!-- For displaying the image in the hero
+        <div class="hero-image icon-image">
+          <img src="{{ .Site.BaseURL }}{{ .icon }}"/>
+        </div>
+      -->
       </div>
-    -->
     </div>
   </div>
 </div>
