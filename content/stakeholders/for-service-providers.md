@@ -118,6 +118,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://www.magonlinelibrary.com">MAGonlinelibrary.com</a></td>
   </tr>
+  <tr>
+    <td>Medici.tv</td>
+    <td>Advanced</td>
+    <td><a href="https://edu.medici.tv/">Medici.tv</a></td>
+  </tr>
   <tr>  <tr>
     <td>Nature</td>
     <td>Advanced</td>
