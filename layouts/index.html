@@ -18,7 +18,7 @@
 {{ define "main" }}
 
 <!--  LAYOUT FOR THE HERO -->
-{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "subheadinglead" .Params.heroSubHeadingLead "content" .)}}
+{{ partial "hero-image-setheight-homepage.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "subheadinglead" .Params.heroSubHeadingLead "content" .)}}
 
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $reusablePages := $headless.Resources.ByType "page" }}
