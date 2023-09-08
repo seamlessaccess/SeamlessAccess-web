@@ -14,7 +14,7 @@
 @import "bootstrap/images";
 // @import "bootstrap/code";
 // @import "bootstrap/forms";
-// @import "bootstrap/buttons";
+@import "bootstrap/buttons";
 // @import "bootstrap/transitions";
 // @import "bootstrap/dropdown";
 // @import "bootstrap/button-group";
@@ -83,6 +83,45 @@ $fa-font-path: "../../fonts/fontawesome5";
 @import 'pages/posts/page-posts-list';
 @import 'pages/posts/page-posts-single';
 @import 'pages/posts/post-summary';
+
+// CUSTOM CSS
+
+.sa-text {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  font-weight: 300;
+  flex: 0;
+  margin: auto 0;
+}
+
+.sa-button {
+  background: #B3337C;
+  border: 1px solid #B57A7A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.sa-button:hover {
+  text-decoration: underline;
+  background: #B3337C;
+  border: 1px solid #FFF;
+}
+
+.sa-button:focus {
+  text-decoration: underline;
+  background: #B3337C;
+  border: 1px solid #FFF;
+}
+
+.sa-hero-index {
+  margin-left: 10%;
+}
+
+.sa-hero-index img {
+  width: 80%;
+}
+
 
 // Display breakpoints for DEV
 // body:after {
