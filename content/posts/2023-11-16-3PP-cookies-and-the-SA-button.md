@@ -73,7 +73,7 @@ Note that this does _not_ mean that SeamlessAccess is not respectful of the user
 In summary, SeamlessAccess has taken the appropriate route to preserve user privacy while enabling a user friendly access journey. However, because the same technology is used to track users in other use cases we are seeing the kind of impact that is described here on the SeamlessAccess button.
 
 
-<h3>In conclusion...</h3>
+<h2>In conclusion...</h2>
 
 This means (at least for now) that, going forward, the SeamlessAccess button will behave in one of three ways:
 
@@ -85,12 +85,12 @@ These behaviours are dependent on browser, browser version, browser engine and s
 
 As communicated in presentations and blog posts before, we are working with browser vendors and the industry at large to future-proof SeamlessAccess.
 
-<h3>Links about the future of third party cookies, and option to opt-in for Chrome</h3>
+<h2>Links about the future of third party cookies, and option to opt-in for Chrome</h2>
 
 As previously mentioned, many browsers already use opt-in for third party cookies, and we've talked about them in previous blog posts and videos (see e.g. [this blog post from July](https://seamlessaccess.org/posts/2023-07-07-fedcm-update/) and references therein). So here is the latest change, which is for Chrome.
 
 
-<h4>Google Chrome </h4>
+<h3>Google Chrome </h3>
 
 * _"To prevent certain types of side-channel cross-site tracking, Chrome is partitioning storage and communications APIs in third-party contexts."_ - describes how the user can enable and disable Storage partitioning (i.e. third party cookie support):
 https://developer.chrome.com/en/docs/privacy-sandbox/storage-partitioning/ 

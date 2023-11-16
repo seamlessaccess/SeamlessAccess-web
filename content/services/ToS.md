@@ -10,7 +10,7 @@ heroBackground: ''
 thumbnail: ''
 images: []
 ---
-<sup> _(Last updated: 18 Nov 2021)_ </sup>
+<sup> _(Last updated: 16 Nov 2023)_ </sup>
 # 1. Introduction: 
 
 These Terms of Service are the general terms and conditions under
@@ -85,7 +85,7 @@ set out opposite them below.
 <tr class="even">
 <td>“SeamlessAccess.org”</td>
 <td> 
-<p>The Coalition for SeamlessAccess, comprised at the date of the first issue of these Terms of Service of GÉANT Association, the International Association of Scientific Technical and Medical Publishers, Internet2, the National Information Standards Organization and ORCID, Inc.</p>
+<p>The Coalition for SeamlessAccess, comprised at the date of the first issue of these Terms of Service of GÉANT Association, the International Association of Scientific Technical and Medical Publishers, Internet2, and the National Information Standards Organization.</p>
  </td>
 </tr>
 <tr class="odd">
