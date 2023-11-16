@@ -15,13 +15,12 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 
 # Governance Committee
 
-
+* Laird Barrett _(Springer Nature)_
 * Todd Carpenter _(NISO)_
-* Heather Flanagan _(SeamlessAccess Program Director)_
 * Jason Griffey _(NISO)_
-* Andy Halliday _(SpringerNature)_
-* Hylke Koers _(STM)_
+* Hylke Koers _(STM; SeamlessAccess Program Director)_
 * Tim Lloyd _(LibLynx)_
+* Hong Ma _(Loyola University Chicago, American Library Association)_
 * Ann West _(Internet2)_
 * Klaas Wierenga _(GÉANT)_
 * Ralph Youngen _(ACS)_

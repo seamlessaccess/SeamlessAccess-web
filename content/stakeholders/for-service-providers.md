@@ -102,12 +102,21 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://ieeexplore.ieee.org/document/9046288">IEEE Xplore</a></td>
   </tr>
-  <tr>
-  <tr>
+  
+   <tr>
     <td>IOP Publishing</td>
     <td>Standard</td>
     <td><a href="https://iopscience.iop.org/article/10.35848/1882-0786/abdcd7">IOPscience.iop.org</a></td>
   </tr>
+  
+   <tr>
+    <td>JAMA Network</td>
+    <td>Advanced</td>
+    <td><a href="https://jamanetwork.com/journals/jama/article-abstract/2811421">JAMAnetwork.org</a></td>
+  </tr>
+  
+  
+  
   <tr>
     <td>KweliTV</td>
     <td>Advanced</td>
