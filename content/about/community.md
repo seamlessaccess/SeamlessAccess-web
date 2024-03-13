@@ -27,17 +27,16 @@ The SeamlessAccess community consists of individuals representing libraries, uni
 
 # Outreach Committee
 
-* Michelle Brewer _(WoltersKluwer)_
-* Jane Charlton _(OpenAthens)_
+* Jon Bentley _(OpenAthens)_
 * John Felts _(Coastal Carolina University)_
 * Jason Griffey _(NISO)_ - **co-chair**
 * Linda Van Keuren _(Dahlgren Memorial Library, Georgetown University Medical Center)_
 * Tim Lloyd _(LibLynx)_ - **co-chair**
 * Judy Luther _(Informed Strategies)_
+* Catherine Shah _(WoltersKluwer)_
 * Heather Staines _(SeamlessAccess)_
 * Tracy Tolliver _(University of Illinois)_
-* Rich Wenger _(MIT, retired)_
-* Ralph Youngen _(ACS)_
+
 
 # Technical Steering Committee
 
