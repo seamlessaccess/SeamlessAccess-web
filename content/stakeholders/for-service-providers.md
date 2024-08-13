@@ -96,6 +96,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://www.lyellcollection.org/doi/10.1144/jgs2021-149">Lyell collection</a></td>
   </tr>
 
+  <tr>
+    <td>Haynes</td>
+    <td>Advanced</td>
+    <td><a href="">Haynes</a></td>
+  </tr>
 
   <tr>
     <td>IEEE</td>
