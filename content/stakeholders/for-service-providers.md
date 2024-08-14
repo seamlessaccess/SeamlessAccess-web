@@ -200,7 +200,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://wiki.swamid.se/">Wiki.swamid.se</a> (click on Login button)</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>Taylor & Francis</td>
     <td>Advanced</td>
     <td><a href="https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009">Tandfonline.com</a></td>
