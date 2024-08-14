@@ -54,7 +54,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>American Mathematical Society</td>
     <td>Advanced</td>
-    <td><a href=""></td>
+    <td><a href=""></a></td>
   </tr>
  
  
@@ -95,7 +95,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">Sciencedirect.com</a></td>
   </tr>
   
-      <tr>
+  <tr>
     <td>Emerald Publishing</td>
     <td>Advanced</td>
     <td><a href="https://www.emerald.com/insight/content/doi/10.1108/IJPCC-10-2020-0169/full/html">Emerald.com</a></td>
@@ -181,37 +181,44 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Standard</td>
     <td><a href="https://testsp.safire.ac.za/">Testsp.safire.ac.za</a></td>
   </tr>
+  
   <tr>
     <td>Sage Publishing</td>
     <td>Advanced</td>
     <td><a href="https://journals.sagepub.com/doi/full/10.1177/00013455211049160">Abstracts in Anthropology article</a></td>
   </tr>
-    <tr>
+  
+  <tr>
     <td>SUNET</td>
     <td>Standard</td>
     <td><a href="https://edusign.sunet.se/">Edusign.sunet.se</a></td>
   </tr>   
+  
   <tr>
     <td>SWAMID</td>
     <td>Limited</td>
     <td><a href="https://wiki.swamid.se/">Wiki.swamid.se</a> (click on Login button)</td>
   </tr>
+  
     <tr>
     <td>Taylor & Francis</td>
     <td>Advanced</td>
     <td><a href="https://www.tandfonline.com/doi/full/10.1080/00049158.2020.1819009">Tandfonline.com</a></td>
   </tr>
+  
   <tr>
     <td>The HistoryMakers</td>
     <td>Standard</td>
     <td><a href="https://www.thehistorymakers.org/digital-archives">Thehistorymakers.org</a></td>
   </tr>
-    <tr>
+  
+ <tr>
     <td>Wiley Online Library</td>
     <td>Advanced</td>
     <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1316/">Wiley Onlone Library</a></td>
   </tr>
-<tr>
+
+  <tr>
     <td>Wolters Kluwer</td>
     <td>Standard</td>
     <td><a href="https://oce.ovid.com/journals/aaprac/202203000/02054229-202203000-00001">Ovid.com</a></td>
