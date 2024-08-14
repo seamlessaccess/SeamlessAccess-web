@@ -49,6 +49,12 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://pubs.acs.org/action/ssostart?redirectUri=/page/remoteaccess/confirm">Pubs.acs.org</a> </td>
   </tr>
+  
+  <tr>
+    <td>American Mathematical Society</td>
+    <td>Advanced</td>
+    <td><a href=""></td>
+  </tr>
  
  
   <tr>
@@ -57,12 +63,19 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://boneandjoint.org.uk/Article/10.1302/0301-620X.105B3.BJJ-2023-0145">The Bone & Joint journal</a> </td>
   </tr>
   
+  <tr>
+    <td>Bridget Williams Books</td>
+    <td>Advanced</td>
+    <td><a href=""></a> </td>
+  </tr>
+  
   
   <tr>
     <td>British Online Archives</td>
     <td>Advanced</td>
     <td><a href="http://www.britishonlinearchives.digital."> Britishonlinearchives.digital</a> </td>
   </tr>
+  
       <tr>
     <td>Cambridge University Press (Core and Higher Education)</td>
     <td>Advanced</td>
@@ -96,6 +109,11 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="https://www.lyellcollection.org/doi/10.1144/jgs2021-149">Lyell collection</a></td>
   </tr>
 
+  <tr>
+    <td>Haynes</td>
+    <td>Advanced</td>
+    <td><a href=""></a></td>
+  </tr>
 
   <tr>
     <td>IEEE</td>
@@ -130,13 +148,22 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>Medici.tv</td>
     <td>Advanced</td>
-    <td><a href="https://edu.medici.tv/">Medici.tv</a></td>
+    <td><a href=""></a></td>
   </tr>
+  
   <tr>  <tr>
     <td>Nature</td>
     <td>Advanced</td>
     <td><a href="https://www.nature.com/articles/s41586-019-1750-x">Nature.com</a></td>
   </tr>
+  
+  <tr>  <tr>
+    <td>Neurosurgical Atlas</td>
+    <td>Advanced</td>
+    <td></td>
+  </tr>
+  
+  
     <tr>
     <td>REFEDS Metadata Explorer Tool</td>
     <td>Standard</td>
