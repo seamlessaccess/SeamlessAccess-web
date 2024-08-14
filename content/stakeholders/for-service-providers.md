@@ -32,6 +32,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <th>Level of Integration</th>
     <th>Example URL</th>
   </tr>
+  
    <tr>
     <td>American Institute of Aeronautics and Astronautics (AIAA)</td>
     <td>Advanced</td>
@@ -76,21 +77,24 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td><a href="http://www.britishonlinearchives.digital."> Britishonlinearchives.digital</a> </td>
   </tr>
   
-      <tr>
+  <tr>
     <td>Cambridge University Press (Core and Higher Education)</td>
     <td>Advanced</td>
     <td><a href="https://www.cambridge.org/highereducation/books/geometry/337E4BCCB67C04A25028255A6FB553FC#overview">CUP Higher Education</a></td>
   </tr>
-        <tr>
+  
+  <tr>
     <td>De Gruyter</td>
     <td>Advanced</td>
     <td><a href="https://www.degruyter.com/">Degruyter.com</a></td>
   </tr>
-      <tr>
+ 
+  <tr>
     <td>Elsevier ScienceDirect</td>
     <td>Advanced</td>
     <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0753396918300120">Sciencedirect.com</a></td>
   </tr>
+  
       <tr>
     <td>Emerald Publishing</td>
     <td>Advanced</td>
@@ -140,35 +144,38 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://www.kweli.tv/start">Kweli.tv</a></td>
   </tr>
+  
   <tr>
     <td>Mark Allen Group</td>
     <td>Advanced</td>
     <td><a href="https://www.magonlinelibrary.com">MAGonlinelibrary.com</a></td>
   </tr>
+  
   <tr>
     <td>Medici.tv</td>
     <td>Advanced</td>
     <td><a href=""></a></td>
   </tr>
   
-  <tr>  <tr>
+  <tr> 
     <td>Nature</td>
     <td>Advanced</td>
     <td><a href="https://www.nature.com/articles/s41586-019-1750-x">Nature.com</a></td>
   </tr>
   
-  <tr>  <tr>
+  <tr>
     <td>Neurosurgical Atlas</td>
     <td>Advanced</td>
     <td></td>
   </tr>
   
   
-    <tr>
+  <tr>
     <td>REFEDS Metadata Explorer Tool</td>
     <td>Standard</td>
     <td><a href="https://met.refeds.org">Met.refeds.org</a></td>
   </tr>
+  
   <tr>
     <td>SAFIRE Test Service Provider</td>
     <td>Standard</td>
