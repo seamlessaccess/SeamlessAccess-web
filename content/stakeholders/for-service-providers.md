@@ -67,7 +67,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>Bridget Williams Books</td>
     <td>Advanced</td>
-    <td><a href=""></a> </td>
+    <td></td>
   </tr>
   
   
@@ -116,7 +116,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>Haynes</td>
     <td>Advanced</td>
-    <td><a href=""></a></td>
+    <td></td>
   </tr>
 
   <tr>
@@ -154,7 +154,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
   <tr>
     <td>Medici.tv</td>
     <td>Advanced</td>
-    <td><a href=""></a></td>
+    <td></td>
   </tr>
   
   <tr> 
@@ -215,7 +215,7 @@ More information on how to integrate with SeamlessAccess, as well as our source 
  <tr>
     <td>Wiley Online Library</td>
     <td>Advanced</td>
-    <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1316/">Wiley Onlone Library</a></td>
+    <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jgc4.1316/">Wiley Online Library</a></td>
   </tr>
 
   <tr>
