@@ -124,6 +124,14 @@ More information on how to integrate with SeamlessAccess, as well as our source 
     <td>Advanced</td>
     <td><a href="https://ieeexplore.ieee.org/document/9046288">IEEE Xplore</a></td>
   </tr>
+
+
+  <tr>
+    <td>Internet2 Discovery landing page</td>
+    <td>Standard</td>
+    <td><a href="https://login.dev.at.internet2.edu/DS/I2-SA.html?entityID=https%3A%2F%2Flogin.dev.at.internet2.edu%2FSaml2%2Fproxy_saml2_backend.xml&return=https%3A%2F%2Flogin.dev.at.internet2.edu%2FSaml2%2Fdisco">Sign-in page (for Internet2 services)</a></td>
+  </tr>
+ 
   
    <tr>
     <td>IOP Publishing</td>
