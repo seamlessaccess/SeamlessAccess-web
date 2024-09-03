@@ -19,21 +19,21 @@ As the current trial is coming to an end, Google has [announced](https://develop
 
 We have worked  with the Chrome team to collect answers to some of the questions that you may have at this point:
 
-###*What happens if a site doesn't renew?*
+### *What happens if a site doesn't renew?*
 The origin trial will officially stop working on September 3rd for any users on Chrome 111 to Chrome 126. Users who are already on 127 or 128 (current stable release) will see the default behavior already (that is to say, they will have partitioned 3rd party storage).
 
-###*Is there a latest date a site needs to apply for renewal?*
+### *Is there a latest date a site needs to apply for renewal?*
 The Chrome team will review applications for the lifetime of the current origin trial, scheduled to be until March 2025 or thereabouts. 
 
 
-###*What will the experience be for different users (on different browser versions)?*
+### *What will the experience be for different users (on different browser versions)?*
 If your site is part of the deprecation trial, and the user is using a Chrome browser of version 127 or later, then they will have the experience of the unpartioned storage that the trial promises.
 
 If the user is using Chrome 111 to 126 then they will have partitioned 3rd party storage, i.e. the storage partitioning trial will not apply to those users.
 
 When a user updates to Chrome version 133, or March 18th at the very latest, they will have partitioned storage.
 
-###*What happens after this next trial ends?*
+### *What happens after this next trial ends?*
 
 The advice that the Chrome team gives is to plan for the future where no origin trials exist to support the legacy behavior. The outlook is clear: Partitioned storage is here to stay and will become part of the standard behaviour of all browsers in the future.
 
