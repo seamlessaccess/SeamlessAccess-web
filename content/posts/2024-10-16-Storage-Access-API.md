@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Signed up for Storage Partitioning trial? Time to renew!'
+title: 'A new chapter in the ‘browser changes’ journey: Preparing for the switch to Storage Access API'
 date: 2024-10-16
 categories: [General]
 hero: true
