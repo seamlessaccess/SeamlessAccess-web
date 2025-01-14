@@ -29,7 +29,9 @@ A test version of SeamlessAccess that uses the Storage Access API can be found h
 * Front-end code: https://use.thiss.io/thiss.js
 
 
-Using SeamlessAccess with the Storage Access API feature will require some configuration. To accommodate the different integration patterns that service providers use, we have created a migration guideline which outlines how the new integration is done. The guideline can be found under our documentation here: [https://thiss-ds-js.readthedocs.io/en/stable/using-saa.html](https://thiss-ds-js.readthedocs.io/en/stable/using-saa.html).
+Using SeamlessAccess with the Storage Access API feature will require some configuration. To accommodate the different integration patterns that service providers use, we have created a migration guideline which outlines how the new integration is done.
+
+**The guideline can be found under our documentation here: [https://thiss-ds-js.readthedocs.io/en/stable/using-saa.html](https://thiss-ds-js.readthedocs.io/en/stable/using-saa.html).**
 
 We welcome any feedback and questions that you may have, preferably over [Slack](https://seamlessaccess.slack.com/archives/C06RU8DS8BE). If you don’t have access to this channel, or would rather contact us over email, feel free to reach out to Hylke Koers (SeamlessAccess Program Director) at [hylke@stm-solutions.org](mailto:hylke@stm-solutions.org).
 
