@@ -17,7 +17,9 @@ heroBackground: "images/hero_news.jpg"
 
 This new version [includes IdP filtering capabilities and support for the Storage Access API technology](https://seamlessaccess.org/posts/2024-11-29-storage-access-api-prepare-for-testing/). Both of these changes have been [tested](https://seamlessaccess.org/posts/2025-01-14-storage-access-api-please-test/) over the last couple of months with several SeamlessAccess integrators, and we are excited to now bring these into the production environment.
 
-Please note that this is a backward compatible change, also supporting the current SeamlessAccess implementation. Advanced Mode integrators will be able to make the switch to Storage Access API at their convenience.
+**Please note that this is a backward compatible change, also supporting the current SeamlessAccess implementation.** 
+
+Advanced Mode integrators will be able to make the switch to Storage Access API at their convenience.
 
 For Standard Mode integrators, we don’t expect the release will have an impact on user experience, _except_ for users on Google Chrome who have either manually enabled “third party cookies phase-out” and/or have been enrolled into that program by Google. Such users may be presented with an additional consent screen by the browser. If so, they will need to grant such permission before they can benefit from SeamlessAccess’ capability to remember the user’s choice of institution across integrating websites.
 
