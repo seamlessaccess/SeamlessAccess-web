@@ -4,7 +4,7 @@ title: 'Upcoming SeamlessAccess release on 12 March (was: 27 Feb)'
 date: 2025-02-19
 categories: [General]
 hero: true
-heroHeading: Upcoming SeamlessAccess release on 12 March (was: 27 Feb)'
+heroHeading: 'Upcoming SeamlessAccess release on 12 March (was: 27 Feb)'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
