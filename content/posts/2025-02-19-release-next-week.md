@@ -9,10 +9,15 @@ heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
 
+# Update: SeamlessAccess release on 12 March
+
+_Update: As communicated over Slack, the below release was rolled back because of unexpected compatibility issues for a small number of integrators. These issues have now been addressed and tested. **We are releasing the new version of SeamlessAccess on Wed, 12 March.**_
+
 
 # Upcoming SeamlessAccess release on 27 Feb
 
 **We will be releasing a new version of SeamlessAccess to production on Thursday, Feb 27.**
+
 
 
 This new version (link to [GitHub](https://github.com/TheIdentitySelector/thiss-js/releases/tag/2.1.38)) includes [IdP filtering capabilities and support for the Storage Access API technology](https://seamlessaccess.org/posts/2024-11-29-storage-access-api-prepare-for-testing/). Both of these changes have been [tested](https://seamlessaccess.org/posts/2025-01-14-storage-access-api-please-test/) over the last couple of months with several SeamlessAccess integrators, and we are excited to now bring these into the production environment.
