@@ -1,17 +1,21 @@
 ---
 layout: post
-title: 'Upcoming SeamlessAccess release on 27 Feb'
+title: 'Upcoming SeamlessAccess release on 12 March (was: 27 Feb)'
 date: 2025-02-19
 categories: [General]
 hero: true
-heroHeading: 'Upcoming SeamlessAccess release on 27 Feb'
+heroHeading: Upcoming SeamlessAccess release on 12 March (was: 27 Feb)'
 heroSubHeading: ''
 heroBackground: "images/hero_news.jpg"
 ---
 
 # Update: SeamlessAccess release on 12 March
 
-_Update: As communicated over Slack, the below release was rolled back because of unexpected compatibility issues for a small number of integrators. These issues have now been addressed and tested. **We are releasing the new version of SeamlessAccess on Wed, 12 March.**_
+**Update:** As communicated over Slack, the below release was rolled back because of unexpected compatibility issues for a small number of integrators. These issues have now been addressed and tested. **We are releasing the new version of SeamlessAccess on Wed, 12 March.**
+
+Please note that this is a **backward compatible change**, also supporting the current SeamlessAccess implementation. As always, we will be closely monitoring the service before, during and after the release. If you experience any unforeseen behaviour, please alert us via Slack or email.
+
+
 
 
 # Upcoming SeamlessAccess release on 27 Feb
