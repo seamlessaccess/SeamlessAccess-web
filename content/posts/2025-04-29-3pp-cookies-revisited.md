@@ -11,6 +11,7 @@ heroBackground: "images/hero_news.jpg"
 
 # 3rd-Party Cookies and Storage Access API, Revisited, Once again
 
+
 ### News from Google
 
 Last week, in an unexpected turn of events, Google announced that they have _“made the decision to maintain our current approach to offering users third-party cookie choice in Chrome, and will not be rolling out a new standalone prompt for third-party cookies.”_ - in other words: **Google will continue to support third-party cookies 'as is' for the foreseeable future, after all.**
