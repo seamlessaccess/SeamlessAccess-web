@@ -12,13 +12,15 @@ heroBackground: "images/hero_news.jpg"
 # 3rd-Party Cookies and Storage Access API, Revisited, Once again
 
 
-### News from Google
+
+### Last week's announcement from Google
 
 Last week, in an unexpected turn of events, Google announced that they have _“made the decision to maintain our current approach to offering users third-party cookie choice in Chrome, and will not be rolling out a new standalone prompt for third-party cookies.”_ - in other words: **Google will continue to support third-party cookies 'as is' for the foreseeable future, after all.**
 
 The recent announcement, entitled “[Next steps for Privacy Sandbox and tracking protections in Chrome](https://privacysandbox.com/news/privacy-sandbox-next-steps/)”, goes on to explain that work on the Privacy Sandbox initiative - which was conceived as a program to develop alternative solutions to 3rd-party cookies and other privacy-invasive browser functionalities - will not be halted, but that it _“may have a different role to play in supporting the ecosystem”_ and that _“[Google will] continue to work with the ecosystem on determining how these technologies can best serve the industry and consumers”_.
 
 This pivot comes at a time when many organizations, including SeamlessAccess, have prepared for the deprecation of third-party cookies in Chrome and other browsers. In particular, SeamlessAccess has [implemented support for the Storage Access API](https://seamlessaccess.org/posts/2024-10-16-storage-access-api/) - one of the technologies developed under the Privacy Sandbox - and is in the process of [testing this implementation](https://seamlessaccess.org/posts/2025-01-14-storage-access-api-please-test/) with a number of service providers that integrate with SeamlessAccess. One very attractive feature of the Storage Access API is its cross-browser support, which offers technical benefits as well as a consistent user experience across different browsers. 
+
 
 
 ### So, what does this announcement mean for SeamlessAccess? 
@@ -29,7 +31,7 @@ From a SeamlessAccess standpoint, the most optimistic outcome would be that the 
 
 
 For the moment, until we have a better grasp of the future relevance of the Storage Access API for different browsers, we don't think it is right to ask you to invest more time and effort in testing. Hence
- **we recommend pausing efforts to test SeamlessAccess’ Storage Access API implementation for the moment.** We appreciate the support that you have shown in recent months, and we understand that teams have put significant effort into exploring this solution. Apart from its future place in SeamlessAccess' technology stack, experimentation with the Storage Access API has helped us develop a much stronger understanding of user consent flows in a distributed environment. These findings will help us move forward with the service more effectively.
+ **we recommend pausing efforts to test SeamlessAccess’ Storage Access API implementation for the moment.** We appreciate the support that you have shown in recent months, and we understand that teams have put significant effort into exploring this solution. Apart from its future place in SeamlessAccess' technology stack, experimentation with the Storage Access API has helped us develop a much stronger understanding of user consent flows in a distributed environment. These findings will help us move forward with the service more effectively and provide us with a strong underpinning for future explorations to reduce SeamlessAccess' reliance on 3rd-party cookies, whose support is fragmented and fragile.
 
 **We will follow up with a more detailed analysis as soon as possible.**
 
